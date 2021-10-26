@@ -290,3 +290,87 @@ $('#headerSliderTabsElement-5').on('click', function() {
 //! ---------------------------------------------------------------------------------
 
 
+
+//! Price 
+
+
+
+$(function() {
+    $('#type').css('display', 'none')
+    $('#type').after('<div class="type-select-item"><div class="type-select-placeholder">Тип диска</div><div id="typePriceSelect" class="type-select-wrapper display-n"></div></div>')
+    let count = $('#type').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#type').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("type-select-element")
+        newElementBlock.id = `type-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("typePriceSelect").appendChild(newElementBlock);
+        $(`#type-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#type-select-element-0').css('display', 'none')
+    $('.type-select-item').on('click', function() {
+        $('.type-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('type-select-item-active')
+    })
+    $(".type-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.type-select-placeholder').html(valueElement)
+        $('#type option:nth-child(1)').val(valueElement)
+        $('#type option:nth-child(1)').html(valueElement)
+    })
+})
+$(function() {
+    $('#count').css('display', 'none')
+    $('#count').after('<div class="count-select-item"><div class="count-select-placeholder">Количество дисков</div><div id="countPriceSelect" class="count-select-wrapper display-n"></div></div>')
+    let count = $('#count').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#count').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("count-select-element")
+        newElementBlock.id = `count-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("countPriceSelect").appendChild(newElementBlock);
+        $(`#count-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#count-select-element-0').css('display', 'none')
+    $('.count-select-item').on('click', function() {
+        $('.count-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('count-select-item-active')
+    })
+    $(".count-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.count-select-placeholder').html(valueElement)
+        $('#count option:nth-child(1)').val(valueElement)
+        $('#count option:nth-child(1)').html(valueElement)
+    })
+})
+$(function() {
+    $('#radios').css('display', 'none')
+    $('#radios').after('<div class="radios-select-item"><div class="radios-select-placeholder">Тип диска</div><div id="radiosPriceSelect" class="radios-select-wrapper display-n"></div></div>')
+    let count = $('#radios').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#radios').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("radios-select-element")
+        newElementBlock.id = `radios-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("radiosPriceSelect").appendChild(newElementBlock);
+        $(`#radios-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#radios-select-element-0').css('display', 'none')
+    $('.radios-select-item').on('click', function() {
+        $('.radios-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('radios-select-item-active')
+    })
+    $(".radios-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.radios-select-placeholder').html(valueElement)
+        $('#radios option:nth-child(1)').val(valueElement)
+        $('#radios option:nth-child(1)').html(valueElement)
+    })
+})
+
