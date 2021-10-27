@@ -133,6 +133,7 @@
             border-radius: 50%;
             position: absolute;
             left: 0;
+            cursor: pointer;
             top: 673px;
             &::after {
                 content: "Scroll down";

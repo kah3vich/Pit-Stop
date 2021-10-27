@@ -15,6 +15,12 @@ $('#headerSliderListItem-1').on('click', function() {
     $('#headerSliderPaginationItem-3').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-4').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
+    // $('#headerSliderListItem-1').addClass('blocking')
+    // $('#headerSliderListItem-2').removeClass('blocking')
+    // $('#headerSliderListItem-3').removeClass('blocking')
+    // $('#headerSliderListItem-4').removeClass('blocking')
+    // $('#headerSliderListItem-5').removeClass('blocking')
+    changeSlide(0)
 });
 $('#headerSliderListItem-2').on('click', function() {
     $('.ind-header__block-title').html('Ремонт дисков')
@@ -31,6 +37,12 @@ $('#headerSliderListItem-2').on('click', function() {
     $('#headerSliderPaginationItem-3').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-4').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
+    // $('#headerSliderListItem-2').addClass('blocking')
+    // $('#headerSliderListItem-1').removeClass('blocking')
+    // $('#headerSliderListItem-3').removeClass('blocking')
+    // $('#headerSliderListItem-4').removeClass('blocking')
+    // $('#headerSliderListItem-5').removeClass('blocking')
+    changeSlide(1)
 });
 $('#headerSliderListItem-3').on('click', function() {
     $('.ind-header__block-title').html('Порошковая покраска')
@@ -47,6 +59,12 @@ $('#headerSliderListItem-3').on('click', function() {
     $('#headerSliderPaginationItem-1').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-4').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
+    // $('#headerSliderListItem-3').addClass('blocking')
+    // $('#headerSliderListItem-1').removeClass('blocking')
+    // $('#headerSliderListItem-2').removeClass('blocking')
+    // $('#headerSliderListItem-4').removeClass('blocking')
+    // $('#headerSliderListItem-5').removeClass('blocking')
+    changeSlide(2)
 });
 $('#headerSliderListItem-4').on('click', function() {
     $('.ind-header__block-title').html('Установка шин')
@@ -63,6 +81,12 @@ $('#headerSliderListItem-4').on('click', function() {
     $('#headerSliderPaginationItem-2').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-1').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
+    // $('#headerSliderListItem-4').addClass('blocking')
+    // $('#headerSliderListItem-1').removeClass('blocking')
+    // $('#headerSliderListItem-2').removeClass('blocking')
+    // $('#headerSliderListItem-3').removeClass('blocking')
+    // $('#headerSliderListItem-5').removeClass('blocking')
+    changeSlide(3)
 });
 $('#headerSliderListItem-5').on('click', function() {
     $('.ind-header__block-title').html('Покраска')
@@ -79,6 +103,12 @@ $('#headerSliderListItem-5').on('click', function() {
     $('#headerSliderPaginationItem-3').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-2').removeClass('ind-header__block-pagination-item-active')
     $('#headerSliderPaginationItem-1').removeClass('ind-header__block-pagination-item-active')
+    // $('#headerSliderListItem-5').addClass('blocking')
+    // $('#headerSliderListItem-4').removeClass('blocking')
+    // $('#headerSliderListItem-3').removeClass('blocking')
+    // $('#headerSliderListItem-2').removeClass('blocking')
+    // $('#headerSliderListItem-1').removeClass('blocking')
+    changeSlide(4)
 });
 
 let activeContentIndex = 0
@@ -102,7 +132,47 @@ function changeSlide(id) {
             activeContentIndex = elementContentCount - 1
         }
     }
-    // console.log(activeContentIndex)
+    if(id == 0) {
+        activeContentIndex = 0
+        $('#headerSliderListItem-1').addClass('blocking')
+        $('#headerSliderListItem-2').removeClass('blocking')
+        $('#headerSliderListItem-3').removeClass('blocking')
+        $('#headerSliderListItem-4').removeClass('blocking')
+        $('#headerSliderListItem-5').removeClass('blocking')
+    }
+    if(id == 1) {
+        activeContentIndex = 1
+        $('#headerSliderListItem-2').addClass('blocking')
+        $('#headerSliderListItem-1').removeClass('blocking')
+        $('#headerSliderListItem-3').removeClass('blocking')
+        $('#headerSliderListItem-4').removeClass('blocking')
+        $('#headerSliderListItem-5').removeClass('blocking')
+    }
+    if(id == 2) {
+        activeContentIndex = 2
+        $('#headerSliderListItem-3').addClass('blocking')
+        $('#headerSliderListItem-2').removeClass('blocking')
+        $('#headerSliderListItem-1').removeClass('blocking')
+        $('#headerSliderListItem-4').removeClass('blocking')
+        $('#headerSliderListItem-5').removeClass('blocking')
+    }
+    if(id == 3) {
+        activeContentIndex = 3
+        $('#headerSliderListItem-4').addClass('blocking')
+        $('#headerSliderListItem-2').removeClass('blocking')
+        $('#headerSliderListItem-3').removeClass('blocking')
+        $('#headerSliderListItem-1').removeClass('blocking')
+        $('#headerSliderListItem-5').removeClass('blocking')
+    }
+    if(id == 4) {
+        activeContentIndex = 4
+        $('#headerSliderListItem-5').addClass('blocking')
+        $('#headerSliderListItem-2').removeClass('blocking')
+        $('#headerSliderListItem-3').removeClass('blocking')
+        $('#headerSliderListItem-4').removeClass('blocking')
+        $('#headerSliderListItem-1').removeClass('blocking')
+    }
+    console.log(activeContentIndex)
     if(activeContentIndex == 0) {
         $('.ind-header__block-title').html('Алмазная полировка автомобильных дисков')
         $('#headerSliderListItem-1').addClass('ind-header__block-slider-list-item-active')

@@ -558,6 +558,7 @@
   border-radius: 50%;
   position: absolute;
   left: 0;
+  cursor: pointer;
   top: 673px;
 }
 
@@ -2626,4 +2627,8 @@ h6 {
 .display-g {
   display: -ms-grid !important;
   display: grid !important;
+}
+
+.blocking {
+  pointer-events: none;
 }

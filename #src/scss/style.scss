@@ -82,3 +82,6 @@ p {
 .display-g {
     display: grid !important;
 }
+.blocking {
+    pointer-events: none;
+}
