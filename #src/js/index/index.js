@@ -82,7 +82,7 @@ $('#headerSliderListItem-5').on('click', function() {
 });
 
 let activeContentIndex = 0
-let elementContentCount = 6
+let elementContentCount = 5
 
 $('#headerSliderArrowPrev').on('click', function() {
     changeSlide('prev')
@@ -102,6 +102,7 @@ function changeSlide(id) {
             activeContentIndex = elementContentCount - 1
         }
     }
+    // console.log(activeContentIndex)
     if(activeContentIndex == 0) {
         $('.ind-header__block-title').html('Алмазная полировка автомобильных дисков')
         $('#headerSliderListItem-1').addClass('ind-header__block-slider-list-item-active')
@@ -118,7 +119,7 @@ function changeSlide(id) {
         $('#headerSliderPaginationItem-4').removeClass('ind-header__block-pagination-item-active')
         $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
     }
-    if(activeContentIndex == 2) {
+    if(activeContentIndex == 1) {
         $('.ind-header__block-title').html('Ремонт дисков')
         $('#headerSliderListItem-2').addClass('ind-header__block-slider-list-item-active')
         $('#headerSliderListItem-1').removeClass('ind-header__block-slider-list-item-active')
@@ -134,7 +135,7 @@ function changeSlide(id) {
         $('#headerSliderPaginationItem-4').removeClass('ind-header__block-pagination-item-active')
         $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
     }
-    if(activeContentIndex == 3) {
+    if(activeContentIndex == 2) {
         $('.ind-header__block-title').html('Порошковая покраска')
         $('#headerSliderListItem-3').addClass('ind-header__block-slider-list-item-active')
         $('#headerSliderListItem-2').removeClass('ind-header__block-slider-list-item-active')
@@ -150,7 +151,7 @@ function changeSlide(id) {
         $('#headerSliderPaginationItem-4').removeClass('ind-header__block-pagination-item-active')
         $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
     }
-    if(activeContentIndex == 4) {
+    if(activeContentIndex == 3) {
         $('.ind-header__block-title').html('Установка шин')
         $('#headerSliderListItem-4').addClass('ind-header__block-slider-list-item-active')
         $('#headerSliderListItem-1').removeClass('ind-header__block-slider-list-item-active')
@@ -166,7 +167,7 @@ function changeSlide(id) {
         $('#headerSliderPaginationItem-1').removeClass('ind-header__block-pagination-item-active')
         $('#headerSliderPaginationItem-5').removeClass('ind-header__block-pagination-item-active')
     }
-    if(activeContentIndex == 5) {
+    if(activeContentIndex == 4) {
         $('.ind-header__block-title').html('Покраска')
         $('#headerSliderListItem-5').addClass('ind-header__block-slider-list-item-active')
         $('#headerSliderListItem-1').removeClass('ind-header__block-slider-list-item-active')
