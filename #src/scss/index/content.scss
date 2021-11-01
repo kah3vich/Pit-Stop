@@ -663,9 +663,10 @@
             & .swiper-pagination {
                 z-index: -1;
                 &-bullets {
+                    left: auto;
                     bottom: -45px;
-                    left: 270px;
-                    width: 100%;
+                    right: 200px;
+                    width: 300px;
                 }
                 &-bullet {
                     width: 4px;

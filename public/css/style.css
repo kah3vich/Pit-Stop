@@ -1256,9 +1256,10 @@
 }
 
 .ind-slider__block-slider .swiper-pagination-bullets {
+  left: auto;
   bottom: -45px;
-  left: 270px;
-  width: 100%;
+  right: 200px;
+  width: 300px;
 }
 
 .ind-slider__block-slider .swiper-pagination-bullet {
