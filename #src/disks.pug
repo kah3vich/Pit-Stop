@@ -1,0 +1,61 @@
+@@include('components/_head.pug')
+
+    @@include('components/_header.pug')
+
+
+    section.disk-header 
+        .containers 
+            .disk-header__block
+                .disk-header__block-title Порошковая покраска дисков в Москве
+                .disk-header__block-add Подберем лучший вариант покраски дисков в вашем ценовом сегменте, с гарантией качества
+                .disk-header__block-banner 
+                    img(src="./img/header-banner.png" alt="img")
+                .disk-header__block-quiz 
+                    .disk-header__block-quiz-title Ответьте на 5 вопросов и получите чек лист “Порошковая покраска ” 
+                    .disk-header__block-quiz-wrapper
+                        .disk-header__block-quiz-add Вопрос 1 из 5
+                        .disk-header__block-quiz-description Вид покраски
+                        ul.disk-header__block-quiz-block 
+                            li.disk-header__block-quiz-item 
+                                .disk-header__block-quiz-item-text Порошковая покраска
+                            li.disk-header__block-quiz-item 
+                                .disk-header__block-quiz-item-text Покраска "Эксклюзив"
+                            li.disk-header__block-quiz-item 
+                                .disk-header__block-quiz-item-text Алмазная шлифовка
+
+    section.disk-about 
+        .containers 
+            .disk-about__block 
+                .disk-about__block-banner 
+                    .disk-about__block-banner-add Качественная и недорогая порошковая покраска дисков на собственном оборудовании.
+                    .disk-about__block-banner-text 
+                        .disk-about__block-banner-text-item Гарантия 2 года.
+                        a(class="disk-about__block-banner-text-link" href="#") Посмотреть цены
+                    .disk-about__block-banner-date Диски можете сдать в любой нашей точке, срок покраски: 1-3 дня *.
+                .disk-about__block-add 
+                    ul.disk-about__block-add-list 
+                        li.disk-about__block-add-item 
+                            .disk-about__block-add-item-circle 
+                                <svg width="4" height="18" viewBox="0 0 4 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.28516 12.1953H0.636719L0.0390625 0.195312H3.88281L3.28516 12.1953ZM0.601562 16.6953C0.226562 16.3359 0.0390625 15.918 0.0390625 15.4414C0.0390625 14.957 0.226562 14.5352 0.601562 14.1758C0.976562 13.8164 1.42969 13.6367 1.96094 13.6367C2.49219 13.6367 2.94531 13.8164 3.32031 14.1758C3.69531 14.5352 3.88281 14.957 3.88281 15.4414C3.88281 15.918 3.69531 16.3359 3.32031 16.6953C2.94531 17.0547 2.49219 17.2344 1.96094 17.2344C1.42969 17.2344 0.976562 17.0547 0.601562 16.6953Z" fill="white"/>
+                                </svg>
+                            .disk-about__block-add-item-text Специальные условия для корпоративных клиентов.
+                        li.disk-about__block-add-item 
+                            .disk-about__block-add-item-circle 
+                                <svg width="4" height="18" viewBox="0 0 4 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.28516 12.1953H0.636719L0.0390625 0.195312H3.88281L3.28516 12.1953ZM0.601562 16.6953C0.226562 16.3359 0.0390625 15.918 0.0390625 15.4414C0.0390625 14.957 0.226562 14.5352 0.601562 14.1758C0.976562 13.8164 1.42969 13.6367 1.96094 13.6367C2.49219 13.6367 2.94531 13.8164 3.32031 14.1758C3.69531 14.5352 3.88281 14.957 3.88281 15.4414C3.88281 15.918 3.69531 16.3359 3.32031 16.6953C2.94531 17.0547 2.49219 17.2344 1.96094 17.2344C1.42969 17.2344 0.976562 17.0547 0.601562 16.6953Z" fill="white"/>
+                                </svg>
+                            .disk-about__block-add-item-text В связи с сезоном, просьба записываться на шиномонтаж заранее по телефону.
+                        li.disk-about__block-add-item 
+                            .disk-about__block-add-item-circle 
+                                <svg width="4" height="18" viewBox="0 0 4 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.28516 12.1953H0.636719L0.0390625 0.195312H3.88281L3.28516 12.1953ZM0.601562 16.6953C0.226562 16.3359 0.0390625 15.918 0.0390625 15.4414C0.0390625 14.957 0.226562 14.5352 0.601562 14.1758C0.976562 13.8164 1.42969 13.6367 1.96094 13.6367C2.49219 13.6367 2.94531 13.8164 3.32031 14.1758C3.69531 14.5352 3.88281 14.957 3.88281 15.4414C3.88281 15.918 3.69531 16.3359 3.32031 16.6953C2.94531 17.0547 2.49219 17.2344 1.96094 17.2344C1.42969 17.2344 0.976562 17.0547 0.601562 16.6953Z" fill="white"/>
+                                </svg>
+                            .disk-about__block-add-item-text Перед покраской дисков — обязательная пескоструйная обработка. Антикоррозийное покрытие. Грунтовка. Все это входит в стоимость окраски.
+                button.disk-about__block-btn Узнать подробнее
+
+
+
+    @@include('components/_footer.pug')
+
+@@include('components/_script.pug')
