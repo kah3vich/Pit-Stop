@@ -268,6 +268,11 @@ $('#indexExampleTabsElement-1').on('click', function() {
     $('#indexExampleTabsElement-3').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-4').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-5').removeClass('ind-examples__block-tabs-item-active')
+    $('#indexExampleTabsBlock-1').removeClass('display-n')
+    $('#indexExampleTabsBlock-2').addClass('display-n')
+    $('#indexExampleTabsBlock-3').addClass('display-n')
+    $('#indexExampleTabsBlock-4').addClass('display-n')
+    $('#indexExampleTabsBlock-5').addClass('display-n')
 });
 $('#indexExampleTabsElement-2').on('click', function() {
     $('#indexExampleTabsElement-2').addClass('ind-examples__block-tabs-item-active')
@@ -275,6 +280,11 @@ $('#indexExampleTabsElement-2').on('click', function() {
     $('#indexExampleTabsElement-3').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-4').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-5').removeClass('ind-examples__block-tabs-item-active')
+    $('#indexExampleTabsBlock-2').removeClass('display-n')
+    $('#indexExampleTabsBlock-1').addClass('display-n')
+    $('#indexExampleTabsBlock-3').addClass('display-n')
+    $('#indexExampleTabsBlock-4').addClass('display-n')
+    $('#indexExampleTabsBlock-5').addClass('display-n')
 });
 $('#indexExampleTabsElement-3').on('click', function() {
     $('#indexExampleTabsElement-3').addClass('ind-examples__block-tabs-item-active')
@@ -282,6 +292,11 @@ $('#indexExampleTabsElement-3').on('click', function() {
     $('#indexExampleTabsElement-1').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-4').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-5').removeClass('ind-examples__block-tabs-item-active')
+    $('#indexExampleTabsBlock-3').removeClass('display-n')
+    $('#indexExampleTabsBlock-2').addClass('display-n')
+    $('#indexExampleTabsBlock-1').addClass('display-n')
+    $('#indexExampleTabsBlock-4').addClass('display-n')
+    $('#indexExampleTabsBlock-5').addClass('display-n')
 });
 $('#indexExampleTabsElement-4').on('click', function() {
     $('#indexExampleTabsElement-4').addClass('ind-examples__block-tabs-item-active')
@@ -289,6 +304,11 @@ $('#indexExampleTabsElement-4').on('click', function() {
     $('#indexExampleTabsElement-3').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-1').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-5').removeClass('ind-examples__block-tabs-item-active')
+    $('#indexExampleTabsBlock-4').removeClass('display-n')
+    $('#indexExampleTabsBlock-2').addClass('display-n')
+    $('#indexExampleTabsBlock-3').addClass('display-n')
+    $('#indexExampleTabsBlock-1').addClass('display-n')
+    $('#indexExampleTabsBlock-5').addClass('display-n')
 });
 $('#indexExampleTabsElement-5').on('click', function() {
     $('#indexExampleTabsElement-5').addClass('ind-examples__block-tabs-item-active')
@@ -296,6 +316,11 @@ $('#indexExampleTabsElement-5').on('click', function() {
     $('#indexExampleTabsElement-3').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-4').removeClass('ind-examples__block-tabs-item-active')
     $('#indexExampleTabsElement-1').removeClass('ind-examples__block-tabs-item-active')
+    $('#indexExampleTabsBlock-5').removeClass('display-n')
+    $('#indexExampleTabsBlock-2').addClass('display-n')
+    $('#indexExampleTabsBlock-3').addClass('display-n')
+    $('#indexExampleTabsBlock-4').addClass('display-n')
+    $('#indexExampleTabsBlock-1').addClass('display-n')
 });
 
 

@@ -1,0 +1,73 @@
+.polishing-slider {
+    width: 100%;
+    position: relative;
+    padding: 0 0 125px 0;
+    // & .containers {
+    //     overflow: hidden;
+    // }
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 228px;
+            left: 0;
+            width: 35px;
+            height: 441px;
+            background: #414141;
+            z-index: 1;
+        }
+        &::before {
+            content: "Алмазная шлифовка диска";
+            position: absolute;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 86px;
+            color: #FFFFFF;
+            height: 86px;
+            top: 583px;
+            left: 168px;
+            z-index: 1;
+        }
+        &-banner {
+            position: absolute;
+            width: 568px;
+            height: 441px;
+            background: #800705;
+            z-index: 0;
+            top: 228px;
+        }
+        &-add {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+            height: 86px;
+            z-index: 2;
+        }
+        &-title {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            z-index: 2;
+        }
+        &-slider {
+            width: 86%;
+            margin: 104px 0 0 168px;
+        }
+    }
+}
