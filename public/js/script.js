@@ -1360,18 +1360,18 @@ $('#diskExampleTabsElement-20').on('click', function() {
 });
 var polishingSliderVideo = new Swiper(".polishingSliderVideo", {
     navigation: {
-        nextEl: ".disk-video__block-slider .swiper-controls .swiper-button-next",
-        prevEl: ".disk-video__block-slider .swiper-controls .swiper-button-prev",
+        nextEl: ".polishing-video__block-slider  .swiper-controls .swiper-button-next",
+        prevEl: ".polishing-video__block-slider  .swiper-controls .swiper-button-prev",
     },
     keyboard: true,
 });
 
 
 $('#polishingExampleTabsElement-1').on('click', function() {
-    $('#polishingExampleTabsElement-1').addClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-2').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-3').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-4').removeClass('disk-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-1').addClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-2').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-3').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-4').removeClass('polishing-examples__block-tabs-item-active')
 
     $('#polishingExampleTabsBlock-1').removeClass('display-n')
     $('#polishingExampleTabsBlock-2').addClass('display-n')
@@ -1380,10 +1380,10 @@ $('#polishingExampleTabsElement-1').on('click', function() {
 });
 
 $('#polishingExampleTabsElement-2').on('click', function() {
-    $('#polishingExampleTabsElement-2').addClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-1').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-3').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-4').removeClass('disk-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-2').addClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-1').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-3').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-4').removeClass('polishing-examples__block-tabs-item-active')
 
     $('#polishingExampleTabsBlock-2').removeClass('display-n')
     $('#polishingExampleTabsBlock-1').addClass('display-n')
@@ -1392,10 +1392,10 @@ $('#polishingExampleTabsElement-2').on('click', function() {
 });
 
 $('#polishingExampleTabsElement-3').on('click', function() {
-    $('#polishingExampleTabsElement-3').addClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-2').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-1').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-4').removeClass('disk-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-3').addClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-2').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-1').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-4').removeClass('polishing-examples__block-tabs-item-active')
 
     $('#polishingExampleTabsBlock-3').removeClass('display-n')
     $('#polishingExampleTabsBlock-2').addClass('display-n')
@@ -1404,10 +1404,10 @@ $('#polishingExampleTabsElement-3').on('click', function() {
 });
 
 $('#polishingExampleTabsElement-4').on('click', function() {
-    $('#polishingExampleTabsElement-4').addClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-2').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-3').removeClass('disk-examples__block-tabs-item-active')
-    $('#polishingExampleTabsElement-1').removeClass('disk-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-4').addClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-2').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-3').removeClass('polishing-examples__block-tabs-item-active')
+    $('#polishingExampleTabsElement-1').removeClass('polishing-examples__block-tabs-item-active')
 
     $('#polishingExampleTabsBlock-4').removeClass('display-n')
     $('#polishingExampleTabsBlock-2').addClass('display-n')
@@ -1429,4 +1429,190 @@ var polishingSlider = new Swiper(".polishingSlider", {
     spaceBetween: 12,
     keyboard: true,
 });
+
+var paintSliderVideo = new Swiper(".paintSliderVideo", {
+    navigation: {
+        nextEl: ".paint-video__block-slider .swiper-controls .swiper-button-next",
+        prevEl: ".paint-video__block-slider .swiper-controls .swiper-button-prev",
+    },
+    keyboard: true,
+});
+
+
+$('#paintExampleTabsElement-1').on('click', function() {
+    $('#paintExampleTabsElement-1').addClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-2').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-3').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-4').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-5').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-6').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-7').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-8').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-9').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-10').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-11').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-12').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-13').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-14').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-15').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-16').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-17').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-18').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-19').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-20').removeClass('paint-examples__block-tabs-item-active')
+
+    $('#paintExampleTabsBlock-1').removeClass('display-n')
+    $('#paintExampleTabsBlock-2').addClass('display-n')
+    $('#paintExampleTabsBlock-3').addClass('display-n')
+    $('#paintExampleTabsBlock-4').addClass('display-n')
+    $('#paintExampleTabsBlock-5').addClass('display-n')
+    $('#paintExampleTabsBlock-6').addClass('display-n')
+    $('#paintExampleTabsBlock-7').addClass('display-n')
+    $('#paintExampleTabsBlock-8').addClass('display-n')
+    $('#paintExampleTabsBlock-9').addClass('display-n')
+    $('#paintExampleTabsBlock-10').addClass('display-n')
+    $('#paintExampleTabsBlock-11').addClass('display-n')
+    $('#paintExampleTabsBlock-12').addClass('display-n')
+    $('#paintExampleTabsBlock-13').addClass('display-n')
+    $('#paintExampleTabsBlock-14').addClass('display-n')
+    $('#paintExampleTabsBlock-15').addClass('display-n')
+    $('#paintExampleTabsBlock-16').addClass('display-n')
+    $('#paintExampleTabsBlock-17').addClass('display-n')
+    $('#paintExampleTabsBlock-18').addClass('display-n')
+    $('#paintExampleTabsBlock-19').addClass('display-n')
+    $('#paintExampleTabsBlock-20').addClass('display-n')
+});
+
+$('#paintExampleTabsElement-2').on('click', function() {
+    $('#paintExampleTabsElement-2').addClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-1').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-3').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-4').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-5').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-6').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-7').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-8').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-9').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-10').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-11').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-12').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-13').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-14').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-15').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-16').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-17').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-18').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-19').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-20').removeClass('paint-examples__block-tabs-item-active')
+
+    $('#paintExampleTabsBlock-2').removeClass('display-n')
+    $('#paintExampleTabsBlock-1').addClass('display-n')
+    $('#paintExampleTabsBlock-3').addClass('display-n')
+    $('#paintExampleTabsBlock-4').addClass('display-n')
+    $('#paintExampleTabsBlock-5').addClass('display-n')
+    $('#paintExampleTabsBlock-6').addClass('display-n')
+    $('#paintExampleTabsBlock-7').addClass('display-n')
+    $('#paintExampleTabsBlock-8').addClass('display-n')
+    $('#paintExampleTabsBlock-9').addClass('display-n')
+    $('#paintExampleTabsBlock-10').addClass('display-n')
+    $('#paintExampleTabsBlock-11').addClass('display-n')
+    $('#paintExampleTabsBlock-12').addClass('display-n')
+    $('#paintExampleTabsBlock-13').addClass('display-n')
+    $('#paintExampleTabsBlock-14').addClass('display-n')
+    $('#paintExampleTabsBlock-15').addClass('display-n')
+    $('#paintExampleTabsBlock-16').addClass('display-n')
+    $('#paintExampleTabsBlock-17').addClass('display-n')
+    $('#paintExampleTabsBlock-18').addClass('display-n')
+    $('#paintExampleTabsBlock-19').addClass('display-n')
+    $('#paintExampleTabsBlock-20').addClass('display-n')
+});
+
+$('#paintExampleTabsElement-3').on('click', function() {
+    $('#paintExampleTabsElement-3').addClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-2').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-1').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-4').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-5').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-6').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-7').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-8').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-9').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-10').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-11').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-12').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-13').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-14').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-15').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-16').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-17').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-18').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-19').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-20').removeClass('paint-examples__block-tabs-item-active')
+
+    $('#paintExampleTabsBlock-3').removeClass('display-n')
+    $('#paintExampleTabsBlock-2').addClass('display-n')
+    $('#paintExampleTabsBlock-1').addClass('display-n')
+    $('#paintExampleTabsBlock-4').addClass('display-n')
+    $('#paintExampleTabsBlock-5').addClass('display-n')
+    $('#paintExampleTabsBlock-6').addClass('display-n')
+    $('#paintExampleTabsBlock-7').addClass('display-n')
+    $('#paintExampleTabsBlock-8').addClass('display-n')
+    $('#paintExampleTabsBlock-9').addClass('display-n')
+    $('#paintExampleTabsBlock-10').addClass('display-n')
+    $('#paintExampleTabsBlock-11').addClass('display-n')
+    $('#paintExampleTabsBlock-12').addClass('display-n')
+    $('#paintExampleTabsBlock-13').addClass('display-n')
+    $('#paintExampleTabsBlock-14').addClass('display-n')
+    $('#paintExampleTabsBlock-15').addClass('display-n')
+    $('#paintExampleTabsBlock-16').addClass('display-n')
+    $('#paintExampleTabsBlock-17').addClass('display-n')
+    $('#paintExampleTabsBlock-18').addClass('display-n')
+    $('#paintExampleTabsBlock-19').addClass('display-n')
+    $('#paintExampleTabsBlock-20').addClass('display-n')
+});
+
+$('#paintExampleTabsElement-4').on('click', function() {
+    $('#paintExampleTabsElement-4').addClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-2').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-3').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-1').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-5').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-6').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-7').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-8').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-9').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-10').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-11').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-12').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-13').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-14').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-15').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-16').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-17').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-18').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-19').removeClass('paint-examples__block-tabs-item-active')
+    $('#paintExampleTabsElement-20').removeClass('paint-examples__block-tabs-item-active')
+
+    $('#paintExampleTabsBlock-4').removeClass('display-n')
+    $('#paintExampleTabsBlock-2').addClass('display-n')
+    $('#paintExampleTabsBlock-3').addClass('display-n')
+    $('#paintExampleTabsBlock-1').addClass('display-n')
+    $('#paintExampleTabsBlock-5').addClass('display-n')
+    $('#paintExampleTabsBlock-6').addClass('display-n')
+    $('#paintExampleTabsBlock-7').addClass('display-n')
+    $('#paintExampleTabsBlock-8').addClass('display-n')
+    $('#paintExampleTabsBlock-9').addClass('display-n')
+    $('#paintExampleTabsBlock-10').addClass('display-n')
+    $('#paintExampleTabsBlock-11').addClass('display-n')
+    $('#paintExampleTabsBlock-12').addClass('display-n')
+    $('#paintExampleTabsBlock-13').addClass('display-n')
+    $('#paintExampleTabsBlock-14').addClass('display-n')
+    $('#paintExampleTabsBlock-15').addClass('display-n')
+    $('#paintExampleTabsBlock-16').addClass('display-n')
+    $('#paintExampleTabsBlock-17').addClass('display-n')
+    $('#paintExampleTabsBlock-18').addClass('display-n')
+    $('#paintExampleTabsBlock-19').addClass('display-n')
+    $('#paintExampleTabsBlock-20').addClass('display-n')
+});
+
 

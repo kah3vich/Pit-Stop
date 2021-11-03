@@ -1,0 +1,487 @@
+.tires-header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 100px 0;
+    background: #171725;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &-title {
+            margin: 246px 0 0 0;
+            width: 200px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 50px;
+            line-height: 77px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            z-index: 1;
+        }
+        &-description {
+            margin: 59px 0 0 0;
+            width: 457px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 131%;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+            z-index: 2;
+        }
+        &-banner {
+            position: absolute;
+            top: 185px;
+            right: 0;
+            z-index: 0;
+            -webkit-filter: brightness(40%);
+        }
+        &-wrapper {
+            margin: 83px 0 0 0;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            z-index: 2;
+        }
+        &-content {
+            width: 647px;
+            height: 434px;
+            background: #800705;
+            padding: 69px 0 0 53px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 163px;
+                background: #414141;
+            }
+            &-text {
+                width: 457px;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 131%;
+                color: #FFFFFF;
+            }
+            &-add {
+                margin: 33px 0 0 0;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                & p {
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    width: 492px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &-add {
+            width: 613px;
+            height: 343px;
+            background: #1B1B2F;
+            margin: 91px 0 0 0;
+            padding: 51px 0 0 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            &-list {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+            }
+            &-item {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                margin: 0 0 32px 0;
+                &-icons {
+                    width: 40px;
+                    height: 40px;
+                    background: #800705;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                }
+                &-wrapper {
+                    margin: 0 0 0 28px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+                &-title {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+                &-block {
+                    margin: 10px 0 0 0;
+                    width: 451px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &-btn {
+            width: 232px;
+            height: 68px;
+            border: 3px solid #FFFFFF;
+            z-index: 2;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 66px 120px 0 auto;
+            padding: 0 0 0 27px;
+            position: relative;
+            &::after {
+                content: url(../svg/index/header-arrow-next-add.svg);
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            & a {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 32px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.tires-easy {
+    position: relative;
+    width: 100%;
+    height: 798px;
+    background: #1B1B2F;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        &-add {
+            margin: 43px 0 0 0;
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        &-title {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 50px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-list {
+            margin: 68px 0 0 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 45px 30px;
+        }
+        &-item {
+            width: 100%;
+            height: 212px;
+            background: #800705;
+            padding: 33px 0 0 44px;
+            position: relative;
+            &-icons {
+                position: absolute;
+                top: -19px;
+                right: 28px;
+                width: 68px;
+                height: 68px;
+                background: #FFE9E9;
+                border-radius: 50%;
+            }
+            &-title {
+                width: 275px;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 30px;
+                color: #FFFFFF;
+            }
+            &-text {
+                margin: 18px 0 0 0;
+                width: 95%;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.tires-list {
+    position: relative;
+    padding: 0 0 110px 0;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        &:nth-child(2) {
+            margin: 100px 0 0 0;
+        }
+        &-add {
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        &-title {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 50px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-description {
+            margin: 20px 0 0 0;
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            color: #FFFFFF;
+        }
+        &-wrapper {
+            margin: 35px 0 11px 0;
+            width: 100%;
+            height: 55px;
+            background: #800705;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 75px 0 25px;
+            &-title {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                color: #FFFFFF;
+            }
+            &-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 0 0 173px;
+                width: 100%;
+                &-item {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &-wrappers {
+            margin: 8px 0 11px 0;
+            width: 100%;
+            height: 55px;
+            background: #272727;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 38px 0 20px;
+            &-title {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                width: 225px;
+            }
+            &-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                margin: 0 0 0 55px;
+                &-item {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &-description {
+            margin: 69px 0 0 0;
+            width: 796px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.tires-ways {
+    position: relative;
+    padding: 136px 0 147px 0;
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        &-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            &-title {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 50px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            &-add {
+                margin: 53px 0 0 0;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 29px;
+                color: #FFFFFF;
+                width: 383px;
+            }
+            &-description {
+                width: 498px;
+                margin: 35px 0 0 0;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+        }
+        &-add {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &-bg {
+                width: 568px;
+                height: 441px;
+                background: #800705;
+                position: relative;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 35px;
+                    height: 441px;
+                    background: #414141;
+                }
+            }
+            &-item {
+                position: absolute;
+                top: 50px;
+                left: -79px;
+                width: 522px;
+                height: 340px;
+                background: #444444;
+            }
+        }
+    }
+    &__btn {
+        width: 232px;
+        height: 68px;
+        border: 3px solid #FFFFFF;
+        z-index: 2;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 66px 120px 0 auto;
+        padding: 0 0 0 27px;
+        position: relative;
+        &::after {
+            content: url(../svg/index/header-arrow-next-add.svg);
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        & a {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 32px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
