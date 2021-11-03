@@ -5,3 +5,6 @@
 ## Painting: [click me](https://kah3vich.github.io/Pit-Stop/public/painting.html)
 ## Polishing: [click me](https://kah3vich.github.io/Pit-Stop/public/polishing.html)
 ## Tires: [click me](https://kah3vich.github.io/Pit-Stop/public/tires.html)
+## Balance: [click me](https://kah3vich.github.io/Pit-Stop/public/balance.html)
+## Client: [click me](https://kah3vich.github.io/Pit-Stop/public/client.html)
+## Contact: [click me](https://kah3vich.github.io/Pit-Stop/public/contact.html)

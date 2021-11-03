@@ -1,0 +1,191 @@
+@@include('components/_head.pug')
+
+    @@include('components/_header.pug')
+
+
+
+    section.balance-header 
+        .containers 
+            .balance-header__block
+                .balance-header__block-title Балансировка колес
+                .balance-header__block-add Балансировка колес на современном оборудовании
+                .balance-header__block-banner 
+                    img(src="./img/header-banner.png" alt="img")
+
+    section.balance-about 
+        .containers 
+            .balance-about__block 
+                .balance-about__block-img 
+                    img(src="./img/about.png", alt="img")
+                .balance-about__block-content 
+                    .balance-about__block-content-text
+                        .balance-about__block-content-text-add 004
+                        .balance-about__block-content-text-title Порядок выполнения балансировки колес
+                        .balance-about__block-content-text-item Колесо устанавливается на балансировочный станок при помощи специальных конусов разного размера.
+                    .balance-about__block-content-add
+                        p Задача мастера правильно ввести исходные данные по колесу, что способствует максимально точной балансировке колеса. Балансировка колес имеет очень важное значение, так как она отвечает в первую очередь за комфорт передвижения, а также за уменьшение вибраций на подвеску, что положительно влияет на срок ее службы.
+                            br
+                            br
+                            span Частые симптомы некачественно сделанной балансировки – это вибрация в руль, либо в пол при движении на скорости 100-120 км/ч.
+                            button.balance-about__block-content-add-btn
+                                a(href="#") Связаться
+
+    section.balance-ways
+        .containers 
+            .balance-ways__slider 
+                .swiper.balanceSliderAbout
+                    .swiper-wrapper
+                        .swiper-slide 
+                            .balance-ways__slider-item
+                        .swiper-slide 
+                            .balance-ways__slider-item
+                        .swiper-slide 
+                            .balance-ways__slider-item
+                        .swiper-slide 
+                            .balance-ways__slider-item
+                        .swiper-slide 
+                            .balance-ways__slider-item
+                .swiper-controls 
+                    .swiper-button-next 
+                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.53033 5.46967C6.82322 5.76256 6.82322 6.23744 6.53033 6.53033L1.75736 11.3033C1.46447 11.5962 0.989593 11.5962 0.696699 11.3033C0.403806 11.0104 0.403806 10.5355 0.696699 10.2426L4.93934 6L0.696699 1.75736C0.403806 1.46447 0.403806 0.989593 0.696699 0.696699C0.989593 0.403806 1.46447 0.403806 1.75736 0.696699L6.53033 5.46967ZM5 5.25H6V6.75H5V5.25Z" fill="black"/>
+                        </svg>
+                    .swiper-button-prev 
+                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.46967 5.46967C0.176777 5.76256 0.176777 6.23744 0.46967 6.53033L5.24264 11.3033C5.53553 11.5962 6.01041 11.5962 6.3033 11.3033C6.59619 11.0104 6.59619 10.5355 6.3033 10.2426L2.06066 6L6.3033 1.75736C6.59619 1.46447 6.59619 0.989593 6.3033 0.696699C6.01041 0.403806 5.53553 0.403806 5.24264 0.696699L0.46967 5.46967ZM2 5.25H1V6.75H2V5.25Z" fill="white"/>
+                        </svg>
+                    .swiper-pagination
+            .balance-ways__wrapper 
+                .balance-ways__wrapper-content 
+                    .balance-ways__wrapper-content-title Зачем нужна балансировка?
+                        p 002
+                    .balance-ways__wrapper-content-add От качества балансировки зависит комфорт поездки – неотбалансированные колеса вибрируют, что создает дискомфорт для водителя и пассажиров. Также плохая балансировка существенно ускоряет износ дисков, шин и подвески. А корректная работа подвески - это управляемость и устойчивость автомобиля. И несбалансированные колеса вполне могут привести к аварийной ситуации.
+                    .balance-ways__wrapper-content-description Задача балансировки – равномерно распределить массу колеса относительно его центра. Эта процедура сводит вибрацию к минимуму, предотвращает быстрый износ дисков и покрышек.
+                .balance-ways__wrapper-add 
+                    .balance-ways__wrapper-add-bg 
+                        .balance-ways__wrapper-add-item
+            button.balance-ways__btn
+                a(href="#") Связаться 
+
+    section.balance-easy 
+        .containers 
+            .balance-easy__block 
+                .balance-easy__block-add 002
+                .balance-easy__block-title С нами удобно!
+                ul.balance-easy__block-list
+                    li.balance-easy__block-item
+                        .balance-easy__block-item-icons 
+                        .balance-easy__block-item-title Среднее время ожидания - 20 минут
+                        .balance-easy__block-item-text Самый быстрый шиномонтаж по времени прибытия в Москве
+                    li.balance-easy__block-item
+                        .balance-easy__block-item-icons 
+                        .balance-easy__block-item-title Гарантия на ремонт
+                        .balance-easy__block-item-text Гарантия на балансировку 14 дней, на ремонт шин - 3 года
+                    li.balance-easy__block-item
+                        .balance-easy__block-item-icons 
+                        .balance-easy__block-item-title Круглосуточно
+                        .balance-easy__block-item-text 24 часа. У нас нет выходных и праздников
+                    li.balance-easy__block-item
+                        .balance-easy__block-item-icons 
+                        .balance-easy__block-item-title Приедем тогда, когда вам удобно
+                        .balance-easy__block-item-text Мы приедем максимально быстро или в то время когда удобно вам
+                    li.balance-easy__block-item
+                        .balance-easy__block-item-icons 
+                        .balance-easy__block-item-title Даже если шина не подлежит ремонту!
+                        .balance-easy__block-item-text При необходимости купим и привезём новую или б/у шину на замену вашей
+                    li.balance-easy__block-item
+                        .balance-easy__block-item-icons 
+                        .balance-easy__block-item-title Повышаем компетенции сотрудников
+                        .balance-easy__block-item-text Все сотрудники проходят полное обучение технологиям ремонта от американских инструкторов
+
+    section.balance-list 
+        .containers 
+            .balance-list__block 
+                .balance-list__block-add 002
+                .balance-list__block-title Цена на порошковую покраску литых дисков
+                .balance-list__block-wrapper 
+                    .balance-list__block-wrapper-title радиус:
+                    ul.balance-list__block-wrapper-list
+                        li.balance-list__block-wrapper-list-item R13
+                        li.balance-list__block-wrapper-list-item R14
+                        li.balance-list__block-wrapper-list-item R15
+                        li.balance-list__block-wrapper-list-item R16
+                        li.balance-list__block-wrapper-list-item R17
+                        li.balance-list__block-wrapper-list-item R18
+                        li.balance-list__block-wrapper-list-item R19
+                        li.balance-list__block-wrapper-list-item R20
+                        li.balance-list__block-wrapper-list-item R21
+                .balance-list__block-wrappers
+                    .balance-list__block-wrappers-title Балансировка 4-х колес (легковые)
+                    ul.balance-list__block-wrappers-list
+                        li.balance-list__block-wrappers-list-item 1 000 ₽
+                        li.balance-list__block-wrappers-list-item 1 100 ₽
+                        li.balance-list__block-wrappers-list-item 1 200 ₽
+                        li.balance-list__block-wrappers-list-item 1 300 ₽
+                        li.balance-list__block-wrappers-list-item 1 500 ₽
+                        li.balance-list__block-wrappers-list-item 1 700 ₽
+                        li.balance-list__block-wrappers-list-item 1 800 ₽
+                        li.balance-list__block-wrappers-list-item 2 200 ₽
+                        li.balance-list__block-wrappers-list-item 2 400 ₽
+                .balance-list__block-wrappers 
+                    .balance-list__block-wrappers-title Балансировка 4-х колес (внедорожники)
+                    ul.balance-list__block-wrappers-list
+                        li.balance-list__block-wrappers-list-item 1 200 ₽
+                        li.balance-list__block-wrappers-list-item 1 300 ₽
+                        li.balance-list__block-wrappers-list-item 1 400 ₽
+                        li.balance-list__block-wrappers-list-item 1 500 ₽
+                        li.balance-list__block-wrappers-list-item 1 600 ₽
+                        li.balance-list__block-wrappers-list-item 1 800 ₽
+                        li.balance-list__block-wrappers-list-item 1 900 ₽
+                        li.balance-list__block-wrappers-list-item 2 800 ₽
+                        li.balance-list__block-wrappers-list-item 3 000 ₽
+            .balance-list__about 
+                .balance-list__about-text 
+                    .balance-list__about-text-add 002
+                    .balance-list__about-text-title Когда нужна балансировка?
+                    .balance-list__about-text-description Балансировка обязательна после установки новых колес, и после каждой перебортовки шин. Наши специалисты советуют регулярно проводить балансировку - как минимум, каждые 5000 км. И заездать в шиномонтажку на проверку, как только почуствовали биение, или управляемость немного ухудшилась. 
+                        br
+                        br
+                        span Вот случаи, когда требуется балансировка:
+                    ul.balance-list__about-text-list 
+                        li.balance-list__about-text-item
+                            .balance-list__about-text-item-title Сезонная замена резины
+                            .balance-list__about-text-item-block Даже если колеса не пострадали, желательно провести балансировку.
+                        li.balance-list__about-text-item
+                            .balance-list__about-text-item-title Сезонная замена резины
+                            .balance-list__about-text-item-block Даже если колеса не пострадали, желательно провести балансировку.
+                        li.balance-list__about-text-item
+                            .balance-list__about-text-item-title Сезонная замена резины
+                            .balance-list__about-text-item-block Даже если колеса не пострадали, желательно провести балансировку.
+                        li.balance-list__about-text-item
+                            .balance-list__about-text-item-title Сезонная замена резины
+                            .balance-list__about-text-item-block Даже если колеса не пострадали, желательно провести балансировку.
+                .balance-list__about-banner
+                    .balance-list__about-banner-item
+                        .balance-list__about-banner-items 
+                    button.balance-list__about-banner-btn
+                        a(href="#") Связаться
+
+        section.balance-work
+        .containers 
+            .balance-work__block 
+                .balance-work__block-add 003
+                .balance-work__block-title Как мы работаем?
+                .balance-work__block-description Вам нужно только позвонить или оставить заявку на сайте - всё остальное сделаем мы!
+                .balance-work__block-wrapper
+                    ul.balance-work__block-wrapper-list
+                        li.balance-work__block-wrapper-item
+                            .balance-work__block-wrapper-item-title Свяжитесь с нами
+                            .balance-work__block-wrapper-item-text По телефону или оставьте заявку
+                        li.balance-work__block-wrapper-item
+                            .balance-work__block-wrapper-item-title Оформите заказ
+                            .balance-work__block-wrapper-item-text Наш менеджер уточнит детали заказа и сориентирует по стоимости работ
+                        li.balance-work__block-wrapper-item
+                            .balance-work__block-wrapper-item-title К вам приедет мастер 
+                            .balance-work__block-wrapper-item-text Наш менеджер уточнит детали заказа и сориентирует по стоимости работ
+
+
+
+    @@include('components/_footer.pug')
+
+@@include('components/_script.pug')

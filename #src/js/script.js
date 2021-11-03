@@ -2,3 +2,4 @@
 @@include('disk/disk.js')
 @@include('polishing/polishing.js')
 @@include('painting/painting.js')
+@@include('balance/balance.js')

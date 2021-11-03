@@ -1,0 +1,70 @@
+@@include('components/_head.pug')
+
+    @@include('components/_header.pug')
+
+
+    section.client-header 
+        .containers 
+            .client-header__block
+                .client-header__block-title Для корпоративных клиентов
+                .client-header__block-description Действуют специальные скидки для корпоративных клиентов:
+                .client-header__block-banner 
+                    img(src="./img/header-banner.png" alt="img")
+                .client-header__block-wrapper 
+                    .client-header__block-content 
+                        ul.client-header__block-content-list
+                            li.client-header__block-content-list-item
+                                h3 СКИДКИ до 20%
+                                p На порошковую покраску дисков
+                            li.client-header__block-content-list-item
+                                h3 СКИДКИ до 20%
+                                p На порошковую покраску дисков
+                            li.client-header__block-content-list-item
+                                h3 СКИДКИ до 20%
+                                p На порошковую покраску дисков
+                        .client-header__block-content-contact 
+                            h3 Звоните: +7 (495) 233-17-63
+                            p либо пишите shini-pitstop@yandex.ru 
+                        .client-header__block-content-add Будем рады взаимовыгодному сотрудничеству с Вами!!!
+                    .client-header__block-add
+                        ul.client-header__block-add-list
+                            li.client-header__block-add-item         
+                                .client-header__block-add-item-icons 
+                                    <svg width="4" height="18" viewBox="0 0 4 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.28516 12.1953H0.636719L0.0390625 0.195312H3.88281L3.28516 12.1953ZM0.601562 16.6953C0.226562 16.3359 0.0390625 15.918 0.0390625 15.4414C0.0390625 14.957 0.226562 14.5352 0.601562 14.1758C0.976562 13.8164 1.42969 13.6367 1.96094 13.6367C2.49219 13.6367 2.94531 13.8164 3.32031 14.1758C3.69531 14.5352 3.88281 14.957 3.88281 15.4414C3.88281 15.918 3.69531 16.3359 3.32031 16.6953C2.94531 17.0547 2.49219 17.2344 1.96094 17.2344C1.42969 17.2344 0.976562 17.0547 0.601562 16.6953Z" fill="white"/>
+                                    </svg>
+                                .client-header__block-add-item-wrapper 
+                                    .client-header__block-add-item-title Скидка 50% на хранение шин
+                                    .client-header__block-add-item-block На хранение шин при заказе покраски дисков или шиномонтажных работ
+                            li.client-header__block-add-item         
+                                .client-header__block-add-item-icons 
+                                    <svg width="4" height="18" viewBox="0 0 4 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.28516 12.1953H0.636719L0.0390625 0.195312H3.88281L3.28516 12.1953ZM0.601562 16.6953C0.226562 16.3359 0.0390625 15.918 0.0390625 15.4414C0.0390625 14.957 0.226562 14.5352 0.601562 14.1758C0.976562 13.8164 1.42969 13.6367 1.96094 13.6367C2.49219 13.6367 2.94531 13.8164 3.32031 14.1758C3.69531 14.5352 3.88281 14.957 3.88281 15.4414C3.88281 15.918 3.69531 16.3359 3.32031 16.6953C2.94531 17.0547 2.49219 17.2344 1.96094 17.2344C1.42969 17.2344 0.976562 17.0547 0.601562 16.6953Z" fill="white"/>
+                                    </svg>
+                                .client-header__block-add-item-wrapper 
+                                    .client-header__block-add-item-title Скидка 6% на страхование
+                                    .client-header__block-add-item-block При заказе услуг шиномонтажа и покраски дисков на Перерва - оформления полиса ОСАГО, КАСКО, страхование дома, квартиры, ипотечное страхование со скидкой 6 процентов! (от страхового партнера).
+                button.client-header__block-btn
+                                a(href="#") Узнать подробнее
+
+    section.client-work
+        .containers 
+            .client-work__block 
+                .client-work__block-add 003
+                .client-work__block-title Как мы работаем?
+                .client-work__block-description Вам нужно только позвонить или оставить заявку на сайте - всё остальное сделаем мы!
+                .client-work__block-wrapper
+                    ul.client-work__block-wrapper-list
+                        li.client-work__block-wrapper-item
+                            .client-work__block-wrapper-item-title Свяжитесь с нами
+                            .client-work__block-wrapper-item-text По телефону или оставьте заявку
+                        li.client-work__block-wrapper-item
+                            .client-work__block-wrapper-item-title Оформите заказ
+                            .client-work__block-wrapper-item-text Наш менеджер уточнит детали заказа и сориентирует по стоимости работ
+                        li.client-work__block-wrapper-item
+                            .client-work__block-wrapper-item-title К вам приедет мастер 
+                            .client-work__block-wrapper-item-text Наш менеджер уточнит детали заказа и сориентирует по стоимости работ
+
+    @@include('components/_footer.pug')
+
+@@include('components/_script.pug')
