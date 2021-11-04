@@ -10,5 +10,13 @@
 ## Alloy: [click me](https://kah3vich.github.io/Pit-Stop/public/alloy.html)
 ## Hernia: [click me](https://kah3vich.github.io/Pit-Stop/public/hernia.html)
 
+## Season: [click me](https://kah3vich.github.io/Pit-Stop/public/season.html)
+## Refill: [click me](https://kah3vich.github.io/Pit-Stop/public/refill.html)
+## Conditioner: [click me](https://kah3vich.github.io/Pit-Stop/public/conditioner.html)
+
 ## Client: [click me](https://kah3vich.github.io/Pit-Stop/public/client.html)
 ## Contact: [click me](https://kah3vich.github.io/Pit-Stop/public/contact.html)
+## Reviews: [click me](https://kah3vich.github.io/Pit-Stop/public/reviews.html)
+## Prise: [click me](https://kah3vich.github.io/Pit-Stop/public/prise.html)
+## Constructor: [click me](https://kah3vich.github.io/Pit-Stop/public/constructor.html)
+## Delivery: [click me](https://kah3vich.github.io/Pit-Stop/public/delivery.html)

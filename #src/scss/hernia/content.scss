@@ -700,6 +700,172 @@
             }
         }
     }
+    &__block {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        &-add {
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        &-title {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-description {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+        &-wrapper {
+            width: 100%;
+            margin: 92px 0 0 0;
+            height: 203px;
+            background: #800705;
+            position: relative;
+            padding: 61px 148px 0 58px;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 203px;
+                background: #414141;
+            }
+            &-list {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                width: 100%;
+            }
+            &-item {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                &:nth-child(1) {
+                    &.hernia-work__block-wrapper-item {
+                        position: relative;
+                        &::after {
+                            content: "1";
+                            position: absolute;
+                            top: -90px;
+                            left: 0;
+                            width: 58px;
+                            height: 58px;
+                            background: #FFE9E9;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 30px;
+                            line-height: 25px;
+                            color: #800705;
+                        }
+                        &:before {
+                            content: url(../svg/hernia/arrow-work.svg);
+                            position: absolute;
+                            top: 5px;
+                            right: -55px;
+                        }
+                    }
+                }
+                &:nth-child(2) {
+                    &.hernia-work__block-wrapper-item {
+                        position: relative;
+                        &::after {
+                            content: "2";
+                            position: absolute;
+                            top: -90px;
+                            left: 0;
+                            width: 58px;
+                            height: 58px;
+                            background: #FFE9E9;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 30px;
+                            line-height: 25px;
+                            color: #800705;
+                        }
+                        &:before {
+                            content: url(../svg/hernia/arrow-work.svg);
+                            position: absolute;
+                            top: 5px;
+                            right: -55px;
+                        }
+                    }
+                }
+                &:nth-child(3) {
+                    &.hernia-work__block-wrapper-item {
+                        position: relative;
+                        &::after {
+                            content: "3";
+                            position: absolute;
+                            top: -90px;
+                            left: 0;
+                            width: 58px;
+                            height: 58px;
+                            background: #FFE9E9;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 30px;
+                            line-height: 25px;
+                            color: #800705;
+                        }
+                    }
+                }
+                &-title {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 30px;
+                    color: #FFFFFF;
+                }
+                &-text {
+                    margin: 18px 0 0 0;
+                    width: 282px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
 }
 
 .hernia-process {
