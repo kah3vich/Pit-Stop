@@ -3,3 +3,4 @@
 @@include('polishing/polishing.js')
 @@include('painting/painting.js')
 @@include('balance/balance.js')
+@@include('alloy/alloy.js')
