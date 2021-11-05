@@ -33,7 +33,7 @@
         }
         &-add {
             margin: 59px 0 0 0;
-            width: 841px;
+            width: 565px;
             font-family: TT Norms;
             font-style: normal;
             font-weight: normal;
@@ -87,7 +87,7 @@
                 justify-content: flex-start;
                 flex-direction: column;
                 &-item {
-                    width: 580px;
+                    width: 557px;
                     margin: 50px 0 0 0;
                     font-family: TT Norms;
                     font-style: normal;
@@ -130,7 +130,7 @@
                     color: #FFFFFF;
                 }
                 &-btn {
-                    margin: 60px 0 0 0;
+                    margin: 70px 0 0 0;
                     width: 232px;
                     height: 68px;
                     border: 3px solid #FFFFFF;
@@ -230,13 +230,21 @@
             align-items: flex-start;
             justify-content: flex-start;
             &-add {
-                width: 482px;
                 font-family: TT Norms;
+                width: 482px;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 29px;
                 color: #FFFFFF;
+                & span {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                }
             }
         }
     }
@@ -434,10 +442,12 @@
             margin: 0 0 0 35px;
             position: relative;
             width: 603px;
-            height: 295px;
+            height: 389px;
             overflow: hidden;
             & img {
                 object-fit: cover;
+                width: 100%;
+                height: 100%;
             }
             &::after {
                 content: "";
@@ -445,7 +455,7 @@
                 top: 0;
                 left: 0;
                 width: 35px;
-                height: 295px;
+                height: 389px;
                 background: #800705;
             }
         }
@@ -472,6 +482,7 @@
                     opacity: 0.5;
                 }
                 &-title {
+                    width: 529px;
                     font-family: TT Norms;
                     font-style: normal;
                     font-weight: normal;
@@ -482,36 +493,37 @@
                 }
                 &-item {
                     width: 557px;
-                    margin: 14px 0 0 0;
                     font-family: TT Norms;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 16px;
                     line-height: 29px;
                     color: #FFFFFF;
+                    margin: 42px 0 0 0;
                 }
             }
             &-add {
                 width: 692px;
-                height: 163px;
+                height: 525px;
                 background: #800705;
-                margin: 60px 0 0 0;
+                margin: 77px 0 0 0;
                 position: relative;
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: flex-start;
-                padding: 25px 0 0 53px;
+                padding: 36px 0 0 53px;
                 &::after {
                     content: "";
                     position: absolute;
                     top: 0;
                     right: 0;
                     width: 35px;
-                    height: 163px;
+                    height: 525px;
                     background: #414141;
                 }
-                & p {
+                &-item {
+                    margin: 0 0 33px 0;
                     width: 560px;
                     font-family: TT Norms;
                     font-style: normal;
@@ -519,34 +531,8 @@
                     font-size: 16px;
                     line-height: 29px;
                     color: #FFFFFF;
-                }
-                &-btn {
-                    width: 232px;
-                    height: 68px;
-                    border: 3px solid #FFFFFF;
-                    z-index: 2;
-                    background: transparent;
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
-                    position: absolute;
-                    bottom: -100px;
-                    right: 128px;
-                    padding: 0 0 0 27px;
-                    &::after {
-                        content: url(../svg/index/header-arrow-next-add.svg);
-                        position: absolute;
-                        top: 20px;
-                        right: 20px;
-                    }
-                    & a {
-                        font-family: TT Norms;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 14px;
-                        line-height: 32px;
-                        text-transform: uppercase;
-                        color: #FFFFFF;
+                    &:last-child {
+                        margin: 0;
                     }
                 }
             }

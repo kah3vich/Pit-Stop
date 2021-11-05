@@ -1,0 +1,232 @@
+@@include('components/_head.pug')
+
+    @@include('components/_header.pug')
+
+
+    section.price-header 
+        .containers 
+            .price-header__block
+                .price-header__block-title Наши цены
+                .price-header__block-banner 
+                    img(src="./img/header-banner.png" alt="img")
+
+    section.price-price 
+        .containers 
+            .price-price__block 
+                .price-price__block-add 003
+                .price-price__block-title Расчет стоимости
+                .price-price__block-titles Вид покраски
+                .price-price__block-dye
+                    .price-price__block-dye-radio
+                        input(class="price-price__block-dye-radio__input" name="dye" type="radio" id="radio_1" checked)
+                        label(class="price-price__block-dye-radio__label" for="radio_1") Порошковая покраска
+
+                    .price-price__block-dye-radio
+                        input(class="price-price__block-dye-radio__input" name="dye" type="radio" id="radio_2")
+                        label(class="price-price__block-dye-radio__label" for="radio_2") Порошковая покраска "Эксклюзив"
+
+                    .price-price__block-dye-radio
+                        input(class="price-price__block-dye-radio__input" name="dye" type="radio" id="radio_3")
+                        label(class="price-price__block-dye-radio__label" for="radio_3") Алмазная шлифовка
+                .price-price__block-adds 
+                    select#type
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                        option(value="Литой") Литой
+                    select#count
+                        option(value="1") 1
+                        option(value="1") 1
+                        option(value="2") 2
+                        option(value="3") 3
+                        option(value="4") 4
+                        option(value="5") 5
+                        option(value="6") 6
+                        option(value="7") 7
+                        option(value="8") 8
+                        option(value="9") 9
+                        option(value="10") 10
+                        option(value="11") 11
+                    select#radios
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                        option(value="R13") R13
+                .price-price__block-plus
+                    a(href="#") Дополнительные работы 
+                .price-price__block-banner 
+                    h3 Итого:
+                    p 4690₽
+                button.price-price__block-btn Узнать подробнее
+
+
+    section.price-list 
+        .containers 
+            .price-list__block 
+                .price-list__block-add 002
+                .price-list__block-title Цена на порошковую покраску литых дисков
+                .price-list__block-description Дополнительное покрытие лаком: +700 руб. / диск
+                .price-list__block-wrapper 
+                    .price-list__block-wrapper-title радиус:
+                    ul.price-list__block-wrapper-list
+                        li.price-list__block-wrapper-list-item R13
+                        li.price-list__block-wrapper-list-item R14
+                        li.price-list__block-wrapper-list-item R15
+                        li.price-list__block-wrapper-list-item R16
+                        li.price-list__block-wrapper-list-item R17
+                        li.price-list__block-wrapper-list-item R18
+                        li.price-list__block-wrapper-list-item R19
+                        li.price-list__block-wrapper-list-item R20
+                        li.price-list__block-wrapper-list-item R21
+                        li.price-list__block-wrapper-list-item R22
+                        li.price-list__block-wrapper-list-item R23 
+                        li.price-list__block-wrapper-list-item R24
+                .price-list__block-wrappers
+                    .price-list__block-wrappers-title цена за 1 комплект
+                    ul.price-list__block-wrappers-list
+                        li.price-list__block-wrappers-list-item 6 000 ₽
+                        li.price-list__block-wrappers-list-item 6 800 ₽
+                        li.price-list__block-wrappers-list-item 7 300 ₽
+                        li.price-list__block-wrappers-list-item 7 700 ₽
+                        li.price-list__block-wrappers-list-item 8 100 ₽
+                        li.price-list__block-wrappers-list-item 8 500 ₽
+                        li.price-list__block-wrappers-list-item 8 900 ₽
+                        li.price-list__block-wrappers-list-item 9 900 ₽
+                        li.price-list__block-wrappers-list-item 10 900 ₽
+                        li.price-list__block-wrappers-list-item 11 900 ₽
+                        li.price-list__block-wrappers-list-item 12 900 ₽ 
+                        li.price-list__block-wrappers-list-item 13 900 ₽
+                .price-list__block-wrappers 
+                    .price-list__block-wrappers-title цена за 1 комплект
+                    ul.price-list__block-wrappers-list
+                        li.price-list__block-wrappers-list-item 6 000 ₽
+                        li.price-list__block-wrappers-list-item 6 800 ₽
+                        li.price-list__block-wrappers-list-item 7 300 ₽
+                        li.price-list__block-wrappers-list-item 7 700 ₽
+                        li.price-list__block-wrappers-list-item 8 100 ₽
+                        li.price-list__block-wrappers-list-item 8 500 ₽
+                        li.price-list__block-wrappers-list-item 8 900 ₽
+                        li.price-list__block-wrappers-list-item 9 900 ₽
+                        li.price-list__block-wrappers-list-item 10 900 ₽
+                        li.price-list__block-wrappers-list-item 11 900 ₽
+                        li.price-list__block-wrappers-list-item 12 900 ₽ 
+                        li.price-list__block-wrappers-list-item 13 900 ₽
+            .price-list__block 
+                .price-list__block-add 002
+                .price-list__block-title Цена на покраску в цвета "эксклюзив"
+                .price-list__block-description Дополнительное покрытие лаком: +700 руб. / диск
+                .price-list__block-wrapper 
+                    .price-list__block-wrapper-title радиус:
+                    ul.price-list__block-wrapper-list
+                        li.price-list__block-wrapper-list-item R13
+                        li.price-list__block-wrapper-list-item R14
+                        li.price-list__block-wrapper-list-item R15
+                        li.price-list__block-wrapper-list-item R16
+                        li.price-list__block-wrapper-list-item R17
+                        li.price-list__block-wrapper-list-item R18
+                        li.price-list__block-wrapper-list-item R19
+                        li.price-list__block-wrapper-list-item R20
+                        li.price-list__block-wrapper-list-item R21
+                        li.price-list__block-wrapper-list-item R22
+                        li.price-list__block-wrapper-list-item R23 
+                        li.price-list__block-wrapper-list-item R24
+                .price-list__block-wrappers
+                    .price-list__block-wrappers-title цена за 1 комплект
+                    ul.price-list__block-wrappers-list
+                        li.price-list__block-wrappers-list-item 6 000 ₽
+                        li.price-list__block-wrappers-list-item 6 800 ₽
+                        li.price-list__block-wrappers-list-item 7 300 ₽
+                        li.price-list__block-wrappers-list-item 7 700 ₽
+                        li.price-list__block-wrappers-list-item 8 100 ₽
+                        li.price-list__block-wrappers-list-item 8 500 ₽
+                        li.price-list__block-wrappers-list-item 8 900 ₽
+                        li.price-list__block-wrappers-list-item 9 900 ₽
+                        li.price-list__block-wrappers-list-item 10 900 ₽
+                        li.price-list__block-wrappers-list-item 11 900 ₽
+                        li.price-list__block-wrappers-list-item 12 900 ₽ 
+                        li.price-list__block-wrappers-list-item 13 900 ₽
+                .price-list__block-wrappers 
+                    .price-list__block-wrappers-title цена за 1 комплект
+                    ul.price-list__block-wrappers-list
+                        li.price-list__block-wrappers-list-item 6 000 ₽
+                        li.price-list__block-wrappers-list-item 6 800 ₽
+                        li.price-list__block-wrappers-list-item 7 300 ₽
+                        li.price-list__block-wrappers-list-item 7 700 ₽
+                        li.price-list__block-wrappers-list-item 8 100 ₽
+                        li.price-list__block-wrappers-list-item 8 500 ₽
+                        li.price-list__block-wrappers-list-item 8 900 ₽
+                        li.price-list__block-wrappers-list-item 9 900 ₽
+                        li.price-list__block-wrappers-list-item 10 900 ₽
+                        li.price-list__block-wrappers-list-item 11 900 ₽
+                        li.price-list__block-wrappers-list-item 12 900 ₽ 
+                        li.price-list__block-wrappers-list-item 13 900 ₽
+            .price-list__block 
+                .price-list__block-add 002
+                .price-list__block-title Цена покраски дисков с использованием алмазной шлифовки лицевой части
+                .price-list__block-description Дополнительное покрытие лаком: +700 руб. / диск
+                .price-list__block-wrapper 
+                    .price-list__block-wrapper-title радиус:
+                    ul.price-list__block-wrapper-list
+                        li.price-list__block-wrapper-list-item R13
+                        li.price-list__block-wrapper-list-item R14
+                        li.price-list__block-wrapper-list-item R15
+                        li.price-list__block-wrapper-list-item R16
+                        li.price-list__block-wrapper-list-item R17
+                        li.price-list__block-wrapper-list-item R18
+                        li.price-list__block-wrapper-list-item R19
+                        li.price-list__block-wrapper-list-item R20
+                        li.price-list__block-wrapper-list-item R21
+                        li.price-list__block-wrapper-list-item R22
+                        li.price-list__block-wrapper-list-item R23 
+                        li.price-list__block-wrapper-list-item R24
+                .price-list__block-wrappers
+                    .price-list__block-wrappers-title цена за 1 комплект
+                    ul.price-list__block-wrappers-list
+                        li.price-list__block-wrappers-list-item 6 000 ₽
+                        li.price-list__block-wrappers-list-item 6 800 ₽
+                        li.price-list__block-wrappers-list-item 7 300 ₽
+                        li.price-list__block-wrappers-list-item 7 700 ₽
+                        li.price-list__block-wrappers-list-item 8 100 ₽
+                        li.price-list__block-wrappers-list-item 8 500 ₽
+                        li.price-list__block-wrappers-list-item 8 900 ₽
+                        li.price-list__block-wrappers-list-item 9 900 ₽
+                        li.price-list__block-wrappers-list-item 10 900 ₽
+                        li.price-list__block-wrappers-list-item 11 900 ₽
+                        li.price-list__block-wrappers-list-item 12 900 ₽ 
+                        li.price-list__block-wrappers-list-item 13 900 ₽
+                .price-list__block-wrappers 
+                    .price-list__block-wrappers-title цена за 1 комплект
+                    ul.price-list__block-wrappers-list
+                        li.price-list__block-wrappers-list-item 6 000 ₽
+                        li.price-list__block-wrappers-list-item 6 800 ₽
+                        li.price-list__block-wrappers-list-item 7 300 ₽
+                        li.price-list__block-wrappers-list-item 7 700 ₽
+                        li.price-list__block-wrappers-list-item 8 100 ₽
+                        li.price-list__block-wrappers-list-item 8 500 ₽
+                        li.price-list__block-wrappers-list-item 8 900 ₽
+                        li.price-list__block-wrappers-list-item 9 900 ₽
+                        li.price-list__block-wrappers-list-item 10 900 ₽
+                        li.price-list__block-wrappers-list-item 11 900 ₽
+                        li.price-list__block-wrappers-list-item 12 900 ₽ 
+                        li.price-list__block-wrappers-list-item 13 900 ₽
+
+
+    @@include('components/_footer.pug')
+
+@@include('components/_script.pug')

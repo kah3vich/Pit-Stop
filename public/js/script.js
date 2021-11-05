@@ -1650,3 +1650,9 @@ $('#reviewsCloseMessages').on('click', function() {
     $('#reviewsElementMessages-3').addClass('display-n')
     $('#reviewsOpenMessages').removeClass('display-n')
 });
+$('#headerServicesButton').hover(function() {
+    $('#headerServices').toggleClass('display-n')
+});
+$('#headerServices').hover(function() {
+    $(this).toggleClass('display-n')
+});

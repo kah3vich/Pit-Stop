@@ -1,0 +1,488 @@
+.price-header {
+    position: relative;
+    width: 100%;
+    background: #171725;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &-title {
+            margin: 246px 0 0 0;
+            width: 701px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 50px;
+            line-height: 77px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            z-index: 1;
+        }
+        &-add {
+            margin: 59px 0 0 0;
+            width: 419px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 131%;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+            z-index: 1;
+        }
+        &-banner {
+            position: absolute;
+            top: 185px;
+            right: 0;
+            z-index: 0;
+            -webkit-filter: brightness(40%);
+        }
+        &-quiz {
+            position: absolute;
+            top: 505px;
+            left: 492px;
+            &-title {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 89%;
+                color: #FFFFFF;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                margin: 32px 0 0 0;
+            }
+            &-add {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 130%;
+                color: #7E7E7E;
+            }
+            &-description {
+                margin: 17px 0 0 0;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 89%;
+                color: #FFFFFF;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+            &-block {
+                margin: 32px 0 0 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 468px;
+            }
+            &-item {
+                position: relative;
+                width: 148px;
+                height: 73px;
+                background: #800705;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all 0.5s ease;
+                &:hover {
+                    background: #000000;
+                    transition: all 0.5s ease;
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 5px;
+                    height: 73px;
+                    background: #414141;
+                }
+                &-text {
+                    transition: all 0.5s ease;
+                    font-family: TT Norms;
+                    width: 100px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 118%;
+                    color: #FFFFFF;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+            }
+        }
+    }
+}
+
+
+.price-list {
+    position: relative;
+    padding: 0 0 110px 0;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        &:nth-child(2) {
+            margin: 100px 0 0 0;
+        }
+        &:nth-child(3) {
+            margin: 100px 0 0 0;
+        }
+        &-add {
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        &-title {
+            width: 961px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 50px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-description {
+            margin: 20px 0 0 0;
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            color: #FFFFFF;
+        }
+        &-wrapper {
+            margin: 8px 0 11px 0;
+            width: 100%;
+            height: 55px;
+            background: #800705;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 75px 0 25px;
+            &-title {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                color: #FFFFFF;
+            }
+            &-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 0 0 173px;
+                width: 100%;
+                &-item {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &-wrappers {
+            margin: 8px 0 11px 0;
+            width: 100%;
+            height: 55px;
+            background: #272727;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 38px 0 20px;
+            &-title {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                width: 225px;
+            }
+            &-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                margin: 0 0 0 55px;
+                &-item {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    &__btns {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-btn {
+            margin: 59px 0 0 0;
+            width: 232px;
+            height: 68px;
+            border: 3px solid #FFFFFF;
+            cursor: pointer;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 0 0 14px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 32px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            position: relative;
+            &::after {
+                content: url(../svg/price/arrow-next-add.svg);
+                position: absolute;
+                top: 18px;
+                right: 19px;
+            }
+        }
+    }
+}
+
+//! Price 
+
+.price-price {
+    padding: 150px 0 150px 0;
+    & .containers {
+        width: 100%;
+    }
+    &__block {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        &-add {
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        &-title {
+            height: 86px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-titles {
+            margin: 28px 0 0 0;
+            height: 50px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 50px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-dye {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            margin: 14px 0 0 0;
+            &-radio {
+                &:nth-child(1) {
+                    margin-bottom: 0;
+                }
+                &:nth-child(2) {
+                    margin: 0 0 0 59px;
+                }
+                &:nth-child(3) {
+                    margin: 0 0 0 59px;
+                }
+            }
+        }
+        &-adds {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin: 92px 0 0 0;
+        }
+        &-plus {
+            margin: 67px 0 0 0;
+            position: relative;
+            height: 50px;
+            &::after {
+                content: url(../svg/index/price-plus.svg);
+                position: absolute;
+                top: 12px;
+                right: -30px;
+            }
+            & a {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 50px;
+                text-decoration-line: underline;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+        &-banner {
+            width: 477px;
+            height: 128px;
+            background: #800705;
+            margin: 0 0 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 0 0 37px;
+            position: relative;
+            & h3 {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 86px;
+                color: #FFFFFF;
+            }
+            & p {
+                margin: 0 0 0 100px;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 86px;
+                color: #FFFFFF;
+            }
+            &::after {
+                content: "";
+                width: 35px;
+                height: 128px;
+                background: #414141;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+        &-btn {
+            width: 232px;
+            height: 68px;
+            border: 3px solid #FFFFFF;
+            cursor: pointer;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: absolute;
+            bottom: -105px;
+            right: 0;
+            padding: 0 0 0 14px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 32px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            &::after {
+                content: url(../svg/price/arrow-next-add.svg);
+                position: absolute;
+                top: 18px;
+                right: 19px;
+            }
+        }
+    }
+}
+
+//! Price - radio button
+
+.price-price__block-dye-radio {
+    position: relative;
+}
+.price-price__block-dye-radio__input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+.price-price__block-dye-radio__label {
+    padding-left: 35px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.price-price__block-dye-radio__label:before {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    z-index: 1;
+    transition: border .1s linear;
+    width: 20px;
+    height: 20px;
+    background: #800705;
+}
+.price-price__block-dye-radio__label:after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    z-index: 2;
+    transition: opacity .1s linear;
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+}
+.price-price__block-dye-radio__input:checked + .price-price__block-dye-radio__label:after {
+    opacity: 1;
+}

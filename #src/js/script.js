@@ -5,3 +5,4 @@
 @@include('balance/balance.js')
 @@include('alloy/alloy.js')
 @@include('reviews/reviews.js')
+@@include('header/header.js')
