@@ -469,3 +469,13 @@ $(function() {
         $('#radios option:nth-child(1)').html(valueElement)
     })
 })
+
+
+
+window.addEventListener('scroll', function() {
+    if(pageYOffset > 50) {
+        $('header').css('background', '#171725')
+    } else {
+        $('header').css('background', 'transparent')
+    }
+});
