@@ -344,6 +344,24 @@ var indexSliderCars = new Swiper(".indexSliderCars", {
         el: ".ind-slider__block-slider .swiper-controls .swiper-pagination",
     },
     keyboard: true,
+    breakpoints: {
+        1435: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        1125: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        700: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
 });
 
 $('#headerSliderTabsElement-1').on('click', function() {

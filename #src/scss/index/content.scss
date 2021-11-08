@@ -97,6 +97,7 @@
             position: absolute;
             top: 650px;
             right: 0;
+            z-index: 10;
             &-item {
                 & a {
                     font-family: TT Norms;
