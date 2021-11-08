@@ -1,0 +1,189 @@
+@media (max-width: 1440px) {
+    .season-abouts__block-content-add {
+        width: 100%;
+        height: 100%;
+        padding: 36px 0 20px 53px;
+    }
+    .season-abouts__block-content-add::after {
+        height: 100%;
+    }
+    .season-abouts__block-content-add-item {
+        width: 92%;
+    }
+    .season-abouts__block-img {
+        margin: 0;
+        overflow: visible;
+        width: 100%;
+    }
+    .season-abouts__block-content-text-item {
+        width: 90%;
+    }
+    .season-abouts__block-content-text-title {
+        width: 90%;
+    }
+    .season-easy__block-item-icons {
+        position: absolute;
+        top: -35px;
+    }
+    .season-easy {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0 0 100px 0;
+        margin: 0 0 100px 0;
+        background: #1b1b2f;
+    }
+}
+@media (max-width: 1350px) {
+    .season-about__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .season-about__wrapper-banner {
+        margin: 30px 0 0 79px;
+    }
+}
+@media (max-width: 1300px) {
+    .season-easy__block-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1230px) {
+    .season-abouts__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .season-abouts__block-content-text {
+        margin: 0;
+    }
+}
+@media (max-width: 1200px) {
+    .season-about__block {
+        display: flex;
+        flex-direction: column;
+    }
+    .season-about__block-content-text {
+        margin: 0;
+    }
+}
+@media (max-width: 1100px) {
+    .season-header .containers {
+        padding: 0;
+    }
+    .season-header__block-title {
+        margin: 246px 0 0 30px;
+    }
+    .season-header__block-add {
+        margin: 59px 0 0 30px;
+    }
+    .season-header__block-banner {
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 120%;
+        right: 0;
+        z-index: 0;
+        -webkit-filter: brightness(40%);
+        & img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .season-easy .containers {
+        padding: 0 30px;
+    }
+    .season-header {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0 0 100px 0;
+        background: #171725;
+    }
+    .season-about .containers {
+        padding: 0 30px;
+    }
+    .season-abouts .containers {
+        padding: 0 30px;
+    }
+    .season-about__wrapper-banner-btn {
+        margin: 59px auto 0 0;
+    }
+}
+@media (max-width: 750px) {
+    .season-easy__block-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .season-header__block-title {
+        width: 330px;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 1;
+    }
+    .season-abouts__block-content-add {
+        padding: 20px 0 20px 20px;
+    }
+    .season-abouts__block-content-add-item {
+        width: 90%;
+    }
+    .season-header__block-add {
+        width: 330px;
+        font-size: 17px;
+    }
+    .season-header__block-banner {
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 130%;
+        right: 0;
+        z-index: 0;
+        -webkit-filter: brightness(40%);
+    }
+    .season-about__wrapper-banner-item {
+        width: 0;
+    }
+    .season-about__wrapper-banner-item::after {
+        display: none;
+    }
+    .season-about__block-img {
+        width: 100%;
+        & img {
+            width: 100%;
+        }
+    }
+    .season-about__wrapper-banner {
+        margin: 30px 0 0 0;
+        width: 100%;
+    }
+    .season-about__wrapper-banner-item {
+        width: 100%;
+        background: transparent;
+    }
+    .season-about__wrapper-banner-items {
+        width: 100%;
+        left: 0;
+    }
+    .season-about__wrapper-banner-btn {
+        margin: 59px auto 0 0;
+    }
+    .season-about__wrapper-text-add {
+        width: 100%;
+    }
+    .season-about__block-content-text-item {
+        width: 100%;
+    }
+}
