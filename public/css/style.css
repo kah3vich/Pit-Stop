@@ -9437,7 +9437,6 @@
 }
 
 .alloy-abouts__block-img {
-  margin: 0 0 0 35px;
   position: relative;
   width: 596px;
   height: 275px;
@@ -15664,6 +15663,101 @@
   opacity: 1;
 }
 
+.error {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.error::after {
+  content: "";
+  height: 100vh;
+  width: 50%;
+  position: absolute;
+  background: #1b1b2f;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.error__block {
+  z-index: 1;
+  width: 1233px;
+  height: 485px;
+  background: #800705;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.error__block-title {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 77px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0,0,0,.25);
+}
+
+.error__block-text {
+  margin: 59px 0 74px 0;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 131%;
+  color: #fff;
+  text-shadow: 0px 4px 6px rgba(0,0,0,.25);
+}
+
+.error__block-btn {
+  width: 272px;
+  height: 68px;
+  border: 3px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+.error__block-btn a {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 body {
   position: relative;
   background-color: #171725;
@@ -16463,6 +16557,97 @@ h6 {
     width: 70%;
   }
 
+  .tires-list {
+    display: none;
+  }
+
+  .tires-easy__block-item-icons {
+    top: -35px;
+  }
+
+  .tires-header__block-add {
+    width: 100%;
+  }
+
+  .tires-header__block-wrapper {
+    width: 100%;
+  }
+
+  .tires-header__block-add-item-wrapper {
+    width: 80%;
+  }
+
+  .tires-header__block-add-item-block {
+    width: 100%;
+  }
+
+  .tires-header__block-add {
+    width: 100%;
+    height: 100%;
+    padding: 51px 0 25px 28px;
+  }
+
+  .balance-list {
+    display: none;
+  }
+
+  .balance-easy__block-item-icons {
+    position: absolute;
+    top: -35px;
+    right: 28px;
+    width: 68px;
+    height: 68px;
+    background: #ffe9e9;
+    border-radius: 50%;
+  }
+
+  .balance-about__block-content {
+    width: 100%;
+  }
+
+  .balance-about__block-content-add {
+    width: 100%;
+    height: 100%;
+    padding: 25px 0 25px 53px;
+  }
+
+  .balance-about__block-content-add p {
+    height: 100%;
+    width: 90%;
+  }
+
+  .balance-about__block-content-add::after {
+    height: 100%;
+  }
+
+  .alloy-list {
+    display: none;
+  }
+
+  .alloy-video__block-description {
+    margin: 55px 0 0 120px;
+    width: 79%;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    color: #fff;
+  }
+
+  .alloy-easy__block-item-icons {
+    top: -35px;
+  }
+
+  .hernia-process,
+  .hernia-list {
+    display: none;
+  }
+
+  .hernia-easy__block-item-icons {
+    top: -35px;
+  }
+
   .season-abouts__block-content-add {
     width: 100%;
     height: 100%;
@@ -16536,6 +16721,93 @@ h6 {
 
   .header__block-services {
     left: 300px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .alloy-abouts__block-content {
+    width: 100%;
+  }
+
+  .alloy-abouts__block-content-text-item {
+    width: 100%;
+  }
+
+  .alloy-abouts__block-content-add {
+    width: 100%;
+    height: 100%;
+    background: #800705;
+    margin: 40px 0 0 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 28px 0 25px 25px;
+  }
+
+  .alloy-abouts__block-content-add::after {
+    height: 100%;
+  }
+
+  .alloy-abouts__block-content-add p {
+    width: 90%;
+  }
+
+  .alloy-abouts__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .alloy-abouts__wrapper-img {
+    margin: 0 0 30px 0;
+  }
+
+  .alloy-abouts__wrapper-text-title {
+    width: 100%;
+  }
+
+  .alloy-abouts__wrapper-text-description {
+    width: 100%;
+  }
+
+  .alloy-abouts__wrappers-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 0;
+    width: 100%;
+  }
+
+  .alloy-abouts__wrappers-item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .alloy-abouts__wrappers-title {
+    width: 100%;
   }
 }
 
@@ -16709,6 +16981,195 @@ h6 {
     display: none;
   }
 
+  .tires-easy__block-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tires-easy {
+    height: 100%;
+    padding: 0 0 100px 0;
+  }
+
+  .balance-work__block-wrapper {
+    width: 100%;
+    margin: 92px 0 0 0;
+    height: 100%;
+    background: #800705;
+    position: relative;
+    padding: 30px 0 40px 58px;
+  }
+
+  .balance-ways__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .balance-ways__wrapper-add {
+    margin: 35px 0 0 79px;
+  }
+
+  .balance-ways__btn {
+    margin: 55px auto 0 0;
+  }
+
+  .balance-ways__wrapper-content {
+    width: 100%;
+  }
+
+  .balance-ways__wrapper-content-add {
+    width: 100%;
+  }
+
+  .balance-ways__wrapper-content-description {
+    width: 100%;
+  }
+
+  .balance-work__block-wrapper::after {
+    display: none;
+  }
+
+  .balance-work__block-wrapper-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .balance-work__block-wrapper-item:nth-child(1).balance-work__block-wrapper-item:before {
+    display: none;
+  }
+
+  .balance-work__block-wrapper-item:nth-child(2).balance-work__block-wrapper-item:before {
+    display: none;
+  }
+
+  .balance-work__block-wrapper-item:nth-child(1).balance-work__block-wrapper-item {
+    margin: 0 0 30px 0;
+  }
+
+  .balance-work__block-wrapper-item:nth-child(2).balance-work__block-wrapper-item {
+    margin: 0 0 30px 0;
+  }
+
+  .balance-work__block-wrapper-item:nth-child(1).balance-work__block-wrapper-item::after {
+    content: "1";
+    position: absolute;
+    top: 0;
+    left: -80px;
+  }
+
+  .balance-work__block-wrapper-item:nth-child(2).balance-work__block-wrapper-item::after {
+    content: "2";
+    position: absolute;
+    top: 0;
+    left: -80px;
+  }
+
+  .balance-work__block-wrapper-item:nth-child(3).balance-work__block-wrapper-item::after {
+    content: "3";
+    position: absolute;
+    top: 0;
+    left: -80px;
+  }
+
+  .balance-work__block-wrapper-item-text {
+    width: 100%;
+  }
+
+  .alloy-video__block-slider iframe {
+    width: 80%;
+  }
+
+  .hernia-work__block-wrapper {
+    width: 100%;
+    margin: 92px 0 0 0;
+    height: 100%;
+    background: #800705;
+    position: relative;
+    padding: 40px 0 40px 58px;
+  }
+
+  .hernia-work__block-wrapper::after {
+    display: none;
+  }
+
+  .hernia-work__block-wrapper-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .hernia-work__block-wrapper-item:nth-child(1).hernia-work__block-wrapper-item:before,
+  .hernia-work__block-wrapper-item:nth-child(2).hernia-work__block-wrapper-item:before {
+    display: none;
+  }
+
+  .hernia-work__block-wrapper-item:nth-child(1).hernia-work__block-wrapper-item::after {
+    content: "1";
+    position: absolute;
+    top: 0;
+    left: -80px;
+  }
+
+  .hernia-work__block-wrapper-item:nth-child(2).hernia-work__block-wrapper-item::after {
+    content: "2";
+    position: absolute;
+    top: 0;
+    left: -80px;
+  }
+
+  .hernia-work__block-wrapper-item:nth-child(3).hernia-work__block-wrapper-item::after {
+    content: "3";
+    position: absolute;
+    top: 0;
+    left: -80px;
+  }
+
+  .hernia-work__block-wrapper-item:nth-child(1).hernia-work__block-wrapper-item {
+    margin: 0 0 30px 0;
+  }
+
+  .hernia-work__block-wrapper-item:nth-child(2).hernia-work__block-wrapper-item {
+    margin: 0 0 30px 0;
+  }
+
+  .hernia-work__block-wrapper-item-text {
+    width: 100%;
+  }
+
   .season-about__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -16765,6 +17226,196 @@ h6 {
     border-bottom: 4px solid #800705;
   }
 
+  .tires-ways__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .tires-ways__wrapper-add {
+    margin: 35px 0 0 79px;
+  }
+
+  .tires-ways__btn {
+    margin: 35px auto 0 0;
+  }
+
+  .tires-ways__wrapper-content-description {
+    width: 100%;
+  }
+
+  .tires-ways__wrapper-content-add {
+    width: 100%;
+  }
+
+  .tires-header__block-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .tires-header__block-btn {
+    margin: 35px auto 0 0;
+  }
+
+  .tires-header__block-content {
+    width: 100%;
+    height: 100%;
+    background: #800705;
+    padding: 25px 0 25px 25px;
+  }
+
+  .tires-header__block-content-add p {
+    width: 90%;
+  }
+
+  .tires-header__block-content-text {
+    width: 100%;
+  }
+
+  .balance-easy__block-list {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .balance-easy {
+    height: 100%;
+    padding: 0 0 100px 0;
+  }
+
+  .balance-about__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .balance-about__block-content-text {
+    margin: 30px 0 0 0;
+  }
+
+  .balance-about__block-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -35px;
+    width: 35px;
+    height: 100%;
+    background: #800705;
+  }
+
+  .alloy-about__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .alloy-about {
+    height: 100%;
+  }
+
+  .alloy-about__block-banner {
+    width: 100%;
+    height: 100%;
+    background: #800705;
+    position: relative;
+    padding: 40px 0 30px 53px;
+  }
+
+  .alloy-about__block-banner-title {
+    width: 90%;
+  }
+
+  .alloy-about__block-banner-text {
+    width: 90%;
+  }
+
+  .alloy-about__block-btn {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: -105px;
+  }
+
+  .alloy-about__block-add {
+    margin: 90px 0 0 0;
+    width: 100%;
+    height: 100%;
+    background: #1b1b2f;
+    padding: 40px 0 30px 28px;
+  }
+
+  .alloy-about__block-add-items-text {
+    width: 80%;
+  }
+
+  .alloy-about__block-add-items {
+    width: 80%;
+  }
+
+  .hernia-work__about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .hernia-work__about-banner-item {
+    margin: 35px 0 0 79px;
+  }
+
+  .hernia-work__about-text-add {
+    width: 100%;
+  }
+
   .season-easy__block-list {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
@@ -16772,6 +17423,13 @@ h6 {
 
   .header__block-services {
     left: 270px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .error__block {
+    margin: 0 30px;
+    width: 100%;
   }
 }
 
@@ -16940,6 +17598,90 @@ h6 {
 
   .paint-about__block-img {
     height: 100%;
+  }
+
+  .alloy-abouts__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .alloy-abouts__block-content-text {
+    margin: 0 0 0 0;
+  }
+
+  .alloy-easy__block-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .alloy-easy {
+    padding: 0 0 100px 0;
+    height: 100%;
+  }
+
+  .hernia-easy__block-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hernia-easy {
+    height: 100%;
+    padding: 0 0 100px 0;
+  }
+
+  .hernia-about__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .hernia-about__block-content-text {
+    margin: 0;
+  }
+
+  .hernia-about__block-content-text-item {
+    width: 100%;
+  }
+
+  .hernia-about__block-content-add {
+    width: 100%;
+    height: 100%;
+    background: #800705;
+    margin: 60px 0 0 0;
+    padding: 25px 0 25px 25px;
+  }
+
+  .hernia-about__block-content-add::after {
+    height: 100%;
+  }
+
+  .hernia-about__block-content-add p {
+    width: 90%;
   }
 
   .footer__block-title {
@@ -17253,6 +17995,38 @@ h6 {
     padding: 0 0 100px 0;
   }
 
+  .alloy-header {
+    background: url(../img/header-banner.png) no-repeat;
+    background-size: cover;
+  }
+
+  .alloy-header__block-banner {
+    display: none;
+  }
+
+  .alloy-header__block-title {
+    margin: 246px 0 0 0;
+    width: 100%;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .alloy-header__block-quiz {
+    position: absolute;
+    top: 580px;
+    left: 0;
+  }
+
+  .alloy-header__block-add {
+    width: 100%;
+  }
+
   .season-about__block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -17552,6 +18326,125 @@ h6 {
     padding: 0 30px;
   }
 
+  .tires-header .containers,
+  .tires-easy .containers,
+  .tires-list .containers,
+  .tires-ways .containers {
+    padding: 0 30px;
+  }
+
+  .balance-work .containers {
+    padding: 0 30px;
+  }
+
+  .balance-easy .containers {
+    padding: 0 30px;
+  }
+
+  .balance-ways .containers {
+    padding: 0 30px;
+  }
+
+  .balance-header .containers {
+    padding: 0 30px;
+  }
+
+  .balance-about .containers {
+    padding: 0 30px;
+  }
+
+  .alloy-video .containers {
+    padding: 0 30px;
+  }
+
+  .alloy-easy .containers {
+    padding: 0 30px;
+  }
+
+  .alloy-header .containers {
+    padding: 0 30px;
+  }
+
+  .alloy-video__block-description {
+    margin: 115px 0 0 0;
+    width: 79%;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    color: #fff;
+  }
+
+  .alloy-about .containers {
+    padding: 0 30px;
+  }
+
+  .alloy-video__block-slider .swiper-controls {
+    position: relative;
+    bottom: -55px;
+  }
+
+  .alloy-video__block-slider .swiper-button-next {
+    right: auto;
+    left: 80px;
+  }
+
+  .alloy-video__block-slider iframe {
+    width: 100%;
+  }
+
+  .alloy-video__block-text {
+    width: 100%;
+  }
+
+  .alloy-abouts .containers {
+    padding: 0 30px;
+  }
+
+  .hernia-easy .containers {
+    padding: 0 30px;
+  }
+
+  .hernia-work .containers {
+    padding: 0 30px;
+  }
+
+  .hernia-about .containers {
+    padding: 0 30px;
+  }
+
+  .hernia-header .containers {
+    padding: 0 30px;
+  }
+
+  .hernia-header {
+    background: url(../img/header-banner.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hernia-header__block-banner {
+    display: none;
+  }
+
+  .hernia-header__block-title {
+    margin: 246px 0 0 0;
+    width: 100%;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .hernia-header__block-add {
+    width: 100%;
+    font-size: 19px;
+  }
+
   .season-header .containers {
     padding: 0;
   }
@@ -17656,6 +18549,34 @@ h6 {
     background-size: 140%;
     padding: 0 0 100px 0;
   }
+
+  .tires-header {
+    background: url(../img/header-banner.png) no-repeat;
+    background-size: 150%;
+  }
+
+  .tires-header__block-banner {
+    display: none;
+  }
+
+  .balance-header {
+    background: url(../img/header-banner.png) no-repeat;
+    background-size: cover;
+  }
+
+  .balance-header__block-banner {
+    display: none;
+  }
+
+  .balance-header__block-add {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .balance-header__block-title {
+    width: 100%;
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 950px) {
@@ -17690,6 +18611,13 @@ h6 {
     height: 100%;
     padding: 51px 0 30px 76px;
     gap: 30px;
+  }
+}
+
+@media (max-width: 920px) {
+  .error__block-text {
+    text-align: center;
+    width: 80%;
   }
 }
 
@@ -17840,6 +18768,26 @@ h6 {
     background-size: 170%;
     padding: 0 0 100px 0;
   }
+
+  .tires-easy__block-list {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .tires-header {
+    background: url(../img/header-banner.png) no-repeat;
+    background-size: 200%;
+    background-position: 50% 0;
+  }
+
+  .balance-easy__block-list {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .alloy-abouts__wrapper-img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 760px) {
@@ -17989,6 +18937,63 @@ h6 {
     width: 80%;
   }
 
+  .tires-ways__wrapper-add {
+    margin: 35px 0 0 0;
+    width: 100%;
+  }
+
+  .tires-ways__wrapper-add-item {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tires-ways__wrapper-add-bg {
+    width: 100%;
+    background: transparent;
+  }
+
+  .tires-ways__wrapper-add-bg::after {
+    display: none;
+  }
+
+  .balance-ways__wrapper-add-item {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .balance-ways__wrapper-add {
+    margin: 30px 0 0 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .balance-ways__wrapper-add-bg {
+    width: 100%;
+    background: transparent;
+  }
+
+  .balance-ways__wrapper-add-bg::after {
+    display: none;
+  }
+
+  .alloy-easy__block-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hernia-easy__block-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .season-easy__block-list {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
@@ -18071,6 +19076,112 @@ h6 {
 
   .polishing-header {
     margin: 0 0 55px 0;
+  }
+
+  .balance-ways__slider-item {
+    width: 100%;
+  }
+
+  .balance-about__block-img {
+    width: 90%;
+  }
+
+  .balance-about__block-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .balance-about__block-content-text-title {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .alloy-abouts__wrappers-list {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .alloy-abouts__wrappers-item-img {
+    width: 100%;
+    height: 300px;
+    background: #737373;
+  }
+
+  .alloy-abouts__wrappers-item {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .alloy-abouts__block-img {
+    width: 100%;
+  }
+
+  .alloy-abouts__block-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .alloy-abouts__block-content-text-title {
+    height: 100%;
+    line-height: 37px;
+  }
+
+  .hernia-work__about-banner-item {
+    margin: 35px 0 0 0;
+    width: 100%;
+    background: transparent;
+  }
+
+  .hernia-work__about-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hernia-work__about-banner-btn {
+    margin: 59px auto 0 0;
+  }
+
+  .hernia-work__about-banner-item::after {
+    display: none;
+  }
+
+  .hernia-work__about-banner-items {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hernia-about__block-img {
+    width: 100%;
+  }
+
+  .hernia-about__block-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hernia-about__block-content-add-btn {
+    width: 232px;
+    height: 68px;
+    border: 3px solid #fff;
+    z-index: 2;
+    background: 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: -100px;
+    right: auto;
+    left: 0;
+    padding: 0 0 0 27px;
   }
 
   .season-header__block-title {
@@ -18359,6 +19470,23 @@ h6 {
     padding: 0 0 100px 0;
     background-position: 50% 0;
   }
+
+  .tires-header {
+    background: url(../img/header-banner.png) no-repeat;
+    background-size: 270%;
+    background-position: 50% 0;
+  }
+
+  .error__block-text {
+    margin: 59px 0 74px 0;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 131%;
+    color: #fff;
+    text-shadow: 0 4px 6px rgba(0,0,0,.25);
+  }
 }
 
 @media (max-width: 550px) {
@@ -18406,6 +19534,59 @@ h6 {
 
   .polishing-header__block-quiz-item {
     width: 100%;
+  }
+
+  .tires-header__block-title {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .tires-header__block-description {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .alloy-header__block-title {
+    margin: 165px 0 0 0;
+    width: 100%;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .alloy-header__block-quiz {
+    position: absolute;
+    top: 520px;
+    left: 0;
+  }
+
+  .alloy-header__block-quiz-block {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+
+  .alloy-header__block-quiz-item {
+    width: 100%;
+  }
+
+  .error__block-text {
+    margin: 59px 0 74px 0;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 131%;
+    color: #fff;
+    text-shadow: 0 4px 6px rgba(0,0,0,.25);
   }
 }
 
@@ -18505,6 +19686,17 @@ h6 {
     font-size: 30px;
     line-height: 29px;
     color: #fff;
+  }
+
+  .balance-about__block-content-add {
+    width: 100%;
+    height: 100%;
+    padding: 25px 0 25px 25px;
+  }
+
+  .balance-about__block-content-add p {
+    height: 100%;
+    width: 85%;
   }
 
   .footer__block-title p {

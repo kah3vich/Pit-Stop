@@ -1,0 +1,284 @@
+@media (max-width: 1440px) {
+    .alloy-list {
+        display: none;
+    }
+    .alloy-video__block-description {
+        margin: 55px 0 0 120px;
+        width: 79%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 29px;
+        color: #fff;
+    }
+    .alloy-easy__block-item-icons {
+        top: -35px;
+    }
+}
+@media (max-width: 1390px) {
+    .alloy-abouts__block-content {
+        width: 100%;
+    }
+    .alloy-abouts__block-content-text-item {
+        width: 100%;
+    }
+    .alloy-abouts__block-content-add {
+        width: 100%;
+        height: 100%;
+        background: #800705;
+        margin: 40px 0 0 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding: 28px 0 25px 25px;
+    }
+    .alloy-abouts__block-content-add::after {
+        height: 100%;
+    }
+    .alloy-abouts__block-content-add p {
+        width: 90%;
+    }
+    .alloy-abouts__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .alloy-abouts__wrapper-img {
+        margin: 0 0 30px 0;
+    }
+    .alloy-abouts__wrapper-text-title {
+        width: 100%;
+    }
+    .alloy-abouts__wrapper-text-description {
+        width: 100%;
+    }
+    .alloy-abouts__wrappers-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 0;
+        width: 100%;
+    }
+    .alloy-abouts__wrappers-item {
+        align-items: center;
+    }
+    .alloy-abouts__wrappers-title {
+        width: 100%;
+    }
+}
+@media (max-width: 1350px) {
+    .alloy-video__block-slider {
+        & iframe {
+            width: 80%;
+        }
+    }
+}
+@media (max-width: 1300px) {
+    .alloy-about__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .alloy-about {
+        height: 100%;
+    }
+    .alloy-about__block-banner {
+        width: 100%;
+        height: 100%;
+        background: #800705;
+        position: relative;
+        padding: 40px 0 30px 53px;
+    }
+    .alloy-about__block-banner-title {
+        width: 90%;
+    }
+    .alloy-about__block-banner-text {
+        width: 90%;
+    }
+    .alloy-about__block-btn {
+        top: auto;
+        right: auto;
+        left: 0;
+        bottom: -105px;
+    }
+    .alloy-about__block-add {
+        margin: 90px 0 0 0;
+        width: 100%;
+        height: 100%;
+        background: #1b1b2f;
+        padding: 40px 0 30px 28px;
+    }
+    .alloy-about__block-add-items-text {
+        width: 80%;
+    }
+    .alloy-about__block-add-items {
+        width: 80%;
+    }
+}
+@media (max-width: 1250px) {
+    .alloy-abouts__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .alloy-abouts__block-content-text {
+        margin: 0 0 0 0;
+    }
+    .alloy-easy__block-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .alloy-easy {
+        padding: 0 0 100px 0;
+        height: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .alloy-header {
+        background: url(../img/header-banner.png) no-repeat;
+        background-size: cover;
+    }
+    .alloy-header__block-banner {
+        display: none;
+    }
+    .alloy-header__block-title {
+        margin: 246px 0 0 0;
+        width: 100%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 77px;
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 1;
+    } 
+    .alloy-header__block-quiz {
+        position: absolute;
+        top: 580px;
+        left: 0;
+    }
+    .alloy-header__block-add {
+        width: 100%;
+    }
+}
+@media (max-width: 1100px) {
+    .alloy-video .containers {
+        padding: 0 30px;
+    }
+    .alloy-easy .containers {
+        padding: 0 30px;
+    }
+    .alloy-header .containers {
+        padding: 0 30px;
+    }
+    .alloy-video__block-description {
+        margin: 115px 0 0 0;
+        width: 79%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 29px;
+        color: #fff;
+    }
+    .alloy-about .containers {
+        padding: 0 30px;
+    }
+    .alloy-video__block-slider .swiper-controls {
+        position: relative;
+        bottom: -55px;
+    }
+    .alloy-video__block-slider .swiper-button-next {
+        right: auto;
+        left: 80px;
+    }
+    .alloy-video__block-slider {
+        & iframe {
+            width: 100%;
+        }
+    }
+    .alloy-video__block-text {
+        width: 100%;
+    }
+    .alloy-abouts .containers {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 800px) {
+    .alloy-abouts__wrapper-img {
+        width: 100%;
+    }
+}
+@media (max-width: 750px) {
+    .alloy-easy__block-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .alloy-abouts__wrappers-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .alloy-abouts__wrappers-item-img {
+        width: 100%;
+        height: 300px;
+        background: #737373;
+    }
+    .alloy-abouts__wrappers-item {
+        align-items: flex-start;
+    }
+    .alloy-abouts__block-img {
+        width: 100%;
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .alloy-abouts__block-content-text-title {
+        height: 100%;
+        line-height: 37px;
+    }
+}
+@media (max-width: 550px) {
+    .alloy-header__block-title {
+        margin: 165px 0 0 0;
+        width: 100%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 1;
+    }
+    .alloy-header__block-quiz {
+        position: absolute;
+        top: 520px;
+        left: 0;
+    }
+    .alloy-header__block-quiz-block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+    .alloy-header__block-quiz-item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,204 @@
+@media (max-width: 1440px) {
+    .hernia-process,
+    .hernia-list {
+        display: none;
+    }
+
+
+    .hernia-easy__block-item-icons {
+        top: -35px;
+    }
+}
+@media (max-width: 1350px) {
+    .hernia-work__block-wrapper {
+        width: 100%;
+        margin: 92px 0 0 0;
+        height: 100%;
+        background: #800705;
+        position: relative;
+        padding: 40px 0 40px 58px;
+    }
+    .hernia-work__block-wrapper::after {
+        display: none;
+    }
+    .hernia-work__block-wrapper-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .hernia-work__block-wrapper-item:nth-child(1).hernia-work__block-wrapper-item:before,
+    .hernia-work__block-wrapper-item:nth-child(2).hernia-work__block-wrapper-item:before {
+        display: none;
+    }
+    .hernia-work__block-wrapper-item:nth-child(1).hernia-work__block-wrapper-item::after {
+        content: "1";
+        position: absolute;
+        top: 0;
+        left: -80px;
+    }
+    .hernia-work__block-wrapper-item:nth-child(2).hernia-work__block-wrapper-item::after {
+        content: "2";
+        position: absolute;
+        top: 0;
+        left: -80px;
+    }
+    .hernia-work__block-wrapper-item:nth-child(3).hernia-work__block-wrapper-item::after {
+        content: "3";
+        position: absolute;
+        top: 0;
+        left: -80px;
+    }
+    .hernia-work__block-wrapper-item:nth-child(1).hernia-work__block-wrapper-item {
+        margin: 0 0 30px 0;
+    }
+    .hernia-work__block-wrapper-item:nth-child(2).hernia-work__block-wrapper-item {
+        margin: 0 0 30px 0;
+    }
+    .hernia-work__block-wrapper-item-text {
+        width: 100%;
+    }
+}
+@media (max-width: 1300px) {
+    .hernia-work__about {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .hernia-work__about-banner-item {
+        margin: 35px 0 0 79px;
+    }
+    .hernia-work__about-text-add {
+        width: 100%;
+    }
+}
+@media (max-width: 1250px) {
+    .hernia-easy__block-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hernia-easy {
+        height: 100%;
+        padding: 0 0 100px 0;
+    }
+    .hernia-about__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .hernia-about__block-content-text {
+        margin: 0;
+    }
+    .hernia-about__block-content-text-item {
+        width: 100%;
+    }
+    .hernia-about__block-content-add {
+        width: 100%;
+        height: 100%;
+        background: #800705;
+        margin: 60px 0 0 0;
+        padding: 25px 0 25px 25px;
+    }
+    .hernia-about__block-content-add::after {
+        height: 100%;
+    }
+    .hernia-about__block-content-add p {
+        width: 90%;
+    }
+}
+@media (max-width: 1100px) {
+    .hernia-easy .containers {
+        padding: 0 30px;
+    }
+    .hernia-work .containers {
+        padding: 0 30px;
+    }
+    .hernia-about .containers {
+        padding: 0 30px;
+    }
+    .hernia-header .containers {
+        padding: 0 30px;
+    }
+    .hernia-header {
+        background: url(../img/header-banner.png) no-repeat;
+        background-size: cover;
+    }
+    .hernia-header__block-banner {
+        display: none;
+    }
+    .hernia-header__block-title {
+        margin: 246px 0 0 0;
+        width: 100%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 1;
+    }
+    .hernia-header__block-add {
+        width: 100%;
+        font-size: 19px;
+    }
+}
+@media (max-width: 750px) {
+    .hernia-easy__block-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .hernia-work__about-banner-item {
+        margin: 35px 0 0 0;
+        width: 100%;
+        background: transparent;
+    }
+    .hernia-work__about-banner {
+        width: 100%;
+        height: 100%;
+    }
+    .hernia-work__about-banner-btn {
+        margin: 59px auto 0 0;
+    }
+    .hernia-work__about-banner-item::after {
+        display: none;
+    }
+    .hernia-work__about-banner-items {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .hernia-about__block-img {
+        width: 100%;
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .hernia-about__block-content-add-btn {
+        width: 232px;
+        height: 68px;
+        border: 3px solid #fff;
+        z-index: 2;
+        background: 0 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: -100px;
+        right: auto;
+        left: 0;
+        padding: 0 0 0 27px;
+    }
+}

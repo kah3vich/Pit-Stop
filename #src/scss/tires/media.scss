@@ -1,0 +1,141 @@
+@media (max-width: 1440px) {
+    .tires-list {
+        display: none;
+    }
+    .tires-easy__block-item-icons {
+        top: -35px;
+    }
+    .tires-header__block-add {
+        width: 100%;
+    }
+    .tires-header__block-wrapper {
+        width: 100%;
+    }
+    .tires-header__block-add-item-wrapper {
+        width: 80%;
+    }
+    .tires-header__block-add-item-block {
+        width: 100%;
+    }
+    .tires-header__block-add {
+        width: 100%;
+        height: 100%;
+        padding: 51px 0 25px 28px;
+    }
+}
+@media (max-width: 1350px) {
+    .tires-easy__block-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tires-easy {
+        height: 100%;
+        padding: 0 0 100px 0;
+    }
+}
+@media (max-width: 1300px) {
+    .tires-ways__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .tires-ways__wrapper-add {
+        margin: 35px 0 0 79px;
+    }
+    .tires-ways__btn {
+        margin: 35px auto 0 0;
+    }
+    .tires-ways__wrapper-content-description {
+        width: 100%;
+    }
+    .tires-ways__wrapper-content-add {
+        width: 100%;
+    }
+    .tires-header__block-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .tires-header__block-btn {
+        margin: 35px auto 0 0;
+    }
+    .tires-header__block-content {
+        width: 100%;
+        height: 100%;
+        background: #800705;
+        padding: 25px 0 25px 25px;
+    }
+    .tires-header__block-content-add p {
+        width: 90%;
+    }
+    .tires-header__block-content-text {
+        width: 100%;
+    }
+}
+@media (max-width: 1100px) {
+    .tires-header,
+    .tires-easy,
+    .tires-list,
+    .tires-ways {
+        & .containers {
+            padding: 0 30px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .tires-header {
+        background: url(../img/header-banner.png) no-repeat;
+        background-size: 150%;
+    }
+    .tires-header__block-banner {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .tires-easy__block-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tires-header {
+        background: url(../img/header-banner.png) no-repeat;
+        background-size: 200%;
+        background-position: 50% 0;
+    }
+}
+@media (max-width: 750px) {
+    .tires-ways__wrapper-add {
+        margin: 35px 0 0 0;
+        width: 100%;
+    }
+    .tires-ways__wrapper-add-item {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .tires-ways__wrapper-add-bg {
+        width: 100%;
+        background: transparent;
+    }
+    .tires-ways__wrapper-add-bg::after {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .tires-header {
+        background: url(../img/header-banner.png) no-repeat;
+        background-size: 270%;
+        background-position: 50% 0;
+    }
+}
+@media (max-width: 550px) {
+    .tires-header__block-title {
+        width: 100%;
+        font-size: 30px;
+    }
+    .tires-header__block-description {
+        width: 100%;
+        font-size: 22px;
+    }
+}

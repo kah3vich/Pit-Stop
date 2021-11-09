@@ -1,0 +1,36 @@
+@media (max-width: 1270px) {
+    .error__block {
+        margin: 0 30px;
+        width: 100%;
+    }
+}
+@media (max-width: 920px) {
+    .error__block-text {
+        text-align: center;
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .error__block-text {
+        margin: 59px 0 74px 0;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 131%;
+        color: #fff;
+        text-shadow: 0 4px 6px rgb(0 0 0 / 25%);
+    }
+}
+@media (max-width: 550px) {
+    .error__block-text {
+        margin: 59px 0 74px 0;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 131%;
+        color: #fff;
+        text-shadow: 0 4px 6px rgb(0 0 0 / 25%);
+    }
+}
