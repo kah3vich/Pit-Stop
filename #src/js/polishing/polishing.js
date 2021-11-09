@@ -68,4 +68,18 @@ var polishingSlider = new Swiper(".polishingSlider", {
     slidesPerView: 3,
     spaceBetween: 12,
     keyboard: true,
+    breakpoints: {
+        1400: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 12
+        },
+        760: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        },
+    }
 });
