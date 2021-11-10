@@ -1,0 +1,189 @@
+@media (max-width: 1440px) {
+    .conditioner-easy__block-item-icons {
+        top: -35px;
+    }
+}
+@media (max-width: 1300px) {
+    .conditioner-abouts__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .conditioner-easy {
+        height: 100%;
+        padding: 0 0 100px 0;
+    }
+    .conditioner-abouts__block-content-add {
+        width: 100%;
+        height: 100%;
+        background: #800705;
+        margin: 53px 0 0 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding: 25px 45px 25px 25px;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+        color: #fff;
+    }
+    .conditioner-abouts__block-content-add::after {
+        height: 100%;
+    }
+    .conditioner-abouts__block-content-text {
+        margin: 0;
+        width: 100%;
+    }
+    .conditioner-abouts__block-content-text-item {
+        width: 100%;
+    }
+    .conditioner-easy__block-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .conditioner-about__block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .conditioner-about__block-content-text {
+        width: 100%;
+        margin: 0;
+    }
+    .conditioner-about__block-content-text-item {
+        width: 100%;
+    }
+    .conditioner-about__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .conditioner-about__wrapper-banner {
+        margin: 35px 0 0 79px;
+    }
+}
+@media (max-width: 1100px) {
+    .conditioner-header,
+    .conditioner-about,
+    .conditioner-easy,
+    .conditioner-abouts {
+        & .containers {
+            padding: 0 30px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .conditioner-header {
+        background: url(../img/header-banner.png) no-repeat;
+        background-size: cover;
+    }
+    .conditioner-header__block-banner {
+        display: none;
+    }
+    .conditioner-header__block-title {
+        margin: 246px 0 0 0;
+        width: 100%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 1;
+    }
+    .conditioner-header__block-add {
+        margin: 59px 0 0 0;
+        width: 100%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 131%;
+        color: #fff;
+        z-index: 2;
+        text-shadow: 0 4px 6px rgb(0 0 0 / 25%);
+    }
+}
+@media (max-width: 800px) {
+    .conditioner-easy__block-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .conditioner-abouts__block-img {
+        width: 100%;
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .conditioner-header__block-title {
+        margin: 246px 0 0 0;
+        width: 100%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 1;
+    }
+    .conditioner-about__block-img {
+        width: 100%;
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .conditioner-about__wrapper-banner {
+        margin: 35px 0 0 0;
+        width: 100%;
+    }
+    .conditioner-about__wrapper-banner-item {
+        width: 100%;
+        background: transparent;
+    }
+    .conditioner-about__wrapper-banner-item::after {
+        display: none;
+    }
+    .conditioner-about__wrapper-banner-items {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .conditioner-about__wrapper-banner-btn {
+        margin: 59px auto 0 0;
+    }
+    .conditioner-about__wrapper-text-add {
+        width: 100%;
+    }
+    .conditioner-about__wrapper-text {
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .conditioner-header__block-title {
+        font-size: 25px;
+    }
+}
