@@ -333,15 +333,75 @@ $('#indexExampleTabsElement-5').on('click', function() {
 //! Slider 
 
 
-var indexSliderCars = new Swiper(".indexSliderCars", {
+var indexSliderCars_1 = new Swiper(".indexSliderCars-1", {
     slidesPerView: 4,
     spaceBetween: 16,
     navigation: {
-        nextEl: ".ind-slider__block-slider .swiper-controls .swiper-button-next",
-        prevEl: ".ind-slider__block-slider .swiper-controls .swiper-button-prev",
+        nextEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-1 .swiper-button-next",
+        prevEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-1 .swiper-button-prev",
     },
     pagination: {
-        el: ".ind-slider__block-slider .swiper-controls .swiper-pagination",
+        el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-1 .swiper-pagination",
+    },
+    keyboard: true,
+    breakpoints: {
+        1435: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        1125: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        700: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
+});
+var indexSliderCars_2 = new Swiper(".indexSliderCars-2", {
+    slidesPerView: 4,
+    spaceBetween: 16,
+    navigation: {
+        nextEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-2 .swiper-button-next",
+        prevEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-2 .swiper-button-prev",
+    },
+    pagination: {
+        el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-2 .swiper-pagination",
+    },
+    keyboard: true,
+    breakpoints: {
+        1435: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        1125: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        700: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
+});
+var indexSliderCars_3 = new Swiper(".indexSliderCars-3", {
+    slidesPerView: 4,
+    spaceBetween: 16,
+    navigation: {
+        nextEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-3 .swiper-button-next",
+        prevEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-3 .swiper-button-prev",
+    },
+    pagination: {
+        el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-3 .swiper-pagination",
     },
     keyboard: true,
     breakpoints: {
@@ -364,41 +424,7 @@ var indexSliderCars = new Swiper(".indexSliderCars", {
     }
 });
 
-$('#headerSliderTabsElement-1').on('click', function() {
-    $('#headerSliderTabsElement-1').addClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-2').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-3').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-4').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-5').removeClass('ind-slider__block-tabs-item-active')
-});
-$('#headerSliderTabsElement-2').on('click', function() {
-    $('#headerSliderTabsElement-2').addClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-1').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-3').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-4').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-5').removeClass('ind-slider__block-tabs-item-active')
-});
-$('#headerSliderTabsElement-3').on('click', function() {
-    $('#headerSliderTabsElement-3').addClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-2').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-1').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-4').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-5').removeClass('ind-slider__block-tabs-item-active')
-});
-$('#headerSliderTabsElement-4').on('click', function() {
-    $('#headerSliderTabsElement-4').addClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-2').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-3').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-1').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-5').removeClass('ind-slider__block-tabs-item-active')
-});
-$('#headerSliderTabsElement-5').on('click', function() {
-    $('#headerSliderTabsElement-5').addClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-2').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-3').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-4').removeClass('ind-slider__block-tabs-item-active')
-    $('#headerSliderTabsElement-1').removeClass('ind-slider__block-tabs-item-active')
-});
+
 
 
 //! ---------------------------------------------------------------------------------
@@ -497,3 +523,112 @@ window.addEventListener('scroll', function() {
         $('header').css('background', 'transparent')
     }
 });
+
+
+
+$('#menuOpen').on('click', function() {
+    $('.menu').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+});
+$('#menuClose').on('click', function() {
+    $('.menu').addClass('display-n')
+    $('body').css('overflow', 'hidden')
+});
+
+
+
+
+$('#headerSliderTabsElement-1').on('click', function() {
+    $('#headerSliderTabsElement-1').addClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsElement-2').removeClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsElement-3').removeClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsSlider-1').removeClass('display-n')
+    $('#headerSliderTabsSlider-2').addClass('display-n')
+    $('#headerSliderTabsSlider-3').addClass('display-n')
+    headerSliderTabsCheck_1()
+});
+$('#headerSliderTabsElement-2').on('click', function() {
+    $('#headerSliderTabsElement-2').addClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsElement-1').removeClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsElement-3').removeClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsSlider-2').removeClass('display-n')
+    $('#headerSliderTabsSlider-1').addClass('display-n')
+    $('#headerSliderTabsSlider-3').addClass('display-n')
+    headerSliderTabsCheck_2()
+});
+$('#headerSliderTabsElement-3').on('click', function() {
+    $('#headerSliderTabsElement-3').addClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsElement-2').removeClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsElement-1').removeClass('ind-slider__block-tabs-item-active')
+    $('#headerSliderTabsSlider-3').removeClass('display-n')
+    $('#headerSliderTabsSlider-2').addClass('display-n')
+    $('#headerSliderTabsSlider-1').addClass('display-n')
+    headerSliderTabsCheck_3()
+});
+
+function headerSliderTabsCheck_1() {
+    let headerSliderTabsSlider_1 = $('#headerSliderTabsSlider-1 .swiper-slide').length
+    if (headerSliderTabsSlider_1 >= 5) {
+        $('#headerSliderTabsControlsSlider-1').removeClass('display-n')
+        $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-3').addClass('display-n')
+    } else {
+        $('#headerSliderTabsControlsSlider-1').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-3').addClass('display-n')
+    }
+}
+function headerSliderTabsCheck_2() {
+    let headerSliderTabsSlider_2 = $('#headerSliderTabsSlider-2 .swiper-slide').length
+    if (headerSliderTabsSlider_2 >= 5) {
+        $('#headerSliderTabsControlsSlider-2').removeClass('display-n')
+        $('#headerSliderTabsControlsSlider-1').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-3').addClass('display-n')
+    } else {
+        $('#headerSliderTabsControlsSlider-1').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-3').addClass('display-n')
+    }
+}
+function headerSliderTabsCheck_3() {
+    let headerSliderTabsSlider_3 = $('#headerSliderTabsSlider-3 .swiper-slide').length
+    if (headerSliderTabsSlider_3 >= 5) {
+        $('#headerSliderTabsControlsSlider-3').removeClass('display-n')
+        $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-1').addClass('display-n')
+    } else {
+        $('#headerSliderTabsControlsSlider-1').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-3').addClass('display-n')
+    }
+}
+
+
+
+
+$(function() {
+    $('#remove').css('display', 'none')
+    $('#remove').after('<div class="remove-select-item"><div class="remove-select-placeholder">Нет</div><div id="removePriceSelect" class="remove-select-wrapper display-n"></div></div>')
+    let count = $('#remove').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#remove').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("remove-select-element")
+        newElementBlock.id = `remove-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("removePriceSelect").appendChild(newElementBlock);
+        $(`#remove-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#remove-select-element-0').css('display', 'none')
+    $('.remove-select-item').on('click', function() {
+        $('.remove-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('remove-select-item-active')
+    })
+    $(".remove-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.remove-select-placeholder').html(valueElement)
+        $('#remove option:nth-child(1)').val(valueElement)
+        $('#remove option:nth-child(1)').html(valueElement)
+    })
+})

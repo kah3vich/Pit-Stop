@@ -70,13 +70,11 @@
                 .ind-slider__block-add 002
                 .ind-slider__block-title Шиномонтаж и покраска дисков  Пит-Стоп
                 ul.ind-slider__block-tabs
-                    li#headerSliderTabsElement-1.ind-slider__block-tabs-item.ind-slider__block-tabs-item-active Ремонт
-                    li#headerSliderTabsElement-2.ind-slider__block-tabs-item Покраска
-                    li#headerSliderTabsElement-3.ind-slider__block-tabs-item Шиномонтаж
-                    li#headerSliderTabsElement-4.ind-slider__block-tabs-item Балансировка
-                    li#headerSliderTabsElement-5.ind-slider__block-tabs-item Ремонт
-                .ind-slider__block-slider 
-                    .swiper.indexSliderCars
+                    li#headerSliderTabsElement-1.ind-slider__block-tabs-item.ind-slider__block-tabs-item-active Покраска
+                    li#headerSliderTabsElement-2.ind-slider__block-tabs-item Шиномонтаж
+                    li#headerSliderTabsElement-3.ind-slider__block-tabs-item Другие услуги
+                .ind-slider__block-slider#headerSliderTabsSlider-1
+                    .swiper.indexSliderCars-1
                         .swiper-wrapper
                             .swiper-slide 
                                 .ind-slider__block-slider-item
@@ -84,6 +82,7 @@
                                         img(src="./img/slider-1.png", alt="img")
                                     .ind-slider__block-slider-item-text 
                                         .ind-slider__block-slider-item-title Покраска дисков
+                                        .ind-slider__block-slider-item-text Порошковая покраска дисков за 1 день на собственном оборудовании
                                         a(href="#", class="ind-slider__block-slider-item-link") 
                                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
@@ -93,7 +92,8 @@
                                     .ind-slider__block-slider-item-img 
                                         img(src="./img/slider-2.png", alt="img")
                                     .ind-slider__block-slider-item-text 
-                                        .ind-slider__block-slider-item-title Покраска дисков
+                                        .ind-slider__block-slider-item-title Покраска изделий
+                                        .ind-slider__block-slider-item-text Порошковая покраска изделий и деталей
                                         a(href="#", class="ind-slider__block-slider-item-link") 
                                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
@@ -103,17 +103,28 @@
                                     .ind-slider__block-slider-item-img 
                                         img(src="./img/slider-3.png", alt="img")
                                     .ind-slider__block-slider-item-text 
-                                        .ind-slider__block-slider-item-title Покраска дисков
+                                        .ind-slider__block-slider-item-title Алмазная шлифовка
+                                        .ind-slider__block-slider-item-text Алмазная шлифовка дисков с порошковой покраской
                                         a(href="#", class="ind-slider__block-slider-item-link") 
                                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
                                             </svg>
+                    .swiper-controls.display-n#headerSliderTabsControlsSlider-1
+                        .swiper-button-next
+                            .swiper-button-next-arrow
+                        .swiper-button-prev
+                            .swiper-button-prev-arrow
+                        .swiper-pagination
+                .ind-slider__block-slider.display-n#headerSliderTabsSlider-2
+                    .swiper.indexSliderCars-2
+                        .swiper-wrapper
                             .swiper-slide 
                                 .ind-slider__block-slider-item
                                     .ind-slider__block-slider-item-img 
                                         img(src="./img/slider-4.png", alt="img")
                                     .ind-slider__block-slider-item-text 
-                                        .ind-slider__block-slider-item-title Покраска дисков
+                                        .ind-slider__block-slider-item-title Ремонт дисков
+                                        .ind-slider__block-slider-item-text Ремонтируем литые и штампованные автомобильные диски
                                         a(href="#", class="ind-slider__block-slider-item-link") 
                                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
@@ -121,9 +132,10 @@
                             .swiper-slide 
                                 .ind-slider__block-slider-item
                                     .ind-slider__block-slider-item-img 
-                                        img(src="./img/slider-1.png", alt="img")
+                                        img(src="./img/slider-5.png", alt="img")
                                     .ind-slider__block-slider-item-text 
-                                        .ind-slider__block-slider-item-title Покраска дисков
+                                        .ind-slider__block-slider-item-title Балансировка колес
+                                        .ind-slider__block-slider-item-text Балансировка колес на современном оборудовании
                                         a(href="#", class="ind-slider__block-slider-item-link") 
                                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
@@ -131,14 +143,79 @@
                             .swiper-slide 
                                 .ind-slider__block-slider-item
                                     .ind-slider__block-slider-item-img 
-                                        img(src="./img/slider-2.png", alt="img")
+                                        img(src="./img/slider-6.png", alt="img")
                                     .ind-slider__block-slider-item-text 
-                                        .ind-slider__block-slider-item-title Покраска дисков
+                                        .ind-slider__block-slider-item-title Вулканизация шин
+                                        .ind-slider__block-slider-item-text Недорогая и быстрая вулканизация шин с пожизненной гарантией
                                         a(href="#", class="ind-slider__block-slider-item-link") 
                                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
                                             </svg>
-                    .swiper-controls 
+                            .swiper-slide 
+                                .ind-slider__block-slider-item
+                                    .ind-slider__block-slider-item-img 
+                                        img(src="./img/slider-7.png", alt="img")
+                                    .ind-slider__block-slider-item-text 
+                                        .ind-slider__block-slider-item-title Ремонт боковых порезов
+                                        .ind-slider__block-slider-item-text Качественный и быстрый ремонт автомобильных кондиционеров
+                                        a(href="#", class="ind-slider__block-slider-item-link") 
+                                            <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
+                                            </svg>
+                            .swiper-slide 
+                                .ind-slider__block-slider-item
+                                    .ind-slider__block-slider-item-img 
+                                        img(src="./img/slider-8.png", alt="img")
+                                    .ind-slider__block-slider-item-text 
+                                        .ind-slider__block-slider-item-title Аргонная сварка
+                                        .ind-slider__block-slider-item-text Сварка любых металлических деталей
+                                        a(href="#", class="ind-slider__block-slider-item-link") 
+                                            <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
+                                            </svg>
+                    .swiper-controls.display-n#headerSliderTabsControlsSlider-2
+                        .swiper-button-next
+                            .swiper-button-next-arrow
+                        .swiper-button-prev
+                            .swiper-button-prev-arrow
+                        .swiper-pagination
+                .ind-slider__block-slider.display-n#headerSliderTabsSlider-3
+                    .swiper.indexSliderCars-3
+                        .swiper-wrapper
+                            .swiper-slide 
+                                .ind-slider__block-slider-item
+                                    .ind-slider__block-slider-item-img 
+                                        img(src="./img/slider-9.png", alt="img")
+                                    .ind-slider__block-slider-item-text 
+                                        .ind-slider__block-slider-item-title Хранение шин
+                                        .ind-slider__block-slider-item-text Надежное хранение шин в специально оборудованных складах
+                                        a(href="#", class="ind-slider__block-slider-item-link") 
+                                            <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
+                                            </svg>
+                            .swiper-slide 
+                                .ind-slider__block-slider-item
+                                    .ind-slider__block-slider-item-img 
+                                        img(src="./img/slider-10.png", alt="img")
+                                    .ind-slider__block-slider-item-text 
+                                        .ind-slider__block-slider-item-title Заправка автокондиционеров
+                                        .ind-slider__block-slider-item-text Качественная заправка автокондиционера на итальянском оборудовании
+                                        a(href="#", class="ind-slider__block-slider-item-link") 
+                                            <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
+                                            </svg>
+                            .swiper-slide 
+                                .ind-slider__block-slider-item
+                                    .ind-slider__block-slider-item-img 
+                                        img(src="./img/slider-11.png", alt="img")
+                                    .ind-slider__block-slider-item-text 
+                                        .ind-slider__block-slider-item-title Ремонт автокондиционеров
+                                        .ind-slider__block-slider-item-text Недорогая и быстрая вулканизация шин с пожизненной гарантией
+                                        a(href="#", class="ind-slider__block-slider-item-link") 
+                                            <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.5978 0V2.38704H13.5932L0 14.3474L1.82215 16.0303L15.4154 4.0699V14.2248H18V0H2.5978Z" fill="white"/>
+                                            </svg>
+                    .swiper-controls.display-n#headerSliderTabsControlsSlider-3
                         .swiper-button-next
                             .swiper-button-next-arrow
                         .swiper-button-prev
@@ -168,49 +245,63 @@
                         label(class="ind-price__block-dye-radio__label" for="radio_3") Алмазная шлифовка
                 .ind-price__block-adds 
                     select#type
+                        option(value="")
                         option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
+                        option(value="Штампованный") Штампованный
                     select#count
-                        option(value="1") 1
+                        option(value="")
                         option(value="1") 1
                         option(value="2") 2
                         option(value="3") 3
                         option(value="4") 4
                         option(value="5") 5
-                        option(value="6") 6
-                        option(value="7") 7
-                        option(value="8") 8
-                        option(value="9") 9
-                        option(value="10") 10
-                        option(value="11") 11
                     select#radios
+                        option(value="")
                         option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
+                        option(value="R14") R14
+                        option(value="R15") R15
+                        option(value="R16") R16
+                        option(value="R17") R17
+                        option(value="R18") R18
+                        option(value="R19") R19
+                        option(value="R20") R20
+                        option(value="R21") R21
+                        option(value="R22") R22
+                        option(value="R23") R23
+                        option(value="R24") R24
                 .ind-price__block-plus
                     a(href="#") Дополнительные работы 
+                .ind-price__block-catalog   
+                    .ind-price__block-catalog-checkbox 
+                        .ind-price__block-catalog-checkbox-item 
+                            .ind-price__block-catalog-checkbox-title Покрытие лаком
+                            .ind-price__block-catalog-checkbox-price 700 ₽
+                            .ind-price__block-catalog-checkbox-block
+                                input(type="checkbox" class="ind-price__block-catalog-checkbox-block-checkbox" id="indexPriceCheckbox-1")
+                                label(for="indexPriceCheckbox-1")
+                        .ind-price__block-catalog-checkbox-item 
+                            .ind-price__block-catalog-checkbox-title Покраска канта диска
+                            .ind-price__block-catalog-checkbox-price 1 750 ₽
+                            .ind-price__block-catalog-checkbox-block
+                                input(type="checkbox" class="ind-price__block-catalog-checkbox-block-checkbox" id="indexPriceCheckbox-2")
+                                label(for="indexPriceCheckbox-2")
+                    .ind-price__block-catalog-select 
+                        .ind-price__block-catalog-select-item 
+                            .ind-price__block-catalog-select-title 
+                            .ind-price__block-catalog-select-price 
+                            .ind-price__block-catalog-select-block 
+                                select#remove
+                                    option(value="Нет") Нет
+                                    option(value="Нет") Нет
+                                    option(value="2") 2
+                                    option(value="3") 3
+                                    option(value="4") 4
+                                    option(value="5") 5
                 .ind-price__block-banner 
                     h3 Итого:
                     p 4690₽
+                    button.ind-price__block-banner-btn 
+                        a(href="#") Заказать
 
     section.ind-abouts 
         .containers 
@@ -332,31 +423,7 @@
                         img(src="./img/examples-6.png", alt="img")
                     li.ind-examples__block-catalog-item 
                         img(src="./img/examples-7.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-8.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-9.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-10.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-11.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-12.png", alt="img")
                 ul.ind-examples__block-catalog.display-n#indexExampleTabsBlock-3
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-1.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-2.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-3.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-4.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-5.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-6.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-7.png", alt="img")
                     li.ind-examples__block-catalog-item 
                         img(src="./img/examples-8.png", alt="img")
                     li.ind-examples__block-catalog-item 
@@ -369,55 +436,14 @@
                         img(src="./img/examples-12.png", alt="img")
                 ul.ind-examples__block-catalog.display-n#indexExampleTabsBlock-4
                     li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-1.png", alt="img")
+                        img(src="./img/examples-13.png", alt="img")
                     li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-2.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-3.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-4.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-5.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-6.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-7.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-8.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-9.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-10.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-11.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-12.png", alt="img")
+                        img(src="./img/examples-14.png", alt="img")
                 ul.ind-examples__block-catalog.display-n#indexExampleTabsBlock-5
                     li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-1.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-2.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-3.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-4.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-5.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-6.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-7.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-8.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-9.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-10.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-11.png", alt="img")
-                    li.ind-examples__block-catalog-item 
-                        img(src="./img/examples-12.png", alt="img")
+                        img(src="./img/examples-13.png", alt="img")
 
     @@include('components/_footer.pug')
+    @@include('components/_menu.pug')
 
 @@include('components/_script.pug')

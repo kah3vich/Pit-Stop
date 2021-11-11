@@ -398,6 +398,84 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media (max-width: 730px) {
+    .ind-price__block-banner {
+        width: 477px;
+        margin: 0 auto 140px 0;
+    }
+    .ind-price__block-banner::after {
+        content: "";
+        width: 477px;
+        height: 128px;
+        background: #600200;
+        position: absolute;
+        top: 128px;
+        left: 0px;
+        right: auto;
+    }
+    .ind-price__block-banner-btn {
+        position: absolute;
+        top: 157px;
+        right: auto;
+        width: 88%;
+        height: 68px;
+        background: #800705;
+        border: 3px solid #fff;
+        z-index: 4;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding: 0 0 0 27px;
+        cursor: pointer;
+    }
+    .ind-price__block-banner::after {
+        content: "";
+        width: 100%;
+        height: 128px;
+        background: #600200;
+        position: absolute;
+        top: 128px;
+        left: 0;
+        right: auto;
+    }
+    .ind-price__block-banner-btn {
+        position: absolute;
+        top: 157px;
+        right: auto;
+        width: 88%;
+        height: 68px;
+        background: #800705;
+        border: 3px solid #fff;
+        z-index: 4;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding: 0 0 0 27px;
+        cursor: pointer;
+    }
+    .ind-price__block-banner {
+        width: 100%;
+    }
+    .ind-price__block-banner-btn {
+        position: absolute;
+        top: 157px;
+        left: 20px;
+        right: auto;
+        width: 94%;
+    }
+}
 @media (max-width: 700px) {
     .ind-shop__block-catalog {
         grid-template-columns: repeat(1, 1fr);
@@ -465,9 +543,25 @@
         width: 100%;
     }
 }
+@media (max-width: 600px) {
+    .ind-price__block-banner-btn {
+        position: absolute;
+        top: 157px;
+        left: 20px;
+        right: auto;
+        width: 92%;
+    }
+}
 @media (max-width: 500px) {
     .ind-examples__block-tabs-item {
         font-size: 13px;
+    }
+    .ind-price__block-banner-btn {
+        position: absolute;
+        top: 157px;
+        left: 15px;
+        right: auto;
+        width: 92%;
     }
     .ind-examples__block-catalog {
         grid-template-columns: repeat(1, 1fr);

@@ -49,6 +49,9 @@
     }
 }
 @media (max-width: 1110px) {
+    .menu {
+        display: flex;
+    }
     .header__block-menu {
         position: fixed;
         top: 0;
