@@ -344,28 +344,28 @@ var indexSliderCars_1 = new Swiper(".indexSliderCars-1", {
         el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-1 .swiper-pagination",
     },
     keyboard: true,
-    breakpoints: {
-        1435: {
-            slidesPerView: 4,
-            spaceBetweenSlides: 0
-        },
-        1125: {
-            slidesPerView: 3,
-            spaceBetweenSlides: 0
-        },
-        700: {
-            slidesPerView: 2,
-            spaceBetweenSlides: 0
-        },
-        0: {
-            slidesPerView: 1,
-            spaceBetweenSlides: 0
-        }
-    }
+    // breakpoints: {
+    //     1435: {
+    //         slidesPerView: 4,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     1125: {
+    //         slidesPerView: 3,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     700: {
+    //         slidesPerView: 2,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     0: {
+    //         slidesPerView: 1,
+    //         spaceBetweenSlides: 0
+    //     }
+    // }
 });
 var indexSliderCars_2 = new Swiper(".indexSliderCars-2", {
     slidesPerView: 4,
-    spaceBetween: 16,
+    spaceBetween: 0,
     navigation: {
         nextEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-2 .swiper-button-next",
         prevEl: ".ind-slider__block-slider #headerSliderTabsControlsSlider-2 .swiper-button-prev",
@@ -374,24 +374,24 @@ var indexSliderCars_2 = new Swiper(".indexSliderCars-2", {
         el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-2 .swiper-pagination",
     },
     keyboard: true,
-    breakpoints: {
-        1435: {
-            slidesPerView: 4,
-            spaceBetweenSlides: 0
-        },
-        1125: {
-            slidesPerView: 3,
-            spaceBetweenSlides: 0
-        },
-        700: {
-            slidesPerView: 2,
-            spaceBetweenSlides: 0
-        },
-        0: {
-            slidesPerView: 1,
-            spaceBetweenSlides: 0
-        }
-    }
+    // breakpoints: {
+    //     1435: {
+    //         slidesPerView: 4,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     1125: {
+    //         slidesPerView: 3,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     700: {
+    //         slidesPerView: 2,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     0: {
+    //         slidesPerView: 1,
+    //         spaceBetweenSlides: 0
+    //     }
+    // }
 });
 var indexSliderCars_3 = new Swiper(".indexSliderCars-3", {
     slidesPerView: 4,
@@ -404,24 +404,24 @@ var indexSliderCars_3 = new Swiper(".indexSliderCars-3", {
         el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-3 .swiper-pagination",
     },
     keyboard: true,
-    breakpoints: {
-        1435: {
-            slidesPerView: 4,
-            spaceBetweenSlides: 0
-        },
-        1125: {
-            slidesPerView: 3,
-            spaceBetweenSlides: 0
-        },
-        700: {
-            slidesPerView: 2,
-            spaceBetweenSlides: 0
-        },
-        0: {
-            slidesPerView: 1,
-            spaceBetweenSlides: 0
-        }
-    }
+    // breakpoints: {
+    //     1435: {
+    //         slidesPerView: 4,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     1125: {
+    //         slidesPerView: 3,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     700: {
+    //         slidesPerView: 2,
+    //         spaceBetweenSlides: 0
+    //     },
+    //     0: {
+    //         slidesPerView: 1,
+    //         spaceBetweenSlides: 0
+    //     }
+    // }
 });
 
 
@@ -632,6 +632,166 @@ $(function() {
         $('#remove option:nth-child(1)').html(valueElement)
     })
 })
+
+
+
+$(function() {
+    $('#disk').css('display', 'none')
+    $('#disk').after('<div class="disk-select-item"><div class="disk-select-placeholder">Нет</div><div id="diskPriceSelect" class="disk-select-wrapper display-n"></div></div>')
+    let count = $('#disk').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#disk').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("disk-select-element")
+        newElementBlock.id = `disk-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("diskPriceSelect").appendChild(newElementBlock);
+        $(`#disk-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#disk-select-element-0').css('display', 'none')
+    $('.disk-select-item').on('click', function() {
+        $('.disk-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('disk-select-item-active')
+    })
+    $(".disk-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.disk-select-placeholder').html(valueElement)
+        $('#disk option:nth-child(1)').val(valueElement)
+        $('#disk option:nth-child(1)').html(valueElement)
+    })
+})
+
+
+
+$(function() {
+    $('#mounting').css('display', 'none')
+    $('#mounting').after('<div class="mounting-select-item"><div class="mounting-select-placeholder">Нет</div><div id="mountingPriceSelect" class="mounting-select-wrapper display-n"></div></div>')
+    let count = $('#mounting').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#mounting').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("mounting-select-element")
+        newElementBlock.id = `mounting-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("mountingPriceSelect").appendChild(newElementBlock);
+        $(`#mounting-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#mounting-select-element-0').css('display', 'none')
+    $('.mounting-select-item').on('click', function() {
+        $('.mounting-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('mounting-select-item-active')
+    })
+    $(".mounting-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.mounting-select-placeholder').html(valueElement)
+        $('#mounting option:nth-child(1)').val(valueElement)
+        $('#mounting option:nth-child(1)').html(valueElement)
+    })
+})
+
+
+$(function() {
+    $('#balance').css('display', 'none')
+    $('#balance').after('<div class="balance-select-item"><div class="balance-select-placeholder">Нет</div><div id="balancePriceSelect" class="balance-select-wrapper display-n"></div></div>')
+    let count = $('#balance').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#balance').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("balance-select-element")
+        newElementBlock.id = `balance-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("balancePriceSelect").appendChild(newElementBlock);
+        $(`#balance-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#balance-select-element-0').css('display', 'none')
+    $('.balance-select-item').on('click', function() {
+        $('.balance-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('balance-select-item-active')
+    })
+    $(".balance-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.balance-select-placeholder').html(valueElement)
+        $('#balance option:nth-child(1)').val(valueElement)
+        $('#balance option:nth-child(1)').html(valueElement)
+    })
+})
+
+
+
+$(function() {
+    $('#shooting').css('display', 'none')
+    $('#shooting').after('<div class="shooting-select-item"><div class="shooting-select-placeholder">Нет</div><div id="shootingPriceSelect" class="shooting-select-wrapper display-n"></div></div>')
+    let count = $('#shooting').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#shooting').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("shooting-select-element")
+        newElementBlock.id = `shooting-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("shootingPriceSelect").appendChild(newElementBlock);
+        $(`#shooting-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#shooting-select-element-0').css('display', 'none')
+    $('.shooting-select-item').on('click', function() {
+        $('.shooting-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('shooting-select-item-active')
+    })
+    $(".shooting-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.shooting-select-placeholder').html(valueElement)
+        $('#shooting option:nth-child(1)').val(valueElement)
+        $('#shooting option:nth-child(1)').html(valueElement)
+    })
+})
+
+
+
+
+$(function() {
+    $('#delivery').css('display', 'none')
+    $('#delivery').after('<div class="delivery-select-item"><div class="delivery-select-placeholder">Нет</div><div id="deliveryPriceSelect" class="delivery-select-wrapper display-n"></div></div>')
+    let count = $('#delivery').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#delivery').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("delivery-select-element")
+        newElementBlock.id = `delivery-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("deliveryPriceSelect").appendChild(newElementBlock);
+        $(`#delivery-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#delivery-select-element-0').css('display', 'none')
+    $('.delivery-select-item').on('click', function() {
+        $('.delivery-select-wrapper').toggleClass('display-n')
+        $(this).toggleClass('delivery-select-item-active')
+    })
+    $(".delivery-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.delivery-select-placeholder').html(valueElement)
+        $('#delivery option:nth-child(1)').val(valueElement)
+        $('#delivery option:nth-child(1)').html(valueElement)
+    })
+})
+
+
+$('.ind-price__block-plus').on('click', function() {
+    $('.ind-price__block-catalog').toggleClass('display-n')
+});
+
+
+$('.disk-constructor__wrapper-controls-type').on('click', function() {
+    $('.disk-constructor__wrapper-controls-adds').toggleClass('display-n')
+});
+$('.disk-constructor__wrapper-controls-adds-close').on('click', function() {
+    $('.disk-constructor__wrapper-controls-adds').addClass('display-n')
+});
+
+
 var diskSliderVideo = new Swiper(".diskSliderVideo", {
     navigation: {
         nextEl: ".disk-video__block-slider .swiper-controls .swiper-button-next",

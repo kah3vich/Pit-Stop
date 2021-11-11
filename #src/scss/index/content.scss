@@ -46,19 +46,6 @@
             left: 0;
             cursor: pointer;
             top: 673px;
-            &::after {
-                content: "Scroll down";
-                position: absolute;
-                top: 12px;
-                right: -115px;
-                width: 100px;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 10px;
-                line-height: 12px;
-                color: #FFFFFF;
-            }
         }
         &-btn {
             position: absolute;
@@ -90,14 +77,14 @@
             }
         }
         &-contact {
-            width: 212px;
+            width: 101px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             position: absolute;
             top: 650px;
             right: 0;
-            z-index: 10;
+            z-index: 8;
             &-item {
                 & a {
                     font-family: TT Norms;
@@ -502,7 +489,7 @@
             display: flex;
             width: 100%;
             align-items: center;
-            justify-content: space-between;
+            justify-content: flex-start;
             position: relative;
             &-item {
                 width: 252px;
@@ -1079,13 +1066,15 @@
             margin: 67px 0 0 0;
             position: relative;
             height: 50px;
+            cursor: pointer;
             &::after {
                 content: url(../svg/index/price-plus.svg);
                 position: absolute;
                 top: 12px;
                 right: -30px;
             }
-            & a {
+            & p {
+                cursor: pointer;
                 font-family: TT Norms;
                 font-style: normal;
                 font-weight: bold;
@@ -1201,6 +1190,41 @@
                     position: absolute;
                     top: 0;
                     right: -80px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 50px;
+                    color: #FFFFFF;
+                }
+            }
+            &-select {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 64px 0;
+                margin: 80px 0 0 0;
+                &-item {
+                    width: 380px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    position: relative;
+                }
+                &-title {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 50px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+                &-price {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
                     font-family: TT Norms;
                     font-style: normal;
                     font-weight: bold;
@@ -1489,7 +1513,7 @@
 
 
 .remove-select-item {
-    width: 396px;
+    width: 380px;
     height: 41px;
     border: 1px solid #fff;
     display: flex;
@@ -1517,10 +1541,9 @@
     position: absolute;
     top: 40px;
     left: -1px;
-    width: 396px;
+    width: 380px;
     height: unset;
     background: #171725;
-    width: 396px;
     border: 1px solid #fff;
     display: flex;
     flex-direction: column;
@@ -1562,6 +1585,366 @@
 
 
 
+.disk-select-item {
+    width: 380px;
+    height: 41px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    &::after {
+        content: url(../svg/index/price-arrow-down.svg);
+        position: absolute;
+        top: 7px;
+        height: 26px;
+        right: 24px;
+        transition: all 0.5s ease;
+    }
+    &-active {
+        &::after {
+            transform: rotate(180deg);
+            transition: all 0.5s ease;
+        }
+    }
+}
+.disk-select-wrapper {
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 380px;
+    height: unset;
+    background: #171725;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 20px 0 20px 20px;
+    z-index: 10;
+}
+.disk-select-placeholder {
+    color: #fff;
+}
+.disk-select-wrapper::-webkit-scrollbar {
+    width: 27px;
+}
+.disk-select-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px 10px #800705;
+            box-shadow: inset 0 0 10px 10px #800705;
+    border: solid 12px transparent;
+    margin: 0 10px 0 0;
+}
+.disk-select-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 10px 10px #fff;
+            box-shadow: inset 0 0 10px 10px #fff;
+    border: solid 10px transparent;
+}
+.disk-select-element {
+    width: 210px;
+    height: 20px;
+    background: transparent;
+    color: #EFEFEF;
+    border: none;
+    margin: 0 0 5px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+.mounting-select-item {
+    width: 380px;
+    height: 41px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    &::after {
+        content: url(../svg/index/price-arrow-down.svg);
+        position: absolute;
+        top: 7px;
+        height: 26px;
+        right: 24px;
+        transition: all 0.5s ease;
+    }
+    &-active {
+        &::after {
+            transform: rotate(180deg);
+            transition: all 0.5s ease;
+        }
+    }
+}
+.mounting-select-wrapper {
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 380px;
+    height: unset;
+    background: #171725;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 20px 0 20px 20px;
+    z-index: 10;
+}
+.mounting-select-placeholder {
+    color: #fff;
+}
+.mounting-select-wrapper::-webkit-scrollbar {
+    width: 27px;
+}
+.mounting-select-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px 10px #800705;
+            box-shadow: inset 0 0 10px 10px #800705;
+    border: solid 12px transparent;
+    margin: 0 10px 0 0;
+}
+.mounting-select-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 10px 10px #fff;
+            box-shadow: inset 0 0 10px 10px #fff;
+    border: solid 10px transparent;
+}
+.mounting-select-element {
+    width: 210px;
+    height: 20px;
+    background: transparent;
+    color: #EFEFEF;
+    border: none;
+    margin: 0 0 5px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+
+.balance-select-item {
+    width: 380px;
+    height: 41px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    &::after {
+        content: url(../svg/index/price-arrow-down.svg);
+        position: absolute;
+        top: 7px;
+        height: 26px;
+        right: 24px;
+        transition: all 0.5s ease;
+    }
+    &-active {
+        &::after {
+            transform: rotate(180deg);
+            transition: all 0.5s ease;
+        }
+    }
+}
+.balance-select-wrapper {
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 380px;
+    height: unset;
+    background: #171725;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 20px 0 20px 20px;
+    z-index: 10;
+}
+.balance-select-placeholder {
+    color: #fff;
+}
+.balance-select-wrapper::-webkit-scrollbar {
+    width: 27px;
+}
+.balance-select-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px 10px #800705;
+            box-shadow: inset 0 0 10px 10px #800705;
+    border: solid 12px transparent;
+    margin: 0 10px 0 0;
+}
+.balance-select-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 10px 10px #fff;
+            box-shadow: inset 0 0 10px 10px #fff;
+    border: solid 10px transparent;
+}
+.balance-select-element {
+    width: 210px;
+    height: 20px;
+    background: transparent;
+    color: #EFEFEF;
+    border: none;
+    margin: 0 0 5px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+.shooting-select-item {
+    width: 380px;
+    height: 41px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    &::after {
+        content: url(../svg/index/price-arrow-down.svg);
+        position: absolute;
+        top: 7px;
+        height: 26px;
+        right: 24px;
+        transition: all 0.5s ease;
+    }
+    &-active {
+        &::after {
+            transform: rotate(180deg);
+            transition: all 0.5s ease;
+        }
+    }
+}
+.shooting-select-wrapper {
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 380px;
+    height: unset;
+    background: #171725;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 20px 0 20px 20px;
+    z-index: 10;
+}
+.shooting-select-placeholder {
+    color: #fff;
+}
+.shooting-select-wrapper::-webkit-scrollbar {
+    width: 27px;
+}
+.shooting-select-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px 10px #800705;
+            box-shadow: inset 0 0 10px 10px #800705;
+    border: solid 12px transparent;
+    margin: 0 10px 0 0;
+}
+.shooting-select-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 10px 10px #fff;
+            box-shadow: inset 0 0 10px 10px #fff;
+    border: solid 10px transparent;
+}
+.shooting-select-element {
+    width: 210px;
+    height: 20px;
+    background: transparent;
+    color: #EFEFEF;
+    border: none;
+    margin: 0 0 5px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.delivery-select-item {
+    width: 380px;
+    height: 41px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    &::after {
+        content: url(../svg/index/price-arrow-down.svg);
+        position: absolute;
+        top: 7px;
+        height: 26px;
+        right: 24px;
+        transition: all 0.5s ease;
+    }
+    &-active {
+        &::after {
+            transform: rotate(180deg);
+            transition: all 0.5s ease;
+        }
+    }
+}
+.delivery-select-wrapper {
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 380px;
+    height: unset;
+    background: #171725;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 20px 0 20px 20px;
+    z-index: 10;
+}
+.delivery-select-placeholder {
+    color: #fff;
+}
+.delivery-select-wrapper::-webkit-scrollbar {
+    width: 27px;
+}
+.delivery-select-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px 10px #800705;
+            box-shadow: inset 0 0 10px 10px #800705;
+    border: solid 12px transparent;
+    margin: 0 10px 0 0;
+}
+.delivery-select-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 10px 10px #fff;
+            box-shadow: inset 0 0 10px 10px #fff;
+    border: solid 10px transparent;
+}
+.delivery-select-element {
+    width: 210px;
+    height: 20px;
+    background: transparent;
+    color: #EFEFEF;
+    border: none;
+    margin: 0 0 5px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+
 
 .ind-price__block-catalog-checkbox-block {
     overflow: hidden;
@@ -1588,7 +1971,7 @@
     background: transparent;
     transition: .2s all ease;
     width: 93px;
-    height: 41px;
+    height: 42px;
     border: 1px solid #FFFFFF;
     border-radius: 20.5px;
 }
@@ -1607,19 +1990,19 @@
     background: #DC4139;
 }
 .ind-price__block-catalog-checkbox-block-checkbox:checked + label:after {
-    left: 52px;
+    left: 51px;
 }
 #indexPriceCheckbox-1:checked + label:before{
     background: #800705;
     width: 93px;
-    height: 41px;
+    height: 42px;
     border: 1px solid #FFFFFF;
     border-radius: 20.5px;
 }
 #indexPriceCheckbox-2:checked + label:before{
     background: #800705;
     width: 93px;
-    height: 41px;
+    height: 42px;
     border: 1px solid #FFFFFF;
     border-radius: 20.5px;
 }
