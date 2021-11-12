@@ -26,5 +26,6 @@ var balanceSliderAbout = new Swiper(".balanceSliderAbout", {
             slidesPerView: 1,
             spaceBetweenSlides: 0
         }
-    }
+    },
+    loop: true,
 });

@@ -47,7 +47,7 @@
 }
 
 .balance-about {
-    padding: 50px 0 228px 0;
+    padding: 90px 0 228px 0;
     & .containers {
         width: 100%;
     }
@@ -61,8 +61,16 @@
             position: relative;
             width: 568px;
             height: 359px;
+            overflow: hidden;
             & img {
                 object-fit: cover;
+                width: 100%;
+                height: 100%;
+                transition: all 0.5s ease;
+                &:hover {
+                    transform: scale(1.3);
+                    transition: all 0.5s ease;
+                }
             }
             &::after {
                 content: "";
@@ -70,7 +78,7 @@
                 top: 0;
                 left: -35px;
                 width: 35px;
-                height: 374px;
+                height: 100%;
                 background: #800705;
             }
         }
@@ -188,13 +196,32 @@
 
 .balance-ways {
     position: relative;
-    padding: 136px 0 147px 0;
+    padding: 70px 0 147px 0;
     &__slider {
         margin: 0 0 221px 0;
         &-item {
             width: 310px;
             height: 310px;
             background: #6D6D6D;
+            overflow: hidden;
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all 0.5s ease;
+                &:hover {
+                    transform: scale(1.3);
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+        & .swiper-slide {
+            -webkit-filter: brightness(40%);
+            transition: all 0.5s ease;
+        }
+        & .swiper-slide-active {
+            -webkit-filter: brightness(100%);
+            transition: all 0.5s ease;
         }
         & .swiper-controls {
             position: relative;
@@ -330,7 +357,17 @@
                 left: -79px;
                 width: 522px;
                 height: 340px;
-                background: #444444;
+                overflow: hidden;
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: all 0.5s ease;
+                    &:hover {
+                        transform: scale(1.3);
+                        transition: all 0.5s ease;
+                    }
+                }
             }
         }
     }
@@ -574,7 +611,17 @@
                 left: -79px;
                 width: 522px;
                 height: 340px;
-                background: #444444;
+                overflow: hidden;
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: all 0.5s ease;
+                    &:hover {
+                        transform: scale(1.3);
+                        transition: all 0.5s ease;
+                    }
+                }
             }
             &-btn {
                 margin: 59px 160px 0 auto;

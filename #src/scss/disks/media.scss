@@ -1,28 +1,28 @@
 @media (max-width: 1440px) {
-    .disk-list {
-        display: none;
-    }
+    // .disk-list {
+    //     display: none;
+    // }
 
 
-    .disk-examples__block-catalog {
-        width: 100%;
-    }
-    .disk-examples__block-catalog-item {
-        width: 100%;
-        & img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-    .disk-video__block-slider {
-        & iframe {
-            width: 80%;
-        }
-    }
-    .disk-easy__block-item-icons {
-        top: -35px;
-    }
+    // .disk-examples__block-catalog {
+    //     width: 100%;
+    // }
+    // .disk-examples__block-catalog-item {
+    //     width: 100%;
+    //     & img {
+    //         width: 100%;
+    //         height: 100%;
+    //         object-fit: cover;
+    //     }
+    // }
+    // .disk-video__block-slider {
+    //     & iframe {
+    //         width: 80%;
+    //     }
+    // }
+    // .disk-easy__block-item-icons {
+    //     top: -35px;
+    // }
 }
 @media (max-width: 1400px) {
     .disk-examples__block-tabs {

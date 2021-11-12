@@ -784,10 +784,5 @@ $('.ind-price__block-plus').on('click', function() {
 });
 
 
-$('.disk-constructor__wrapper-controls-type').on('click', function() {
-    $('.disk-constructor__wrapper-controls-adds').toggleClass('display-n')
-});
-$('.disk-constructor__wrapper-controls-adds-close').on('click', function() {
-    $('.disk-constructor__wrapper-controls-adds').addClass('display-n')
-});
+
 

@@ -52,7 +52,7 @@
             top: 659px;
             z-index: 5;
             left: 336px;
-            width: 232px;
+            width: 249px;
             height: 68px;
             border: 3px solid #800705;
             display: flex;
@@ -428,18 +428,18 @@
                     position: absolute;
                     bottom: -53px;
                     right: 128px;
-                    padding: 0 0 0 27px;
+                    padding: 0 0 0 24px;
                     &::after {
                         content: url(../svg/index/header-arrow-next-add.svg);
                         position: absolute;
-                        top: 20px;
+                        top: 19px;
                         right: 20px;
                     }
                     & a {
                         font-family: TT Norms;
                         font-style: normal;
                         font-weight: normal;
-                        font-size: 14px;
+                        font-size: 13px;
                         line-height: 32px;
                         text-transform: uppercase;
                         color: #FFFFFF;
@@ -1310,6 +1310,19 @@
         right: 24px;
         transition: all 0.5s ease;
     }
+    &::before {
+        content: 'Тип диска';
+        position: absolute;
+        top: -50px;
+        left: 0;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
     &-active {
         &::after {
             transform: rotate(180deg);
@@ -1380,6 +1393,19 @@
         height: 26px;
         right: 24px;
         transition: all 0.5s ease;
+    }
+    &::before {
+        content: 'Количество дисков';
+        position: absolute;
+        top: -50px;
+        left: 0;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
     &-active {
         &::after {
@@ -1452,6 +1478,19 @@
         height: 26px;
         right: 24px;
         transition: all 0.5s ease;
+    }
+    &::before {
+        content: 'Радиус диска';
+        position: absolute;
+        top: -50px;
+        left: 0;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
     &-active {
         &::after {

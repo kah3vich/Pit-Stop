@@ -83,3 +83,28 @@ var polishingSlider = new Swiper(".polishingSlider", {
         },
     }
 });
+
+
+
+var polishingSliderBlock = new Swiper(".polishingSliderBlock", {
+    loop: true,
+    navigation: {
+        nextEl: ".polishing-slider__block-wrapper .swiper-controls .swiper-button-next",
+        prevEl: ".polishing-slider__block-wrapper .swiper-controls .swiper-button-prev",
+    },
+    pagination: {
+        el: ".polishing-slider__block-wrapper .swiper-controls .swiper-pagination",
+    },
+    keyboard: true,
+    slidesPerView: 4,
+    spaceBetween: 0,
+});
+
+
+
+$('.polishing-constructor__wrapper-controls-type').on('click', function() {
+    $('.polishing-constructor__wrapper-controls-adds').toggleClass('display-n')
+});
+$('.polishing-constructor__wrapper-controls-adds-close').on('click', function() {
+    $('.polishing-constructor__wrapper-controls-adds').addClass('display-n')
+});

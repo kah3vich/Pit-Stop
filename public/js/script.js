@@ -784,12 +784,7 @@ $('.ind-price__block-plus').on('click', function() {
 });
 
 
-$('.disk-constructor__wrapper-controls-type').on('click', function() {
-    $('.disk-constructor__wrapper-controls-adds').toggleClass('display-n')
-});
-$('.disk-constructor__wrapper-controls-adds-close').on('click', function() {
-    $('.disk-constructor__wrapper-controls-adds').addClass('display-n')
-});
+
 
 
 var diskSliderVideo = new Swiper(".diskSliderVideo", {
@@ -1680,6 +1675,95 @@ $('#diskExampleTabsElement-20').on('click', function() {
     $('#diskExampleTabsBlock-19').addClass('display-n')
     $('#diskExampleTabsBlock-1').addClass('display-n')
 });
+
+
+
+$('.disk-constructor__wrapper-controls-type').on('click', function() {
+    $('.disk-constructor__wrapper-controls-adds').toggleClass('display-n')
+});
+$('.disk-constructor__wrapper-controls-adds-close').on('click', function() {
+    $('.disk-constructor__wrapper-controls-adds').addClass('display-n')
+});
+
+$('.disk-price__block-plus').on('click', function() {
+    $('.disk-price__block-catalog').toggleClass('display-n')
+});
+
+
+var diskSliderBlock = new Swiper(".diskSliderBlock", {
+    loop: true,
+    navigation: {
+        nextEl: ".disk-slider__block-wrapper .swiper-controls .swiper-button-next",
+        prevEl: ".disk-slider__block-wrapper .swiper-controls .swiper-button-prev",
+    },
+    pagination: {
+        el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+    },
+    keyboard: true,
+    slidesPerView: 4,
+    spaceBetween: 0,
+});
+
+let slir = 0;
+
+// $('.header__block').on('click', function() {
+//     slir = 2
+//     console.log(slir)
+//     var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
+//         observer: true,
+//         observeParents: true,
+//         loop: true,
+//         navigation: {
+//             nextEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-next",
+//             prevEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-prev",
+//         },
+//         pagination: {
+//             el: ".disk-abouts__block-img-slider .swiper-controls .swiper-pagination",
+//         },
+//         keyboard: true,
+//         slidesPerView: 1,
+//         spaceBetween: 0,
+//         initialSlide: slir,
+//     });
+// });
+// $('.disk-abouts__block').on('click', function() {
+//     slir = 0
+//     console.log(slir)
+//     var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
+//         observer: true,
+//         observeParents: true,
+//         loop: true,
+//         navigation: {
+//             nextEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-next",
+//             prevEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-prev",
+//         },
+//         pagination: {
+//             el: ".disk-abouts__block-img-slider .swiper-controls .swiper-pagination",
+//         },
+//         keyboard: true,
+//         slidesPerView: 1,
+//         spaceBetween: 0,
+//         initialSlide: slir,
+//     });
+// });
+// console.log(slir)
+
+var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
+    observer: true,
+    observeParents: true,
+    loop: true,
+    navigation: {
+        nextEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-next",
+        prevEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-prev",
+    },
+    pagination: {
+        el: ".disk-abouts__block-img-slider .swiper-controls .swiper-pagination",
+    },
+    keyboard: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+    initialSlide: slir,
+});
 var polishingSliderVideo = new Swiper(".polishingSliderVideo", {
     navigation: {
         nextEl: ".polishing-video__block-slider  .swiper-controls .swiper-button-next",
@@ -1764,6 +1848,31 @@ var polishingSlider = new Swiper(".polishingSlider", {
             spaceBetweenSlides: 0
         },
     }
+});
+
+
+
+var polishingSliderBlock = new Swiper(".polishingSliderBlock", {
+    loop: true,
+    navigation: {
+        nextEl: ".polishing-slider__block-wrapper .swiper-controls .swiper-button-next",
+        prevEl: ".polishing-slider__block-wrapper .swiper-controls .swiper-button-prev",
+    },
+    pagination: {
+        el: ".polishing-slider__block-wrapper .swiper-controls .swiper-pagination",
+    },
+    keyboard: true,
+    slidesPerView: 4,
+    spaceBetween: 0,
+});
+
+
+
+$('.polishing-constructor__wrapper-controls-type').on('click', function() {
+    $('.polishing-constructor__wrapper-controls-adds').toggleClass('display-n')
+});
+$('.polishing-constructor__wrapper-controls-adds-close').on('click', function() {
+    $('.polishing-constructor__wrapper-controls-adds').addClass('display-n')
 });
 
 var paintSliderVideo = new Swiper(".paintSliderVideo", {
@@ -1980,7 +2089,8 @@ var balanceSliderAbout = new Swiper(".balanceSliderAbout", {
             slidesPerView: 1,
             spaceBetweenSlides: 0
         }
-    }
+    },
+    loop: true,
 });
 var alloySliderVideo = new Swiper(".alloySliderVideo", {
     navigation: {
