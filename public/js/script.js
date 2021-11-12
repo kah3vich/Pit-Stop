@@ -1733,9 +1733,11 @@ var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
 
 $('.modelDiskSliders-close').on('click', function() {
     $('.modelDiskSliders').addClass('display-n')
+    $('body').css('overflow', 'visible')
 });
 
 $('#diskSlidersItems-1').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 0
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1754,6 +1756,7 @@ $('#diskSlidersItems-1').on('click', function() {
     });
 });
 $('#diskSlidersItems-2').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 1
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1772,6 +1775,7 @@ $('#diskSlidersItems-2').on('click', function() {
     });
 });
 $('#diskSlidersItems-3').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 2
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1790,6 +1794,7 @@ $('#diskSlidersItems-3').on('click', function() {
     });
 });
 $('#diskSlidersItems-4').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 3
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1808,6 +1813,7 @@ $('#diskSlidersItems-4').on('click', function() {
     });
 });
 $('#diskSlidersItems-5').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 4
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1826,6 +1832,7 @@ $('#diskSlidersItems-5').on('click', function() {
     });
 });
 $('#diskSlidersItems-6').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 5
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1844,6 +1851,7 @@ $('#diskSlidersItems-6').on('click', function() {
     });
 });
 $('#diskSlidersItems-7').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 6
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1862,6 +1870,7 @@ $('#diskSlidersItems-7').on('click', function() {
     });
 });
 $('#diskSlidersItems-8').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 7
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1880,6 +1889,7 @@ $('#diskSlidersItems-8').on('click', function() {
     });
 });
 $('#diskSlidersItems-9').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 8
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1898,6 +1908,7 @@ $('#diskSlidersItems-9').on('click', function() {
     });
 });
 $('#diskSlidersItems-10').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 9
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1916,6 +1927,7 @@ $('#diskSlidersItems-10').on('click', function() {
     });
 });
 $('#diskSlidersItems-11').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 10
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1934,6 +1946,7 @@ $('#diskSlidersItems-11').on('click', function() {
     });
 });
 $('#diskSlidersItems-12').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 11
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1952,6 +1965,7 @@ $('#diskSlidersItems-12').on('click', function() {
     });
 });
 $('#diskSlidersItems-13').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 12
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1970,6 +1984,7 @@ $('#diskSlidersItems-13').on('click', function() {
     });
 });
 $('#diskSlidersItems-14').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 13
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -1988,6 +2003,7 @@ $('#diskSlidersItems-14').on('click', function() {
     });
 });
 $('#diskSlidersItems-15').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 14
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2006,6 +2022,7 @@ $('#diskSlidersItems-15').on('click', function() {
     });
 });
 $('#diskSlidersItems-16').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 15
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2024,6 +2041,7 @@ $('#diskSlidersItems-16').on('click', function() {
     });
 });
 $('#diskSlidersItems-17').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 16
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2042,6 +2060,7 @@ $('#diskSlidersItems-17').on('click', function() {
     });
 });
 $('#diskSlidersItems-18').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 17
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2060,6 +2079,7 @@ $('#diskSlidersItems-18').on('click', function() {
     });
 });
 $('#diskSlidersItems-19').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 18
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2078,6 +2098,7 @@ $('#diskSlidersItems-19').on('click', function() {
     });
 });
 $('#diskSlidersItems-20').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 19
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2096,6 +2117,7 @@ $('#diskSlidersItems-20').on('click', function() {
     });
 });
 $('#diskSlidersItems-21').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 20
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2114,6 +2136,7 @@ $('#diskSlidersItems-21').on('click', function() {
     });
 });
 $('#diskSlidersItems-22').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 21
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2132,6 +2155,7 @@ $('#diskSlidersItems-22').on('click', function() {
     });
 });
 $('#diskSlidersItems-23').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 22
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2150,6 +2174,7 @@ $('#diskSlidersItems-23').on('click', function() {
     });
 });
 $('#diskSlidersItems-24').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 23
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
@@ -2168,6 +2193,7 @@ $('#diskSlidersItems-24').on('click', function() {
     });
 });
 $('#diskSlidersItems-25').on('click', function() {
+    $('body').css('overflow', 'hidden')
     let modelDiskSliderBlockCount = 24
     $('.modelDiskSliders').removeClass('display-n')
     var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
