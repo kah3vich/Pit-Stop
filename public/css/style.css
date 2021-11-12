@@ -4559,6 +4559,7 @@
 }
 
 .disk-slider__block-wrapper {
+  margin: 45px 0 0 0;
   width: 100%;
   position: relative;
 }
@@ -4653,6 +4654,7 @@
   width: 100%;
   height: 310px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .disk-slider__block-wrapper-item img {
@@ -4660,6 +4662,7 @@
      object-fit: cover;
   width: 100%;
   height: 100%;
+  cursor: pointer;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
@@ -12401,8 +12404,22 @@
 }
 
 .hernia-about__block-img img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.hernia-about__block-img img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .hernia-about__block-img::after {
@@ -13097,7 +13114,26 @@
   left: -79px;
   width: 522px;
   height: 340px;
-  background: #444;
+  overflow: hidden;
+}
+
+.hernia-list__about-banner-items img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.hernia-list__about-banner-items img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .hernia-list__about-banner-btn {
@@ -13222,7 +13258,26 @@
   left: -79px;
   width: 522px;
   height: 340px;
-  background: #444;
+  overflow: hidden;
+}
+
+.hernia-work__about-banner-items img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.hernia-work__about-banner-items img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .hernia-work__about-banner-btn {
@@ -13603,10 +13658,29 @@
 }
 
 .hernia-process__block-list-item {
-  width: 301px;
-  height: 252px;
-  background: #737373;
+  width: 170px;
+  height: 152px;
   margin: 59px 18px 0 0;
+  overflow: hidden;
+}
+
+.hernia-process__block-list-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.hernia-process__block-list-item img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .hernia-process__block-list-item:last-child {
@@ -14355,6 +14429,20 @@
 .season-about__block-img img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.season-about__block-img img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .season-about__block-img::after {
@@ -14547,7 +14635,26 @@
   left: -79px;
   width: 522px;
   height: 340px;
-  background: #444;
+  overflow: hidden;
+}
+
+.season-about__wrapper-banner-items img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.season-about__wrapper-banner-items img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .season-about__wrapper-banner-btn {
@@ -14897,6 +15004,18 @@
      object-fit: cover;
   width: 100%;
   height: 100%;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.season-abouts__block-img img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .season-abouts__block-img::after {
@@ -18980,6 +19099,128 @@ h6 {
   transition: all .5s ease;
 }
 
+.modelDiskSliders {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,21,75,.4);
+  -webkit-backdrop-filter: blur(80px);
+          backdrop-filter: blur(80px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  z-index: 1000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modelDiskSliders-close {
+  width: 54px;
+  height: 54px;
+  background: transparent;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.modelDiskSliders__slider {
+  width: 1020px;
+  height: 500px;
+}
+
+.modelDiskSliders__slider .swiper-button-next {
+  content: "";
+  width: 51px;
+  height: 51px;
+  background: #fff;
+  right: 30px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.modelDiskSliders__slider .swiper-button-next::after {
+  content: "";
+}
+
+.modelDiskSliders__slider .swiper-button-prev {
+  content: "";
+  width: 51px;
+  height: 51px;
+  background: #fff;
+  left: 30px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.modelDiskSliders__slider .swiper-button-prev::after {
+  content: "";
+}
+
+.modelDiskSliders__slider .swiper-button-prev svg {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.modelDiskSliders__slider-item {
+  width: 1020px;
+  height: 500px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modelDiskSliders__slider-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 1440px) {
   .ind-shop__block-catalog {
     width: 100%;
@@ -19021,15 +19262,6 @@ h6 {
     width: 80%;
   }
 
-  .hernia-process,
-  .hernia-list {
-    display: none;
-  }
-
-  .hernia-easy__block-item-icons {
-    top: -35px;
-  }
-
   .reviews-header__block-messages {
     width: 100%;
     background: transparent;
@@ -19065,48 +19297,6 @@ h6 {
 
   .delivery-easy__block-item-icons {
     top: -35px;
-  }
-
-  .season-abouts__block-content-add {
-    width: 100%;
-    height: 100%;
-    padding: 36px 0 20px 53px;
-  }
-
-  .season-abouts__block-content-add::after {
-    height: 100%;
-  }
-
-  .season-abouts__block-content-add-item {
-    width: 92%;
-  }
-
-  .season-abouts__block-img {
-    margin: 0;
-    overflow: visible;
-    width: 100%;
-  }
-
-  .season-abouts__block-content-text-item {
-    width: 90%;
-  }
-
-  .season-abouts__block-content-text-title {
-    width: 90%;
-  }
-
-  .season-easy__block-item-icons {
-    position: absolute;
-    top: -35px;
-  }
-
-  .season-easy {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding: 0 0 100px 0;
-    margin: 0 0 100px 0;
-    background: #1b1b2f;
   }
 
   .conditioner-easy__block-item-icons {

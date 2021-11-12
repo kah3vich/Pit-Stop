@@ -915,49 +915,6 @@ var diskSliderBlock = new Swiper(".diskSliderBlock", {
     spaceBetween: 0,
 });
 
-let slir = 0;
-
-// $('.header__block').on('click', function() {
-//     slir = 2
-//     console.log(slir)
-//     var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
-//         observer: true,
-//         observeParents: true,
-//         loop: true,
-//         navigation: {
-//             nextEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-next",
-//             prevEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-prev",
-//         },
-//         pagination: {
-//             el: ".disk-abouts__block-img-slider .swiper-controls .swiper-pagination",
-//         },
-//         keyboard: true,
-//         slidesPerView: 1,
-//         spaceBetween: 0,
-//         initialSlide: slir,
-//     });
-// });
-// $('.disk-abouts__block').on('click', function() {
-//     slir = 0
-//     console.log(slir)
-//     var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
-//         observer: true,
-//         observeParents: true,
-//         loop: true,
-//         navigation: {
-//             nextEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-next",
-//             prevEl: ".disk-abouts__block-img-slider  .swiper-controls .swiper-button-prev",
-//         },
-//         pagination: {
-//             el: ".disk-abouts__block-img-slider .swiper-controls .swiper-pagination",
-//         },
-//         keyboard: true,
-//         slidesPerView: 1,
-//         spaceBetween: 0,
-//         initialSlide: slir,
-//     });
-// });
-// console.log(slir)
 
 var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
     observer: true,
@@ -973,5 +930,469 @@ var diskSliderAbouts = new Swiper(".diskSliderAbouts", {
     keyboard: true,
     slidesPerView: 1,
     spaceBetween: 0,
-    initialSlide: slir,
+});
+
+
+
+
+
+
+//! Model Disks Slider
+
+
+
+
+$('.modelDiskSliders-close').on('click', function() {
+    $('.modelDiskSliders').addClass('display-n')
+});
+
+$('#diskSlidersItems-1').on('click', function() {
+    let modelDiskSliderBlockCount = 0
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-2').on('click', function() {
+    let modelDiskSliderBlockCount = 1
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-3').on('click', function() {
+    let modelDiskSliderBlockCount = 2
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-4').on('click', function() {
+    let modelDiskSliderBlockCount = 3
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-5').on('click', function() {
+    let modelDiskSliderBlockCount = 4
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-6').on('click', function() {
+    let modelDiskSliderBlockCount = 5
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-7').on('click', function() {
+    let modelDiskSliderBlockCount = 6
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-8').on('click', function() {
+    let modelDiskSliderBlockCount = 7
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-9').on('click', function() {
+    let modelDiskSliderBlockCount = 8
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-10').on('click', function() {
+    let modelDiskSliderBlockCount = 9
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-11').on('click', function() {
+    let modelDiskSliderBlockCount = 10
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-12').on('click', function() {
+    let modelDiskSliderBlockCount = 11
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-13').on('click', function() {
+    let modelDiskSliderBlockCount = 12
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-14').on('click', function() {
+    let modelDiskSliderBlockCount = 13
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-15').on('click', function() {
+    let modelDiskSliderBlockCount = 14
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-16').on('click', function() {
+    let modelDiskSliderBlockCount = 15
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-17').on('click', function() {
+    let modelDiskSliderBlockCount = 16
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-18').on('click', function() {
+    let modelDiskSliderBlockCount = 17
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-19').on('click', function() {
+    let modelDiskSliderBlockCount = 18
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-20').on('click', function() {
+    let modelDiskSliderBlockCount = 19
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-21').on('click', function() {
+    let modelDiskSliderBlockCount = 20
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-22').on('click', function() {
+    let modelDiskSliderBlockCount = 21
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-23').on('click', function() {
+    let modelDiskSliderBlockCount = 22
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-24').on('click', function() {
+    let modelDiskSliderBlockCount = 23
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
+});
+$('#diskSlidersItems-25').on('click', function() {
+    let modelDiskSliderBlockCount = 24
+    $('.modelDiskSliders').removeClass('display-n')
+    var modelDiskSliderBlock = new Swiper(".modelDiskSliderBlock", {
+        loop: true,
+        navigation: {
+            nextEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-next",
+            prevEl: ".modelDiskSliders__slider  .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelDiskSliderBlockCount,
+    });
 });
