@@ -3746,6 +3746,7 @@
 }
 
 .disk-examples__block-catalog-item img {
+  cursor: pointer;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -4658,6 +4659,7 @@
 }
 
 .disk-slider__block-wrapper-item img {
+  cursor: pointer;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -4916,6 +4918,7 @@
 }
 
 .disk-abouts__block-img-slider-item img {
+  cursor: pointer;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -19695,6 +19698,39 @@ h6 {
     width: 100%;
   }
 
+  .reviews-header__block-messages {
+    width: 100%;
+    background: transparent;
+  }
+
+  .reviews-header__block-messages::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 568px;
+    height: 441px;
+    background: #800705;
+    z-index: 2;
+  }
+
+  .reviews-header__block-messages::after {
+    z-index: 4;
+  }
+
+  .reviews-header__block-messages-block {
+    z-index: 4;
+  }
+
+  .reviews-header__block-messages-block {
+    width: 92%;
+    padding: 102px 40px 46px 44px;
+  }
+
+  .reviews-header__block-messages-block-text {
+    width: 100%;
+  }
+
   .delivery-easy__block-item-icons {
     top: -35px;
   }
@@ -22128,6 +22164,40 @@ h6 {
 }
 
 @media (max-width: 1050px) {
+  .reviews-header__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    position: relative;
+    width: unset;
+    height: unset;
+    padding: 0 0 100px 0;
+  }
+
+  .reviews-header__block-messages {
+    width: 100%;
+    background: 0 0;
+    height: unset;
+  }
+
+  .reviews-header__block-messages-block {
+    position: static;
+  }
+
+  .reviews-header__block-title {
+    margin: 246px 0 190px 0;
+  }
+
   .refill-header {
     background: url(../img/header-banner.png) no-repeat;
     background-size: cover;
