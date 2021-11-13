@@ -13,7 +13,7 @@
     section.price-price 
         .containers 
             .price-price__block 
-                .price-price__block-add 003
+                .price-price__block-add 001
                 .price-price__block-title Расчет стоимости
                 .price-price__block-titles Вид покраски
                 .price-price__block-dye
@@ -30,51 +30,117 @@
                         label(class="price-price__block-dye-radio__label" for="radio_3") Алмазная шлифовка
                 .price-price__block-adds 
                     select#type
+                        option(value="")
                         option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
-                        option(value="Литой") Литой
+                        option(value="Штампованный") Штампованный
                     select#count
-                        option(value="1") 1
+                        option(value="")
                         option(value="1") 1
                         option(value="2") 2
                         option(value="3") 3
                         option(value="4") 4
                         option(value="5") 5
-                        option(value="6") 6
-                        option(value="7") 7
-                        option(value="8") 8
-                        option(value="9") 9
-                        option(value="10") 10
-                        option(value="11") 11
                     select#radios
+                        option(value="")
                         option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
-                        option(value="R13") R13
+                        option(value="R14") R14
+                        option(value="R15") R15
+                        option(value="R16") R16
+                        option(value="R17") R17
+                        option(value="R18") R18
+                        option(value="R19") R19
+                        option(value="R20") R20
+                        option(value="R21") R21
+                        option(value="R22") R22
+                        option(value="R23") R23
+                        option(value="R24") R24
                 .price-price__block-plus
-                    a(href="#") Дополнительные работы 
+                    p Дополнительные работы 
+                .price-price__block-catalog.display-n 
+                    .price-price__block-catalog-checkbox 
+                        .price-price__block-catalog-checkbox-item 
+                            .price-price__block-catalog-checkbox-title Покрытие лаком
+                            .price-price__block-catalog-checkbox-price 700 ₽
+                            .price-price__block-catalog-checkbox-block
+                                input(type="checkbox" class="price-price__block-catalog-checkbox-block-checkbox" id="priceexPriceCheckbox-1")
+                                label(for="priceexPriceCheckbox-1")
+                        .price-price__block-catalog-checkbox-item 
+                            .price-price__block-catalog-checkbox-title Покраска канта диска
+                            .price-price__block-catalog-checkbox-price 1 750 ₽
+                            .price-price__block-catalog-checkbox-block
+                                input(type="checkbox" class="price-price__block-catalog-checkbox-block-checkbox" id="priceexPriceCheckbox-2")
+                                label(for="priceexPriceCheckbox-2")
+                    .price-price__block-catalog-select 
+                        .price-price__block-catalog-select-item 
+                            .price-price__block-catalog-select-title Устранение царапин и сколов
+                            .price-price__block-catalog-select-price 700 ₽
+                            .price-price__block-catalog-select-block 
+                                select#remove
+                                    option(value="Нет") Нет
+                                    option(value="Нет") Нет
+                                    option(value="2") 2
+                                    option(value="3") 3
+                                    option(value="4") 4
+                                    option(value="5") 5
+                        .price-price__block-catalog-select-item 
+                            .price-price__block-catalog-select-title Правка диска
+                            .price-price__block-catalog-select-price 700 ₽
+                            .price-price__block-catalog-select-block 
+                                select#disk
+                                    option(value="Нет") Нет
+                                    option(value="Нет") Нет
+                                    option(value="2") 2
+                                    option(value="3") 3
+                                    option(value="4") 4
+                                    option(value="5") 5
+                        .price-price__block-catalog-select-item 
+                            .price-price__block-catalog-select-title Монтаж / демонтаж
+                            .price-price__block-catalog-select-price 700 ₽
+                            .price-price__block-catalog-select-block 
+                                select#mounting
+                                    option(value="Нет") Нет
+                                    option(value="Нет") Нет
+                                    option(value="2") 2
+                                    option(value="3") 3
+                                    option(value="4") 4
+                                    option(value="5") 5
+                        .price-price__block-catalog-select-item 
+                            .price-price__block-catalog-select-title Балансировка
+                            .price-price__block-catalog-select-price 700 ₽
+                            .price-price__block-catalog-select-block 
+                                select#balance
+                                    option(value="Нет") Нет
+                                    option(value="Нет") Нет
+                                    option(value="2") 2
+                                    option(value="3") 3
+                                    option(value="4") 4
+                                    option(value="5") 5
+                        .price-price__block-catalog-select-item 
+                            .price-price__block-catalog-select-title Съем / установка
+                            .price-price__block-catalog-select-price 700 ₽
+                            .price-price__block-catalog-select-block 
+                                select#shooting
+                                    option(value="Нет") Нет
+                                    option(value="Нет") Нет
+                                    option(value="2") 2
+                                    option(value="3") 3
+                                    option(value="4") 4
+                                    option(value="5") 5
+                        .price-price__block-catalog-select-item 
+                            .price-price__block-catalog-select-title Доставка
+                            .price-price__block-catalog-select-price 700 ₽
+                            .price-price__block-catalog-select-block 
+                                select#delivery
+                                    option(value="Нет") Нет
+                                    option(value="Нет") Нет
+                                    option(value="В одну сторону") В одну сторону
+                                    option(value="Туда - обратно") Туда - обратно
+                                    
                 .price-price__block-banner 
                     h3 Итого:
                     p 4690₽
-                button.price-price__block-btn Узнать подробнее
-
+                    button.price-price__block-banner-btn 
+                        a(href="#") Заказать
 
     section.price-list 
         .containers 
@@ -128,7 +194,7 @@
                         li.price-list__block-wrappers-list-item 12 900 ₽ 
                         li.price-list__block-wrappers-list-item 13 900 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 003
                 .price-list__block-title Цена на покраску в цвета "эксклюзив"
                 .price-list__block-description Дополнительное покрытие лаком: +700 руб. / диск
                 .price-list__block-wrapper 
@@ -177,7 +243,7 @@
                         li.price-list__block-wrappers-list-item 12 900 ₽ 
                         li.price-list__block-wrappers-list-item 13 900 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 004
                 .price-list__block-title Цена покраски дисков с использованием алмазной шлифовки лицевой части
                 .price-list__block-wrapper 
                     .price-list__block-wrapper-title радиус:
@@ -222,12 +288,12 @@
                         li.price-list__block-wrappers-list-item 10 000 ₽
                         li.price-list__block-wrappers-list-item 10 900 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 005
                 .price-list__block-title Хранение шин
                 ul.price-list__block-list 
                     li.price-list__block-list-item Сезонное хранение шин (комплект) - 500 руб./мес., на дисках - 700 руб./мес.
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 006
                 .price-list__block-title Цены на ремонт литых и штампованных дисков
                 .price-list__block-wrapper 
                     .price-list__block-wrapper-title радиус:
@@ -267,7 +333,7 @@
                         li.price-list__block-wrappers-list-item 2 500 ₽
                         li.price-list__block-wrappers-list-item 3 000 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 007
                 .price-list__block-title Исправление повреждения диска "восьмерка"
                 .price-list__block-wrapper 
                     .price-list__block-wrapper-title радиус:
@@ -298,7 +364,7 @@
                         li.price-list__block-wrappers-list-item 3 000 ₽
                         li.price-list__block-wrappers-list-item 4 000 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 008
                 .price-list__block-title Аргонная сварка
                 ul.price-list__block-list 
                     li.price-list__block-list-item Стоимость работ определяется длиной сварочного шва исходя из 200 руб./см.
@@ -306,7 +372,7 @@
                     li.price-list__block-list-item Наплавление внешнего борта диска - 400 руб./см.
                     li.price-list__block-list-item Стоимость минимальной работы по аргонной сварке (трещина на диске до 5 см): 1000 руб., свыше 1 см: 200 руб.
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 009
                 .price-list__block-title Шиномонтажные работы (цены на "переобувку" и балансировку)
                 .price-list__block-wrapper 
                     .price-list__block-wrapper-title Переобувка (комплекс)
@@ -431,7 +497,7 @@
                         li.price-list__block-wrappers-list-item 3 000 ₽
                         li.price-list__block-wrappers-list-item 3 200 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 010
                 .price-list__block-title Шиномонтажные работы (цены на "переобувку" и балансировку)
                 .price-list__block-wrappers-table 
                         ul.price-list__block-wrappers-table-list
@@ -448,7 +514,7 @@
                             li.price-list__block-wrappers-table-list-item типа R-33 - 1 000 ₽
                             li.price-list__block-wrappers-table-list-item горячая вулканизация	от - 1 500 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 011
                 .price-list__block-title Исправление повреждения диска "восьмерка"
                 .price-list__block-wrapper 
                     .price-list__block-wrapper-title радиус:
@@ -485,7 +551,7 @@
                         li.price-list__block-wrappers-list-item от 1 500 ₽
                         li.price-list__block-wrappers-list-item от 1 500 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 012
                 .price-list__block-title Цены на ремонт боковых порезов шин:
                 .price-list__block-wrapper 
                     .price-list__block-wrapper-title радиус:
@@ -521,7 +587,7 @@
                         li.price-list__block-wrappers-list-item 1 000 ₽
                         li.price-list__block-wrappers-list-item 1 100 ₽
             .price-list__block 
-                .price-list__block-add 002
+                .price-list__block-add 013
                 .price-list__block-title Цены на ремонт боковых порезов шин:
                 .price-list__block-wrapper 
                     .price-list__block-wrapper-title радиус:

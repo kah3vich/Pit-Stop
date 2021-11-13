@@ -79,7 +79,7 @@
   <section class="price-price"> 
     <div class="containers"> 
       <div class="price-price__block"> 
-        <div class="price-price__block-add">003</div>
+        <div class="price-price__block-add">001</div>
         <div class="price-price__block-title">Расчет стоимости</div>
         <div class="price-price__block-titles">Вид покраски</div>
         <div class="price-price__block-dye">
@@ -98,54 +98,146 @@
         </div>
         <div class="price-price__block-adds"> 
           <select id="type">
+            <option value=""></option>
             <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
-            <option value="Литой">Литой</option>
+            <option value="Штампованный">Штампованный</option>
           </select>
           <select id="count">
-            <option value="1">1</option>
+            <option value=""></option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
           </select>
           <select id="radios">
+            <option value=""></option>
             <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
-            <option value="R13">R13</option>
+            <option value="R14">R14</option>
+            <option value="R15">R15</option>
+            <option value="R16">R16</option>
+            <option value="R17">R17</option>
+            <option value="R18">R18</option>
+            <option value="R19">R19</option>
+            <option value="R20">R20</option>
+            <option value="R21">R21</option>
+            <option value="R22">R22</option>
+            <option value="R23">R23</option>
+            <option value="R24">R24</option>
           </select>
         </div>
-        <div class="price-price__block-plus"><a href="#">Дополнительные работы </a></div>
+        <div class="price-price__block-plus">
+          <p>Дополнительные работы </p>
+        </div>
+        <div class="price-price__block-catalog display-n"> 
+          <div class="price-price__block-catalog-checkbox"> 
+            <div class="price-price__block-catalog-checkbox-item"> 
+              <div class="price-price__block-catalog-checkbox-title">Покрытие лаком</div>
+              <div class="price-price__block-catalog-checkbox-price">700 ₽</div>
+              <div class="price-price__block-catalog-checkbox-block">
+                <input class="price-price__block-catalog-checkbox-block-checkbox" type="checkbox" id="priceexPriceCheckbox-1">
+                <label for="priceexPriceCheckbox-1"></label>
+              </div>
+            </div>
+            <div class="price-price__block-catalog-checkbox-item"> 
+              <div class="price-price__block-catalog-checkbox-title">Покраска канта диска</div>
+              <div class="price-price__block-catalog-checkbox-price">1 750 ₽</div>
+              <div class="price-price__block-catalog-checkbox-block">
+                <input class="price-price__block-catalog-checkbox-block-checkbox" type="checkbox" id="priceexPriceCheckbox-2">
+                <label for="priceexPriceCheckbox-2"></label>
+              </div>
+            </div>
+          </div>
+          <div class="price-price__block-catalog-select"> 
+            <div class="price-price__block-catalog-select-item"> 
+              <div class="price-price__block-catalog-select-title">Устранение царапин и сколов</div>
+              <div class="price-price__block-catalog-select-price">700 ₽</div>
+              <div class="price-price__block-catalog-select-block"> 
+                <select id="remove">
+                  <option value="Нет">Нет</option>
+                  <option value="Нет">Нет</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="price-price__block-catalog-select-item"> 
+              <div class="price-price__block-catalog-select-title">Правка диска</div>
+              <div class="price-price__block-catalog-select-price">700 ₽</div>
+              <div class="price-price__block-catalog-select-block"> 
+                <select id="disk">
+                  <option value="Нет">Нет</option>
+                  <option value="Нет">Нет</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="price-price__block-catalog-select-item"> 
+              <div class="price-price__block-catalog-select-title">Монтаж / демонтаж</div>
+              <div class="price-price__block-catalog-select-price">700 ₽</div>
+              <div class="price-price__block-catalog-select-block"> 
+                <select id="mounting">
+                  <option value="Нет">Нет</option>
+                  <option value="Нет">Нет</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="price-price__block-catalog-select-item"> 
+              <div class="price-price__block-catalog-select-title">Балансировка</div>
+              <div class="price-price__block-catalog-select-price">700 ₽</div>
+              <div class="price-price__block-catalog-select-block"> 
+                <select id="balance">
+                  <option value="Нет">Нет</option>
+                  <option value="Нет">Нет</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="price-price__block-catalog-select-item"> 
+              <div class="price-price__block-catalog-select-title">Съем / установка</div>
+              <div class="price-price__block-catalog-select-price">700 ₽</div>
+              <div class="price-price__block-catalog-select-block"> 
+                <select id="shooting">
+                  <option value="Нет">Нет</option>
+                  <option value="Нет">Нет</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="price-price__block-catalog-select-item"> 
+              <div class="price-price__block-catalog-select-title">Доставка</div>
+              <div class="price-price__block-catalog-select-price">700 ₽</div>
+              <div class="price-price__block-catalog-select-block"> 
+                <select id="delivery">
+                  <option value="Нет">Нет</option>
+                  <option value="Нет">Нет</option>
+                  <option value="В одну сторону">В одну сторону</option>
+                  <option value="Туда - обратно">Туда - обратно</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="price-price__block-banner"> 
           <h3>Итого:</h3>
           <p>4690₽</p>
+          <button class="price-price__block-banner-btn"> <a href="#">Заказать</a></button>
         </div>
-        <button class="price-price__block-btn">Узнать подробнее</button>
       </div>
     </div>
   </section>
@@ -208,7 +300,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">003</div>
         <div class="price-list__block-title">Цена на покраску в цвета "эксклюзив"</div>
         <div class="price-list__block-description">Дополнительное покрытие лаком: +700 руб. / диск</div>
         <div class="price-list__block-wrapper"> 
@@ -264,7 +356,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">004</div>
         <div class="price-list__block-title">Цена покраски дисков с использованием алмазной шлифовки лицевой части</div>
         <div class="price-list__block-wrapper"> 
           <div class="price-list__block-wrapper-title">радиус:</div>
@@ -316,14 +408,14 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">005</div>
         <div class="price-list__block-title">Хранение шин</div>
         <ul class="price-list__block-list"> 
           <li class="price-list__block-list-item">Сезонное хранение шин (комплект) - 500 руб./мес., на дисках - 700 руб./мес.</li>
         </ul>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">006</div>
         <div class="price-list__block-title">Цены на ремонт литых и штампованных дисков</div>
         <div class="price-list__block-wrapper"> 
           <div class="price-list__block-wrapper-title">радиус:</div>
@@ -370,7 +462,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">007</div>
         <div class="price-list__block-title">Исправление повреждения диска "восьмерка"</div>
         <div class="price-list__block-wrapper"> 
           <div class="price-list__block-wrapper-title">радиус:</div>
@@ -406,7 +498,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">008</div>
         <div class="price-list__block-title">Аргонная сварка</div>
         <ul class="price-list__block-list"> 
           <li class="price-list__block-list-item">Стоимость работ определяется длиной сварочного шва исходя из 200 руб./см.</li>
@@ -416,7 +508,7 @@
         </ul>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">009</div>
         <div class="price-list__block-title">Шиномонтажные работы (цены на "переобувку" и балансировку)</div>
         <div class="price-list__block-wrapper"> 
           <div class="price-list__block-wrapper-title">Переобувка (комплекс)</div>
@@ -562,7 +654,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">010</div>
         <div class="price-list__block-title">Шиномонтажные работы (цены на "переобувку" и балансировку)</div>
         <div class="price-list__block-wrappers-table"> 
           <ul class="price-list__block-wrappers-table-list">
@@ -584,7 +676,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">011</div>
         <div class="price-list__block-title">Исправление повреждения диска "восьмерка"</div>
         <div class="price-list__block-wrapper"> 
           <div class="price-list__block-wrapper-title">радиус:</div>
@@ -628,7 +720,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">012</div>
         <div class="price-list__block-title">Цены на ремонт боковых порезов шин:</div>
         <div class="price-list__block-wrapper"> 
           <div class="price-list__block-wrapper-title">радиус:</div>
@@ -671,7 +763,7 @@
         </div>
       </div>
       <div class="price-list__block"> 
-        <div class="price-list__block-add">002</div>
+        <div class="price-list__block-add">013</div>
         <div class="price-list__block-title">Цены на ремонт боковых порезов шин:</div>
         <div class="price-list__block-wrapper"> 
           <div class="price-list__block-wrapper-title">радиус:</div>
