@@ -19695,73 +19695,12 @@ h6 {
     width: 100%;
   }
 
-  .client-header__block-content-list {
-    width: 560px;
-  }
-
-  .client-header__block-add {
-    width: 100%;
-  }
-
-  .client-header__block-add-list {
-    width: 100%;
-  }
-
-  .client-header__block-add-item {
-    width: 100%;
-  }
-
-  .client-header__block-add-item-wrapper {
-    width: 80%;
-  }
-
-  .client-header__block-add-item-block {
-    width: 80%;
-  }
-
-  .reviews-header__block-messages {
-    width: 100%;
-    background: transparent;
-  }
-
-  .reviews-header__block-messages::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 568px;
-    height: 441px;
-    background: #800705;
-    z-index: 2;
-  }
-
-  .reviews-header__block-messages::after {
-    z-index: 4;
-  }
-
-  .reviews-header__block-messages-block {
-    z-index: 4;
-  }
-
-  .reviews-header__block-messages-block {
-    width: 92%;
-    padding: 102px 40px 46px 44px;
-  }
-
-  .reviews-header__block-messages-block-text {
-    width: 100%;
-  }
-
   .delivery-easy__block-item-icons {
     top: -35px;
   }
 
   .conditioner-easy__block-item-icons {
     top: -35px;
-  }
-
-  .refill-list {
-    display: none;
   }
 }
 
@@ -19791,10 +19730,6 @@ h6 {
 
   .disk-examples__block-tabs-item {
     width: 100%;
-  }
-
-  .header__block-services {
-    left: 300px;
   }
 }
 
