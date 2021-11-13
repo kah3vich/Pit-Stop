@@ -785,4 +785,521 @@ $('.ind-price__block-plus').on('click', function() {
 
 
 
+$('.modelIndexExamplesSlider-close').on('click', function() {
+    $('.modelIndexExamplesSlider').addClass('display-n')
+    $('body').css('overflow', 'visible')
+});
 
+$('#diskSlidersAboutItemsElement-1').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 0
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-2').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 1
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-3').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 2
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-4').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 3
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-5').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 4
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-6').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 5
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-7').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 6
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-8').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 7
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-9').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 8
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-10').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 9
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-11').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 10
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-12').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 11
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-13').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 0
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-14').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 1
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-15').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 2
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-16').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 3
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-17').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 4
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-18').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 5
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-19').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 6
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-20').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 7
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-21').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 8
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-22').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 9
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-23').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 10
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-24').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 11
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-25').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 12
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-26').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 13
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});
+$('#diskSlidersAboutItemsElement-27').on('click', function() {
+    $('.modelIndexExamplesSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelIndexExamplesSliderBlockCount = 12
+    var modelIndexExamplesSliderBlock = new Swiper(".modelIndexExamplesSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-next",
+            prevEl: ".modelIndexExamplesSlider__slider   .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelIndexExamplesSliderBlockCount,
+    });
+});

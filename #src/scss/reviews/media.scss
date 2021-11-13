@@ -68,6 +68,11 @@
     }
     .reviews-header__block-messages-block {
         position: static;
+        transform: none;
+        padding: 102px 40px 46px 25px;
+    }
+    .reviews-header__block-messages-block-img {
+        left: 25px;
     }
     .reviews-header__block-title {
         margin: 246px 0 190px 0;
