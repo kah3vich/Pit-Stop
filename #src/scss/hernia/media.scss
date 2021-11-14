@@ -1,13 +1,12 @@
 @media (max-width: 1440px) {
-    // .hernia-process,
-    // .hernia-list {
-    //     display: none;
-    // }
-
-
-    // .hernia-easy__block-item-icons {
-    //     top: -35px;
-    // }
+    .hernia-easy__block-item-icons {
+        top: -35px;
+    }
+}
+@media (max-width: 1400px) {
+    .hernia-list {
+        display: none;
+    }
 }
 @media (max-width: 1350px) {
     .hernia-work__block-wrapper {
@@ -121,6 +120,9 @@
     .hernia-header .containers {
         padding: 0 30px;
     }
+    .hernia-process .containers {
+        padding: 0 30px;
+    }
     .hernia-header {
         background: url(../img/header-banner.png) no-repeat;
         background-size: cover;
@@ -156,6 +158,9 @@
         margin: 35px 0 0 0;
         width: 100%;
         background: transparent;
+    }
+    .hernia-process__block-description {
+        width: 100%;
     }
     .hernia-work__about-banner {
         width: 100%;
@@ -200,5 +205,19 @@
         right: auto;
         left: 0;
         padding: 0 0 0 27px;
+    }
+}
+@media (max-width: 600px) {
+    .hernia-process__block-list {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 450px) {
+    .hernia-process__block-list {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

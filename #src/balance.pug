@@ -36,22 +36,22 @@
                 .swiper.balanceSliderAbout
                     .swiper-wrapper
                         .swiper-slide 
-                            .balance-ways__slider-item
+                            .balance-ways__slider-item#balanceSlidersItems-1
                                 img(src="./img/balance/slider-1.png" alt="img")
                         .swiper-slide 
-                            .balance-ways__slider-item
+                            .balance-ways__slider-item#balanceSlidersItems-2
                                 img(src="./img/balance/slider-2.png" alt="img")
                         .swiper-slide 
-                            .balance-ways__slider-item
+                            .balance-ways__slider-item#balanceSlidersItems-3
                                 img(src="./img/balance/slider-3.png" alt="img")
                         .swiper-slide 
-                            .balance-ways__slider-item
+                            .balance-ways__slider-item#balanceSlidersItems-4
                                 img(src="./img/balance/slider-4.png" alt="img")
                         .swiper-slide 
-                            .balance-ways__slider-item
+                            .balance-ways__slider-item#balanceSlidersItems-5
                                 img(src="./img/balance/slider-5.png" alt="img")
                         .swiper-slide 
-                            .balance-ways__slider-item
+                            .balance-ways__slider-item#balanceSlidersItems-6
                                 img(src="./img/balance/slider-6.png" alt="img")
                 .swiper-controls 
                     .swiper-button-next 
@@ -197,5 +197,7 @@
 
 
     @@include('components/_footer.pug')
+    @@include('components/_menu.pug')
+    @@include('components/_modelBalanceSlider.pug')
 
 @@include('components/_script.pug')

@@ -1,54 +1,10 @@
 @media (max-width: 1440px) {
-    // .ind-examples__block-catalog {
-    //     width: 100%;
-    // }
-    // .ind-examples__block-catalog-item {
-    //     width: 100%;
-    //         & img {
-    //             width: 100%;
-    //             height: 100%;
-    //         }
-    // }
-    // .ind-shop__block-catalog-item {
-    //     width: 100%;
-    // }
-    // .ind-shop__block-catalog-item-img {
-    //     width: 100%;
-    //     & img {
-    //         width: 100%;
-    //         height: 100%;
-    //     }
-    // }
-    // .ind-shop__block-catalog-item-text {
-    //     width: 100%;
-    // }
-    // .ind-shop__block-catalog {
-    //     width: 100%;
-    // }
-    // .ind-abouts__block-content-add {
-    //     width: 100%;
-    // }
-    // .ind-abouts__block-content-add p {
-    //     width: 93%;
-    // }
-    // .ind-abouts__block-content-text-item {
-    //     width: 100%;
-    // }
-    // .ind-about__block-content-add {
-    //     width: 100%;
-    //     height: 100%;
-    //     padding: 48px 0 20px 53px;
-    // }
-    // .ind-about__block-content-add p {
-    //     width: 90%;
-    //     height: 100%;
-    // }
-    // .ind-about__block-content-add::after {
-    //     height: 100%;
-    // }
-    // .ind-about__block-content-text-item {
-    //     width: 100%;
-    // }
+    .ind-examples__block-catalog { 
+        width: 100%;
+    }
+    .ind-examples__block-catalog-item {
+        width: 100%;
+    }
     .ind-shop__block-catalog {
         width: 100%;
     }
@@ -84,12 +40,17 @@
     }
     .type-select-item,
     .count-select-item {
-        margin: 0 0 20px 0;
+        margin: 0 0 55px 0;
     }
 }
 @media (max-width: 1350px) {
     .ind-shop__block-catalog {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1330px) {
+    .ind-price__block-catalog-select {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (max-width: 1300px) {
@@ -193,6 +154,17 @@
     }
     .ind-about__block-content-add::after {
         height: 100%;
+    }
+}
+@media (max-width: 1220px) {
+    .modelIndexExamplesSlider__slider {
+        & .swiper-slide {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .modelIndexExamplesSlider__slider-item {
+        width: 700px;
     }
 }
 @media (max-width: 1200px) {
@@ -386,6 +358,34 @@
     .ind-price {
         background: transparent;
     }
+    .modelIndexExamplesSlider-close {
+        width: 54px;
+        height: 54px;
+        background: 0 0;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .modelIndexExamplesSlider__slider-item {
+        width: 500px;
+    }
+}
+@media (max-width: 850px) {
+    .ind-price__block-catalog-select {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ind-price__block-catalog-checkbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .ind-price__block-catalog-checkbox-item:nth-child(2) {
+        margin: 35px 0 0 0;
+    }
+    .ind-price__block-catalog-checkbox-block {
+        width: 180px;
+    }
 }
 @media (max-width: 750px) {
     .ind-examples__block-tabs {
@@ -486,6 +486,18 @@
         right: 35px;
         width: 300px;
     }
+    .modelIndexExamplesSlider__slider .swiper-button-prev,
+    .modelIndexExamplesSlider__slider .swiper-button-next {
+        display: none;
+    }
+}
+@media (max-width: 690px) {
+    .ind-slider__block-slider-item {
+        width: 100%;
+    }
+    .ind-slider__block-slider-item-text {
+        width: 100%;
+    }
 }
 @media (max-width: 650px) {
     .ind-abouts__block-img {
@@ -551,10 +563,16 @@
         right: auto;
         width: 92%;
     }
+    .modelIndexExamplesSlider__slider-item {
+        width: 450px;
+    }
 }
 @media (max-width: 500px) {
     .ind-examples__block-tabs-item {
         font-size: 13px;
+    }
+    .modelIndexExamplesSlider__slider-item {
+        width: 350px;
     }
     .ind-price__block-banner-btn {
         position: absolute;
@@ -596,5 +614,13 @@
     }
     .ind-slider__block-slider .swiper-pagination-bullets {
         display: none;
+    }
+}
+@media (max-width: 450px) {
+    .ind-price__block-catalog-select-item {
+        width: 100%;
+    }
+    .ind-price__block-catalog-select-block {
+        width: 100%;
     }
 }

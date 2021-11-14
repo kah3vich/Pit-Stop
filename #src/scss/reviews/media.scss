@@ -85,6 +85,10 @@
     .reviews-header__block-title {
         width: 100%;
     }
+    .reviews-header__block-btns,
+    .reviews-header__block-btn {
+        margin: 30px auto 0 0;
+    }
 }
 @media (max-width: 550px) {
     .reviews-header__block-messages-block-text {

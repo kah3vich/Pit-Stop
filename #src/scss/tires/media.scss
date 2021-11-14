@@ -1,27 +1,32 @@
 @media (max-width: 1440px) {
-    // .tires-list {
-    //     display: none;
-    // }
-    // .tires-easy__block-item-icons {
-    //     top: -35px;
-    // }
-    // .tires-header__block-add {
-    //     width: 100%;
-    // }
-    // .tires-header__block-wrapper {
-    //     width: 100%;
-    // }
-    // .tires-header__block-add-item-wrapper {
-    //     width: 80%;
-    // }
-    // .tires-header__block-add-item-block {
-    //     width: 100%;
-    // }
-    // .tires-header__block-add {
-    //     width: 100%;
-    //     height: 100%;
-    //     padding: 51px 0 25px 28px;
-    // }
+    .tires-easy__block-item-icons {
+        top: -35px;
+    }
+    .tires-header__block-add {
+        width: 100%;
+    }
+    .tires-header__block-wrapper {
+        width: 100%;
+    }
+    .tires-header__block-add-item-wrapper {
+        width: 80%;
+    }
+    .tires-header__block-add-item-block {
+        width: 100%;
+    }
+    .tires-header__block-add {
+        width: 100%;
+        height: 100%;
+        padding: 34px 0 25px 28px;
+    }
+    .tires-ways__wrapper-add-item img {
+        object-fit: cover;
+    }
+}
+@media (max-width: 1400px) {
+    .tires-list {
+        display: none;
+    }
 }
 @media (max-width: 1350px) {
     .tires-easy__block-list {

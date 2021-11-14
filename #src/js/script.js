@@ -7,3 +7,4 @@
 @@include('reviews/reviews.js')
 @@include('header/header.js')
 @@include('price/price.js')
+@@include('constructor/constructor.js')

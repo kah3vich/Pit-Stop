@@ -344,24 +344,24 @@ var indexSliderCars_1 = new Swiper(".indexSliderCars-1", {
         el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-1 .swiper-pagination",
     },
     keyboard: true,
-    // breakpoints: {
-    //     1435: {
-    //         slidesPerView: 4,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     1125: {
-    //         slidesPerView: 3,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     700: {
-    //         slidesPerView: 2,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     0: {
-    //         slidesPerView: 1,
-    //         spaceBetweenSlides: 0
-    //     }
-    // }
+    breakpoints: {
+        1390: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        980: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        690: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
 });
 var indexSliderCars_2 = new Swiper(".indexSliderCars-2", {
     slidesPerView: 4,
@@ -374,24 +374,24 @@ var indexSliderCars_2 = new Swiper(".indexSliderCars-2", {
         el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-2 .swiper-pagination",
     },
     keyboard: true,
-    // breakpoints: {
-    //     1435: {
-    //         slidesPerView: 4,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     1125: {
-    //         slidesPerView: 3,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     700: {
-    //         slidesPerView: 2,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     0: {
-    //         slidesPerView: 1,
-    //         spaceBetweenSlides: 0
-    //     }
-    // }
+    breakpoints: {
+        1390: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        980: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        690: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
 });
 var indexSliderCars_3 = new Swiper(".indexSliderCars-3", {
     slidesPerView: 4,
@@ -404,24 +404,24 @@ var indexSliderCars_3 = new Swiper(".indexSliderCars-3", {
         el: ".ind-slider__block-slider #headerSliderTabsControlsSlider-3 .swiper-pagination",
     },
     keyboard: true,
-    // breakpoints: {
-    //     1435: {
-    //         slidesPerView: 4,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     1125: {
-    //         slidesPerView: 3,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     700: {
-    //         slidesPerView: 2,
-    //         spaceBetweenSlides: 0
-    //     },
-    //     0: {
-    //         slidesPerView: 1,
-    //         spaceBetweenSlides: 0
-    //     }
-    // }
+    breakpoints: {
+        1390: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        980: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        690: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
 });
 
 
@@ -532,7 +532,7 @@ $('#menuOpen').on('click', function() {
 });
 $('#menuClose').on('click', function() {
     $('.menu').addClass('display-n')
-    $('body').css('overflow', 'hidden')
+    $('body').css('overflow', 'visible')
 });
 
 
@@ -577,6 +577,11 @@ function headerSliderTabsCheck_1() {
         $('#headerSliderTabsControlsSlider-2').addClass('display-n')
         $('#headerSliderTabsControlsSlider-3').addClass('display-n')
     }
+    if(window.innerWidth <= 980) {
+        $('#headerSliderTabsControlsSlider-1').removeClass('display-n')
+        $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-3').addClass('display-n')
+    }
 }
 function headerSliderTabsCheck_2() {
     let headerSliderTabsSlider_2 = $('#headerSliderTabsSlider-2 .swiper-slide').length
@@ -587,6 +592,11 @@ function headerSliderTabsCheck_2() {
     } else {
         $('#headerSliderTabsControlsSlider-1').addClass('display-n')
         $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-3').addClass('display-n')
+    }
+    if(window.innerWidth <= 980) {
+        $('#headerSliderTabsControlsSlider-2').removeClass('display-n')
+        $('#headerSliderTabsControlsSlider-1').addClass('display-n')
         $('#headerSliderTabsControlsSlider-3').addClass('display-n')
     }
 }
@@ -601,7 +611,14 @@ function headerSliderTabsCheck_3() {
         $('#headerSliderTabsControlsSlider-2').addClass('display-n')
         $('#headerSliderTabsControlsSlider-3').addClass('display-n')
     }
+    if(window.innerWidth <= 980) {
+        $('#headerSliderTabsControlsSlider-3').removeClass('display-n')
+        $('#headerSliderTabsControlsSlider-2').addClass('display-n')
+        $('#headerSliderTabsControlsSlider-1').addClass('display-n')
+    }
 }
+
+headerSliderTabsCheck_1()
 
 
 
@@ -6547,7 +6564,128 @@ var balanceSliderAbout = new Swiper(".balanceSliderAbout", {
             spaceBetweenSlides: 0
         }
     },
-    loop: true,
+});
+
+
+
+
+$('.modelBalanceSlider-close ').on('click', function() {
+    $('.modelBalanceSlider').addClass('display-n')
+    $('body').css('overflow', 'visible')
+});
+$('#balanceSlidersItems-1').on('click', function() {
+    $('.modelBalanceSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelBalanceSliderBlockCount = 0
+    var modelBalanceSliderBlock = new Swiper(".modelBalanceSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-next",
+            prevEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelBalanceSliderBlockCount,
+    })
+});
+$('#balanceSlidersItems-2').on('click', function() {
+    $('.modelBalanceSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelBalanceSliderBlockCount = 1
+    var modelBalanceSliderBlock = new Swiper(".modelBalanceSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-next",
+            prevEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelBalanceSliderBlockCount,
+    })
+});
+$('#balanceSlidersItems-3').on('click', function() {
+    $('.modelBalanceSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelBalanceSliderBlockCount = 2
+    var modelBalanceSliderBlock = new Swiper(".modelBalanceSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-next",
+            prevEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelBalanceSliderBlockCount,
+    })
+});
+$('#balanceSlidersItems-4').on('click', function() {
+    $('.modelBalanceSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelBalanceSliderBlockCount = 3
+    var modelBalanceSliderBlock = new Swiper(".modelBalanceSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-next",
+            prevEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelBalanceSliderBlockCount,
+    })
+});
+$('#balanceSlidersItems-5').on('click', function() {
+    $('.modelBalanceSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelBalanceSliderBlockCount = 4
+    var modelBalanceSliderBlock = new Swiper(".modelBalanceSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-next",
+            prevEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelBalanceSliderBlockCount,
+    })
+});
+$('#balanceSlidersItems-6').on('click', function() {
+    $('.modelBalanceSlider').removeClass('display-n')
+    $('body').css('overflow', 'hidden')
+    let modelBalanceSliderBlockCount = 5
+    var modelBalanceSliderBlock = new Swiper(".modelBalanceSliderBlock", {
+        // loop: true,
+        navigation: {
+            nextEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-next",
+            prevEl: ".modelBalanceSlider__slider .swiper-controls .swiper-button-prev",
+        },
+        // pagination: {
+        //     el: ".disk-slider__block-wrapper .swiper-controls .swiper-pagination",
+        // },
+        keyboard: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        initialSlide: modelBalanceSliderBlockCount,
+    })
 });
 var alloySliderVideo = new Swiper(".alloySliderVideo", {
     navigation: {
@@ -6602,4 +6740,10 @@ $('#headerServices').hover(function() {
 
 $('.price-price__block-plus').on('click', function() {
     $('.price-price__block-catalog').toggleClass('display-n')
+});
+$('.constructor-constructor__wrapper-controls-type').on('click', function() {
+    $('.constructor-constructor__wrapper-controls-adds').toggleClass('display-n')
+});
+$('.constructor-constructor__wrapper-controls-adds-close').on('click', function() {
+    $('.constructor-constructor__wrapper-controls-adds').addClass('display-n')
 });

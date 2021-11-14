@@ -1,32 +1,26 @@
 @media (max-width: 1440px) {
-    // .polishing-list {
-    //     display: none;
-    // }
-
-
-
-
-
-    // .polishing-examples__block-catalog {
-    //     width: 100%;
-    // }
-    // .polishing-examples__block-catalog-item {
-    //     width: 100%;
-    //     & img {
-    //         object-fit: cover;
-    //         height: 100%;
-    //         width: 100%;
-    //     }
-    // }
-    // .polishing-examples__block-tabs {
-    //     width: 100%;
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: space-between;
-    // }
-    // .polishing-video__block-slider iframe {
-    //     width: 80%;
-    // }
+    .polishing-examples__block-catalog-item {
+        width: 100%;
+        & img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .polishing-video__block-slider iframe {
+        width: 80%;
+    }
+    .disk-easy__block-item-icons {
+        top: -35px;
+    }
+}
+@media (max-width: 1400px) {
+    .polishing-list {
+        display: none;
+    }
+}
+@media (max-width: 1380px) {
+    
 }
 @media (max-width: 1350px) {
     .polishing-about__block {
@@ -68,7 +62,7 @@
         position: relative;
         width: 100%;
         height: 891px;
-        background: url(../img/header-banner.png) no-repeat;
+        background: url("../img/polishing/banner.png") no-repeat;
         background-size: cover;
     }
     .polishing-header__block-banner {
