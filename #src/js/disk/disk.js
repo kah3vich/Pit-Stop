@@ -913,6 +913,24 @@ var diskSliderBlock = new Swiper(".diskSliderBlock", {
     keyboard: true,
     slidesPerView: 4,
     spaceBetween: 0,
+    breakpoints: {
+        1200: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        850: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        550: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
 });
 
 

@@ -13,9 +13,16 @@
     .disk-easy__block-item-icons {
         top: -35px;
     }
+    .polishing-examples__block-tabs {
+        display: flex;
+        align-items: center;
+        justify-items: flex-start;
+        width: 505px;
+    }
 }
 @media (max-width: 1400px) {
-    .polishing-list {
+    .polishing-list,
+    .polishing-constructor {
         display: none;
     }
 }
@@ -28,6 +35,12 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
+    }
+    .polishing-examples__block-catalog {
+        margin: 55px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        width: 100%;
     }
     .polishing-about {
         height: 100%;
@@ -67,6 +80,22 @@
     }
     .polishing-header__block-banner {
         display: none;
+    }
+}
+@media (max-width: 1220px) {
+    .modelPolishingSliders__slider .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+    .modelPolishingSliders__slider-item {
+        width: 800px;
+    }
+    .modelPolishingExample__slider .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+    .modelPolishingExample__slider-item {
+        width: 800px;
     }
 }
 @media (max-width: 1200px) {
@@ -113,6 +142,12 @@
     }
     .polishing-slider__block-banner {
         background: transparent;
+    }
+    .modelPolishingSliders__slider-item {
+        width: 500px;
+    }
+    .modelPolishingExample__slider-item {
+        width: 500px;
     }
     .polishing-slider__block::after {
         display: none;
@@ -257,6 +292,28 @@
     .polishing-header {
         margin: 0 0 55px 0;
     }
+    .modelPolishingSliders__slider-item {
+        width: 380px;
+    }
+    .modelPolishingExample__slider-item {
+        width: 380px;
+    }
+    .modelPolishingExample__slider .swiper-button-prev,
+    .modelPolishingExample__slider .swiper-button-next {
+        display: none;
+    }
+    .modelPolishingExample-close {
+        top: 8px;
+        right: 8px;
+    }
+    .modelPolishingSliders__slider .swiper-button-prev,
+    .modelPolishingSliders__slider .swiper-button-next {
+        display: none;
+    }
+    .modelPolishingSliders-close {
+        top: 8px;
+        right: 8px;
+    }
 }
 @media (max-width: 650px) {
     .polishing-discount__block-banner {
@@ -266,6 +323,10 @@
 @media (max-width: 600px) {
     .polishing-examples__block-catalog {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .polishing-examples__block-tabs {
+        display: grid;
+        width: 100%;
     }
 }
 @media (max-width: 500px) {
