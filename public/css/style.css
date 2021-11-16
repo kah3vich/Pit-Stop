@@ -13942,6 +13942,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
 }
 
 .constructor-constructor__wrapper-controls {
@@ -14085,9 +14086,8 @@
 
 .constructor-constructor__wrapper-controls-btn {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
-  margin: 55px 0 0 0;
   width: 275px;
   height: 68px;
   background: #800705;
@@ -14102,7 +14102,6 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding: 0 0 0 27px;
-  display: none;
 }
 
 .constructor-constructor__wrapper-controls-btn::after {

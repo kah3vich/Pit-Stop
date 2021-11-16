@@ -96,6 +96,7 @@
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
+        position: relative;
         &-controls {
             display: flex;
             flex-direction: column;
@@ -191,9 +192,8 @@
             }
             &-btn {
                 position: absolute;
-                top: 0;
+                bottom: 0;
                 right: 0;
-                margin: 55px 0 0 0;
                 width: 275px;
                 height: 68px;
                 background: #800705;
@@ -202,7 +202,6 @@
                 align-items: center;
                 justify-content: flex-start;
                 padding: 0 0 0 27px;
-                display: none;
                 &::after {
                     content: url(../svg/index/arrow-w.svg);
                     position: absolute;

@@ -8503,6 +8503,27 @@ $('#constructorTypeCarColor-2').on('click', function() {
     constructors.car = type
     constructorsChecked()
 });
+$('#constructorTypeCarColor-3').on('click', function() {
+    const type = 3
+    constructors.car = type
+    constructorsChecked()
+});
+$('#constructorTypeCarColor-4').on('click', function() {
+    const type = 4
+    constructors.car = type
+    constructorsChecked()
+});
+$('#constructorTypeCarColor-5').on('click', function() {
+    const type = 5
+    constructors.car = type
+    constructorsChecked()
+});
+$('#constructorTypeCarColor-6').on('click', function() {
+    const type = 6
+    constructors.car = type
+    constructorsChecked()
+});
+
 
 $('#constructorTypeDiskColor-1').on('click', function() {
     const type = 1
@@ -8518,9 +8539,44 @@ $('#constructorTypeDiskColor-2').on('click', function() {
 function constructorsChecked() {
     console.log(constructors)
 
+    if(constructors.disk == 1 && constructors.car == 1) {
+        $('#constructorCar').attr('src', './img/constructor/1-1.png')
+    }
     if(constructors.disk == 1 && constructors.car == 2) {
+        $('#constructorCar').attr('src', './img/constructor/2-1.png')
+    }
+    if(constructors.disk == 1 && constructors.car == 3) {
+        $('#constructorCar').attr('src', './img/constructor/3-1.png')
+    }
+    if(constructors.disk == 1 && constructors.car == 4) {
+        $('#constructorCar').attr('src', './img/constructor/4-1.png')
+    }
+    if(constructors.disk == 1 && constructors.car == 5) {
+        $('#constructorCar').attr('src', './img/constructor/5-1.png')
+    }
+    if(constructors.disk == 1 && constructors.car == 6) {
+        $('#constructorCar').attr('src', './img/constructor/6-1.png')
+    }
+
+    if(constructors.disk == 2 && constructors.car == 1) {
         $('#constructorCar').attr('src', './img/constructor/1-2.png')
     }
+    if(constructors.disk == 2 && constructors.car == 2) {
+        $('#constructorCar').attr('src', './img/constructor/2-2.png')
+    }
+    if(constructors.disk == 2 && constructors.car == 3) {
+        $('#constructorCar').attr('src', './img/constructor/3-2.png')
+    }
+    if(constructors.disk == 2 && constructors.car == 4) {
+        $('#constructorCar').attr('src', './img/constructor/4-2.png')
+    }
+    if(constructors.disk == 2 && constructors.car == 5) {
+        $('#constructorCar').attr('src', './img/constructor/5-2.png')
+    }
+    if(constructors.disk == 2 && constructors.car == 6) {
+        $('#constructorCar').attr('src', './img/constructor/6-2.png')
+    }
+
 }
 
 
