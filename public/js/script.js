@@ -1321,6 +1321,26 @@ $('#diskSlidersAboutItemsElement-27').on('click', function() {
     });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+$('.disk-about__block-btn').on('click', function() {
+    $('body').css('overflow', 'hidden')
+    $('.modelOrderCall').removeClass('display-n')
+});
+$('.modelOrderCall__block-close').on('click', function() {
+    $('body').css('overflow', 'visible')
+    $('.modelOrderCall').addClass('display-n')
+});
+
 var diskSliderVideo = new Swiper(".diskSliderVideo", {
     navigation: {
         nextEl: ".disk-video__block-slider .swiper-controls .swiper-button-next",
@@ -8489,6 +8509,15 @@ $('#headerServicesButton').hover(function() {
 });
 $('#headerServices').hover(function() {
     $(this).toggleClass('display-n')
+    $('#headerAddress').addClass('display-n')
+});
+
+$('#headerAddressButton').hover(function() {
+    $('#headerAddress').toggleClass('display-n')
+});
+$('#headerAddress').hover(function() {
+    $(this).toggleClass('display-n')
+    $('#headerServices').addClass('display-n')
 });
 
 

@@ -21,7 +21,7 @@ let path = {
         html: source_folder + "/**/*.pug",
         css: source_folder + "/scss/**/*.scss",
         js: source_folder + "/js/**/*.js",
-        img: source_folder + "/img/**/*.{jpg, png, svg, ico, webp}",
+        img: source_folder + "/img/**/*.{png, jpg, svg, ico, webp}",
         icon: source_folder + "/svg/*.svg",
     },
     clean: "./" + project_folder + "/"

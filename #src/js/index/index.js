@@ -1320,3 +1320,23 @@ $('#diskSlidersAboutItemsElement-27').on('click', function() {
         initialSlide: modelIndexExamplesSliderBlockCount,
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+$('.disk-about__block-btn').on('click', function() {
+    $('body').css('overflow', 'hidden')
+    $('.modelOrderCall').removeClass('display-n')
+});
+$('.modelOrderCall__block-close').on('click', function() {
+    $('body').css('overflow', 'visible')
+    $('.modelOrderCall').addClass('display-n')
+});
