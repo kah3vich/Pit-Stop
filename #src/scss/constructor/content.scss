@@ -136,7 +136,7 @@
                 }
             }
             &-adds {
-                width: 382px;
+                width: 450px;
                 height: 85px;
                 background: #1B1B2F;
                 display: flex;
@@ -162,19 +162,22 @@
                         margin: 0;
                     }
                     &:nth-child(1) {
-                        background: #EC8D34;
+                        background: #030303;
                     }
                     &:nth-child(2) {
-                        background: #5DAF3C;
-                    }
-                    &:nth-child(3) {
-                        background: #000000;
-                    }
-                    &:nth-child(4) {
                         background: #FFFFFF;
                     }
+                    &:nth-child(3) {
+                        background: #FF0000;
+                    }
+                    &:nth-child(4) {
+                        background: #595959;
+                    }
                     &:nth-child(5) {
-                        background: #BC271C;
+                        background: #0058DA;
+                    }
+                    &:nth-child(6) {
+                        background: #00D516;
                     }
                 }
             }
@@ -230,15 +233,271 @@
                 }
             }
             &-list {
-                margin: 50px 0 0 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+                margin: -50px 0 0 0;
+                display: grid;
+                grid-template-columns: repeat(11, 1fr);
+                justify-items: center;
                 width: 100%;
+                gap: 60px 0;
                 &-item {
                     cursor: pointer;
                     width: 95px;
                     height: 95px;
+                    position: relative;
+                    &:nth-child(1) {
+                        &::after {
+                            content: "BM2T10N550";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(2) {
+                        &::after {
+                            content: "BM2T10G431";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(3) {
+                        &::after {
+                            content: "BM2T10M454";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(4) {
+                        &::after {
+                            content: "BD2T906018";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(5) {
+                        &::after {
+                            content: "BD2T901026";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(6) {
+                        &::after {
+                            content: "BM2T10GN39";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(7) {
+                        &::after {
+                            content: "BD2T9FR002";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(8) {
+                        &::after {
+                            content: "BM2T90N547";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(9) {
+                        &::after {
+                            content: "BV2T90V059";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(10) {
+                        &::after {
+                            content: "BD2T202004";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(11) {
+                        &::after {
+                            content: "BD2T203020";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(12) {
+                        &::after {
+                            content: "BM2T909007";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(13) {
+                        &::after {
+                            content: "BM2T70S641";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }&:nth-child(14) {
+                        &::after {
+                            content: "BD2T209003";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(15) {
+                        &::after {
+                            content: "BM2T909006";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(16) {
+                        &::after {
+                            content: "BM2T20G363";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    &:nth-child(17) {
+                        &::after {
+                            content: "BM2T90N514";
+                            position: absolute;
+                            bottom: -30px;
+                            transform: translate(-50%, 0);
+                            left: 50%;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                        }
+                    }
                     & img {
                         width: 100%;
                     }
