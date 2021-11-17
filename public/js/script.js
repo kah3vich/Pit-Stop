@@ -8535,47 +8535,94 @@ $('#constructorTypeDiskColor-2').on('click', function() {
     constructors.disk = type
     constructorsChecked()
 });
+$('#constructorTypeDiskColor-3').on('click', function() {
+    const type = 3
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-4').on('click', function() {
+    const type = 4
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-5').on('click', function() {
+    const type = 5
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-6').on('click', function() {
+    const type = 6
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-7').on('click', function() {
+    const type = 7
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-8').on('click', function() {
+    const type = 8
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-9').on('click', function() {
+    const type = 9
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-10').on('click', function() {
+    const type = 10
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-11').on('click', function() {
+    const type = 11
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-12').on('click', function() {
+    const type = 12
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-13').on('click', function() {
+    const type = 13
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-14').on('click', function() {
+    const type = 14
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-15').on('click', function() {
+    const type = 15
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-16').on('click', function() {
+    const type = 16
+    constructors.disk = type
+    constructorsChecked()
+});
+$('#constructorTypeDiskColor-17').on('click', function() {
+    const type = 17
+    constructors.disk = type
+    constructorsChecked()
+});
 
 function constructorsChecked() {
     console.log(constructors)
 
-    if(constructors.disk == 1 && constructors.car == 1) {
-        $('#constructorCar').attr('src', './img/constructor/1-1.png')
-    }
-    if(constructors.disk == 1 && constructors.car == 2) {
-        $('#constructorCar').attr('src', './img/constructor/2-1.png')
-    }
-    if(constructors.disk == 1 && constructors.car == 3) {
-        $('#constructorCar').attr('src', './img/constructor/3-1.png')
-    }
-    if(constructors.disk == 1 && constructors.car == 4) {
-        $('#constructorCar').attr('src', './img/constructor/4-1.png')
-    }
-    if(constructors.disk == 1 && constructors.car == 5) {
-        $('#constructorCar').attr('src', './img/constructor/5-1.png')
-    }
-    if(constructors.disk == 1 && constructors.car == 6) {
-        $('#constructorCar').attr('src', './img/constructor/6-1.png')
+    for (let j = 1; j < 18; j++) {
+        for (let i = 1; i < 7; i++) {
+            console.log(i)
+            if(constructors.disk == j && constructors.car == i) {
+                $('#constructorCar').attr('src', `./img/constructor/${i}-${j}.png`)
+            }
+        }
     }
 
-    if(constructors.disk == 2 && constructors.car == 1) {
-        $('#constructorCar').attr('src', './img/constructor/1-2.png')
-    }
-    if(constructors.disk == 2 && constructors.car == 2) {
-        $('#constructorCar').attr('src', './img/constructor/2-2.png')
-    }
-    if(constructors.disk == 2 && constructors.car == 3) {
-        $('#constructorCar').attr('src', './img/constructor/3-2.png')
-    }
-    if(constructors.disk == 2 && constructors.car == 4) {
-        $('#constructorCar').attr('src', './img/constructor/4-2.png')
-    }
-    if(constructors.disk == 2 && constructors.car == 5) {
-        $('#constructorCar').attr('src', './img/constructor/5-2.png')
-    }
-    if(constructors.disk == 2 && constructors.car == 6) {
-        $('#constructorCar').attr('src', './img/constructor/6-2.png')
-    }
 
 }
 
