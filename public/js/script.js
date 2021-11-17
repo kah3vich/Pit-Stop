@@ -8612,8 +8612,6 @@ $('#constructorTypeDiskColor-17').on('click', function() {
 });
 
 function constructorsChecked() {
-    console.log(constructors)
-
     for (let j = 1; j < 18; j++) {
         for (let i = 1; i < 7; i++) {
             console.log(i)
@@ -8622,8 +8620,6 @@ function constructorsChecked() {
             }
         }
     }
-
-
 }
 
 
