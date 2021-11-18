@@ -53,6 +53,15 @@ $bg: #171725;
 body {
     position: relative;
     background-color: $bg;
+    &::before {
+        content: url(../svg/bg.svg) no-repeat;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        height: 100%;
+    }
 }
 a {
     text-decoration: none;

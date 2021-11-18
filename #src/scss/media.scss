@@ -120,6 +120,47 @@
         margin: 15px 0 0 0;
     }
 }
+@media (max-width: 550px) {
+    .modelOrderCall__block {
+        width: 380px;
+    }
+    .modelOrderCall__block-btn {
+        margin: 46px 0 0 0;
+        width: 330px;
+    }
+    .modelOrderCall__block-phone {
+        margin: 31px 0 0 0;
+        width: 330px;
+        padding: 0 50px 0 78px;
+    }
+    .modelOrderCall__block-name {
+        margin: 16px 0 0 0;
+        width: 330px;
+        padding: 0 50px 0 88px;
+    }
+    .modelOrderCall__block-add {
+        width: 80%;
+    }
+    .modelOrderCall__block-add {
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 27px;
+        color: #fff;
+        text-align: center;
+        margin: 20px 0 13px 0;
+    }
+    .modelOrderCall__block-title {
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
 @media (max-width: 500px) {
     .footer__block-title p {
         font-size: 18px;

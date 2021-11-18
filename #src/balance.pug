@@ -112,42 +112,44 @@
             .balance-list__block 
                 .balance-list__block-add 004
                 .balance-list__block-title Цена на порошковую покраску литых дисков
-                .balance-list__block-wrapper 
-                    .balance-list__block-wrapper-title радиус:
-                    ul.balance-list__block-wrapper-list
-                        li.balance-list__block-wrapper-list-item R13
-                        li.balance-list__block-wrapper-list-item R14
-                        li.balance-list__block-wrapper-list-item R15
-                        li.balance-list__block-wrapper-list-item R16
-                        li.balance-list__block-wrapper-list-item R17
-                        li.balance-list__block-wrapper-list-item R18
-                        li.balance-list__block-wrapper-list-item R19
-                        li.balance-list__block-wrapper-list-item R20
-                        li.balance-list__block-wrapper-list-item R21
-                .balance-list__block-wrappers
-                    .balance-list__block-wrappers-title Балансировка 4-х колес (легковые)
-                    ul.balance-list__block-wrappers-list
-                        li.balance-list__block-wrappers-list-item 1 000 ₽
-                        li.balance-list__block-wrappers-list-item 1 100 ₽
-                        li.balance-list__block-wrappers-list-item 1 200 ₽
-                        li.balance-list__block-wrappers-list-item 1 300 ₽
-                        li.balance-list__block-wrappers-list-item 1 500 ₽
-                        li.balance-list__block-wrappers-list-item 1 700 ₽
-                        li.balance-list__block-wrappers-list-item 1 800 ₽
-                        li.balance-list__block-wrappers-list-item 2 200 ₽
-                        li.balance-list__block-wrappers-list-item 2 400 ₽
-                .balance-list__block-wrappers 
-                    .balance-list__block-wrappers-title Балансировка 4-х колес (внедорожники)
-                    ul.balance-list__block-wrappers-list
-                        li.balance-list__block-wrappers-list-item 1 200 ₽
-                        li.balance-list__block-wrappers-list-item 1 300 ₽
-                        li.balance-list__block-wrappers-list-item 1 400 ₽
-                        li.balance-list__block-wrappers-list-item 1 500 ₽
-                        li.balance-list__block-wrappers-list-item 1 600 ₽
-                        li.balance-list__block-wrappers-list-item 1 800 ₽
-                        li.balance-list__block-wrappers-list-item 1 900 ₽
-                        li.balance-list__block-wrappers-list-item 2 800 ₽
-                        li.balance-list__block-wrappers-list-item 3 000 ₽
+                .balance-list__block-price
+                    .balance-list__block-prices
+                        .balance-list__block-wrapper 
+                            .balance-list__block-wrapper-title радиус:
+                            ul.balance-list__block-wrapper-list
+                                li.balance-list__block-wrapper-list-item R13
+                                li.balance-list__block-wrapper-list-item R14
+                                li.balance-list__block-wrapper-list-item R15
+                                li.balance-list__block-wrapper-list-item R16
+                                li.balance-list__block-wrapper-list-item R17
+                                li.balance-list__block-wrapper-list-item R18
+                                li.balance-list__block-wrapper-list-item R19
+                                li.balance-list__block-wrapper-list-item R20
+                                li.balance-list__block-wrapper-list-item R21
+                        .balance-list__block-wrappers
+                            .balance-list__block-wrappers-title Балансировка 4-х колес (легковые)
+                            ul.balance-list__block-wrappers-list
+                                li.balance-list__block-wrappers-list-item 1 000 ₽
+                                li.balance-list__block-wrappers-list-item 1 100 ₽
+                                li.balance-list__block-wrappers-list-item 1 200 ₽
+                                li.balance-list__block-wrappers-list-item 1 300 ₽
+                                li.balance-list__block-wrappers-list-item 1 500 ₽
+                                li.balance-list__block-wrappers-list-item 1 700 ₽
+                                li.balance-list__block-wrappers-list-item 1 800 ₽
+                                li.balance-list__block-wrappers-list-item 2 200 ₽
+                                li.balance-list__block-wrappers-list-item 2 400 ₽
+                        .balance-list__block-wrappers 
+                            .balance-list__block-wrappers-title Балансировка 4-х колес (внедорожники)
+                            ul.balance-list__block-wrappers-list
+                                li.balance-list__block-wrappers-list-item 1 200 ₽
+                                li.balance-list__block-wrappers-list-item 1 300 ₽
+                                li.balance-list__block-wrappers-list-item 1 400 ₽
+                                li.balance-list__block-wrappers-list-item 1 500 ₽
+                                li.balance-list__block-wrappers-list-item 1 600 ₽
+                                li.balance-list__block-wrappers-list-item 1 800 ₽
+                                li.balance-list__block-wrappers-list-item 1 900 ₽
+                                li.balance-list__block-wrappers-list-item 2 800 ₽
+                                li.balance-list__block-wrappers-list-item 3 000 ₽
             .balance-list__about 
                 .balance-list__about-text 
                     .balance-list__about-text-add 005
@@ -199,5 +201,6 @@
     @@include('components/_footer.pug')
     @@include('components/_menu.pug')
     @@include('components/_modelBalanceSlider.pug')
+    @@include('components/_modelOrderCall.pug')
 
 @@include('components/_script.pug')

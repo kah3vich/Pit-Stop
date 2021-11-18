@@ -18,6 +18,16 @@
     .disk-easy__block-item-icons {
         top: -35px;
     }
+    .disk-list__block-price {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .disk-list__block-wrapper {
+        width: 1260px;
+    }
+    .disk-list__block-wrappers {
+        width: 1260px;
+    }
 }
 @media (max-width: 1400px) {
     .disk-examples__block-tabs {
@@ -26,10 +36,6 @@
     }
     .disk-examples__block-tabs-item {
         width: 100%;
-    }
-    .disk-constructor,
-    .disk-list {
-        display: none;
     }
 }
 @media (max-width: 1370px) {

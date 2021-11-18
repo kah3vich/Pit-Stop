@@ -232,6 +232,7 @@
             left: auto;
             right: 200px;
             bottom: -15px;
+            z-index: 2;
         }
         & .swiper-pagination-bullet {
             width: 4px;
@@ -249,6 +250,7 @@
         & .swiper-button-prev {
             width: 51px;
             height: 51px;
+            z-index: 2;
             border: 1px solid #EFEFEF;
             display: flex;
             align-items: center;
@@ -264,6 +266,7 @@
         & .swiper-button-next {
             width: 51px;
             left: auto;
+            z-index: 2;
             right: 0;
             height: 51px;
             background:#FFFFFF;
@@ -485,6 +488,9 @@
         justify-content: flex-start;
         &:nth-child(2) {
             margin: 100px 0 0 0;
+        }
+        &-price {
+            width: 100%;
         }
         &-add {
             height: 86px;

@@ -1,7 +1,11 @@
 
 @media (max-width: 1400px) {
-    .price-list {
-        display: none;
+    .price-list__block-price {
+        overflow-x: auto;
+    }
+    .price-list__block-wrapper,
+    .price-list__block-wrappers {
+        width: 1260px;
     }
 }
 @media (max-width: 1370px) {

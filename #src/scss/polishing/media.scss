@@ -19,15 +19,13 @@
         justify-items: flex-start;
         width: 505px;
     }
-}
-@media (max-width: 1400px) {
-    .polishing-list,
-    .polishing-constructor {
-        display: none;
+    .polishing-list__block-price {
+        overflow-x: auto;
     }
-}
-@media (max-width: 1380px) {
-    
+    .polishing-list__block-wrapper,
+    .polishing-list__block-wrappers {
+        width: 1260px;
+    }
 }
 @media (max-width: 1350px) {
     .polishing-about__block {

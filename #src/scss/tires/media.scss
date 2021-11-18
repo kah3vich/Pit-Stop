@@ -22,10 +22,13 @@
     .tires-ways__wrapper-add-item img {
         object-fit: cover;
     }
-}
-@media (max-width: 1400px) {
-    .tires-list {
-        display: none;
+    .tires-list__block-price {
+        overflow-x: auto;
+    }
+    .tires-list__block-wrapper,
+    .tires-list__block-wrappers,
+    .tires-list__block-wrapperse {
+        width: 1260px;
     }
 }
 @media (max-width: 1350px) {

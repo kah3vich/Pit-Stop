@@ -2,10 +2,12 @@
     .hernia-easy__block-item-icons {
         top: -35px;
     }
-}
-@media (max-width: 1400px) {
-    .hernia-list {
-        display: none;
+    .hernia-list__block-price {
+        overflow-x: auto;
+    }
+    .hernia-list__block-wrapper,
+    .hernia-list__block-wrappers {
+        width: 1260px;
     }
 }
 @media (max-width: 1350px) {

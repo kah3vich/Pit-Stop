@@ -12,10 +12,12 @@
     .alloy-easy__block-item-icons {
         top: -35px;
     }
-}
-@media (max-width: 1400px) {
-    .alloy-list {
-        display: none;
+    .alloy-list__block-prices {
+        overflow-x: auto;
+    }
+    .alloy-list__block-wrapper,
+    .alloy-list__block-wrappers {
+        width: 1260px;
     }
 }
 @media (max-width: 1390px) {

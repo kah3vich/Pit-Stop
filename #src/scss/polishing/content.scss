@@ -49,6 +49,7 @@
                 bottom: -60px;
                 left: auto;
                 width: 30%;
+                z-index: 2;
                 right: 200px;
             }
             & .swiper-pagination-bullet {
@@ -76,6 +77,7 @@
                 top: auto;
                 bottom: -75px;
                 left: auto;
+                z-index: 2;
                 right: 60px;
                 &::after {
                     content: "";
@@ -87,6 +89,7 @@
                 background:#FFFFFF;
                 border-radius: 50%;
                 display: flex;
+                z-index: 2;
                 align-items: center;
                 justify-content: center;
                 opacity: 1;
@@ -359,7 +362,7 @@
             }
         }
         &-btn {
-            width: 232px;
+            width: 186px;
             height: 68px;
             border: 3px solid #FFFFFF;
             cursor: pointer;
@@ -600,6 +603,7 @@
             }
             & .swiper-button-prev {
                 width: 51px;
+                z-index: 2;
                 height: 51px;
                 border: 1px solid #EFEFEF;
                 display: flex;
@@ -614,6 +618,7 @@
             & .swiper-button-next {
                 width: 51px;
                 height: 51px;
+                z-index: 2;
                 background:#FFFFFF;
                 display: flex;
                 align-items: center;
@@ -714,6 +719,9 @@
         justify-content: flex-start;
         &:nth-child(2) {
             margin: 100px 0 0 0;
+        }
+        &-price {
+            width: 100%;
         }
         &-add {
             height: 86px;

@@ -63,6 +63,13 @@
             overflow: hidden;
             & img {
                 object-fit: cover;
+                width: 100%;
+                height: 100%;
+                transition: all 0.5s ease;
+                &:hover {
+                    transition: all 0.5s ease;
+                    transform: scale(1.3);
+                }
             }
             &::after {
                 content: "";
@@ -191,7 +198,17 @@
                 left: -79px;
                 width: 522px;
                 height: 340px;
-                background: #444444;
+                overflow: hidden;
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: all 0.5s ease;
+                    &:hover {
+                        transition: all 0.5s ease;
+                        transform: scale(1.3);
+                    }
+                }
             }
             &-btn {
                 margin: 59px 160px 0 auto;
@@ -446,6 +463,11 @@
                 object-fit: cover;
                 width: 100%;
                 height: 100%;
+                transition: all 0.5s ease;
+                &:hover {
+                    transition: all 0.5s ease;
+                    transform: scale(1.3);
+                }
             }
             &::after {
                 content: "";

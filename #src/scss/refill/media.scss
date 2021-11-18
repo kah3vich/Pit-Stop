@@ -1,6 +1,10 @@
 @media (max-width: 1400px) {
-    .refill-list {
-        display: none;
+    .refill-list__block-price {
+        overflow-x: auto;
+    }
+    .refill-list__block-wrapper,
+    .refill-list__block-wrappers {
+        width: 1260px;
     }
 }
 @media (max-width: 1300px) {

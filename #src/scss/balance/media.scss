@@ -26,10 +26,12 @@
     .balance-about__block-content-text-item {
         width: 90%;
     }
-}
-@media (max-width: 1400px) {
-    .balance-list {
-        display: none;
+    .balance-list__block-price {
+        overflow-x: auto;
+    }
+    .balance-list__block-wrapper,
+    .balance-list__block-wrappers {
+        width: 1260px;
     }
 }
 @media (max-width: 1350px) {
