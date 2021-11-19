@@ -243,7 +243,12 @@
                     width: 95px;
                     height: 95px;
                     position: relative;
+                    transition: all 0.5s ease;
                     &:nth-child(1) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T10N550";
                             position: absolute;
@@ -259,6 +264,10 @@
                         }
                     }
                     &:nth-child(2) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T10G431";
                             position: absolute;
@@ -274,6 +283,10 @@
                         }
                     }
                     &:nth-child(3) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T10M454";
                             position: absolute;
@@ -289,6 +302,10 @@
                         }
                     }
                     &:nth-child(4) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BD2T906018";
                             position: absolute;
@@ -304,6 +321,10 @@
                         }
                     }
                     &:nth-child(5) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BD2T901026";
                             position: absolute;
@@ -319,6 +340,10 @@
                         }
                     }
                     &:nth-child(6) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T10GN39";
                             position: absolute;
@@ -334,6 +359,10 @@
                         }
                     }
                     &:nth-child(7) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BD2T9FR002";
                             position: absolute;
@@ -349,6 +378,10 @@
                         }
                     }
                     &:nth-child(8) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T90N547";
                             position: absolute;
@@ -364,6 +397,10 @@
                         }
                     }
                     &:nth-child(9) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BV2T90V059";
                             position: absolute;
@@ -379,6 +416,10 @@
                         }
                     }
                     &:nth-child(10) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BD2T202004";
                             position: absolute;
@@ -394,6 +435,10 @@
                         }
                     }
                     &:nth-child(11) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BD2T203020";
                             position: absolute;
@@ -409,6 +454,10 @@
                         }
                     }
                     &:nth-child(12) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T909007";
                             position: absolute;
@@ -424,6 +473,10 @@
                         }
                     }
                     &:nth-child(13) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T70S641";
                             position: absolute;
@@ -438,6 +491,10 @@
                             color: #FFFFFF;
                         }
                     }&:nth-child(14) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BD2T209003";
                             position: absolute;
@@ -453,6 +510,10 @@
                         }
                     }
                     &:nth-child(15) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T909006";
                             position: absolute;
@@ -468,6 +529,10 @@
                         }
                     }
                     &:nth-child(16) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T20G363";
                             position: absolute;
@@ -483,6 +548,10 @@
                         }
                     }
                     &:nth-child(17) {
+                        &:hover {
+                            opacity: 0.5;
+                            transition: all 0.5s ease;
+                        }
                         &::after {
                             content: "BM2T90N514";
                             position: absolute;

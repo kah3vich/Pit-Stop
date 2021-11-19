@@ -611,7 +611,7 @@
 }
 
 .ind-header__block-banner-item {
-  z-index: -1;
+  z-index: 0;
 }
 
 .ind-header__block-banner-add {
@@ -14204,6 +14204,16 @@
   width: 95px;
   height: 95px;
   position: relative;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(1):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(1)::after {
@@ -14222,6 +14232,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(2):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(2)::after {
   content: "BM2T10G431";
   position: absolute;
@@ -14236,6 +14253,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(3):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(3)::after {
@@ -14254,6 +14278,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(4):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(4)::after {
   content: "BD2T906018";
   position: absolute;
@@ -14268,6 +14299,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(5):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(5)::after {
@@ -14286,6 +14324,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(6):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(6)::after {
   content: "BM2T10GN39";
   position: absolute;
@@ -14300,6 +14345,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(7):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(7)::after {
@@ -14318,6 +14370,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(8):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(8)::after {
   content: "BM2T90N547";
   position: absolute;
@@ -14332,6 +14391,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(9):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(9)::after {
@@ -14350,6 +14416,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(10):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(10)::after {
   content: "BD2T202004";
   position: absolute;
@@ -14364,6 +14437,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(11):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(11)::after {
@@ -14382,6 +14462,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(12):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(12)::after {
   content: "BM2T909007";
   position: absolute;
@@ -14396,6 +14483,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(13):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(13)::after {
@@ -14414,6 +14508,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(14):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(14)::after {
   content: "BD2T209003";
   position: absolute;
@@ -14428,6 +14529,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(15):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(15)::after {
@@ -14446,6 +14554,13 @@
   color: #fff;
 }
 
+.constructor-constructor__wrapper-car-list-item:nth-child(16):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 .constructor-constructor__wrapper-car-list-item:nth-child(16)::after {
   content: "BM2T20G363";
   position: absolute;
@@ -14460,6 +14575,13 @@
   font-size: 13px;
   line-height: 15px;
   color: #fff;
+}
+
+.constructor-constructor__wrapper-car-list-item:nth-child(17):hover {
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .constructor-constructor__wrapper-car-list-item:nth-child(17)::after {
@@ -19750,7 +19872,7 @@ h6 {
 }
 
 .header__block-phone {
-  width: 198px;
+  width: 270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19763,10 +19885,10 @@ h6 {
 }
 
 .header__block-phone a {
-  font-family: Lorin;
+  font-family: TT Norms;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
+  font-weight: bold;
+  font-size: 16px;
   line-height: 26px;
   text-align: center;
   color: #fff;
@@ -20129,6 +20251,7 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin: 0 0 50px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -20179,7 +20302,7 @@ h6 {
 }
 
 .menu__list {
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20193,6 +20316,7 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .menu__list-title {
@@ -20202,11 +20326,35 @@ h6 {
   font-size: 23px;
   line-height: 27px;
   color: #fff;
-  margin: 0 0 17px 0;
+  margin: 0 0 17px 45px;
+}
+
+.menu__list-close {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .menu__list-item {
   cursor: pointer;
+  margin: 0 0 0 45px;
 }
 
 .menu__list-item a {
@@ -20226,6 +20374,46 @@ h6 {
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
+}
+
+.menu__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto 0 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu__contact-instagram {
+  margin: 0 0 0 30px;
+}
+
+.menu__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 35px 0 0 0;
+}
+
+.menu__phone-item a {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
 }
 
 .modelDiskSliders {
@@ -23925,7 +24113,8 @@ h6 {
   }
 
   .ind-header__block-scroll {
-    display: none;
+    left: 90px;
+    top: 730px;
   }
 
   .ind-examples__block-catalog-item {
@@ -23946,6 +24135,7 @@ h6 {
     right: 0;
     width: 100%;
     height: 625px;
+    -webkit-filter: brightness(40%);
   }
 
   .ind-header__block-banner-item {
@@ -24417,12 +24607,20 @@ h6 {
     padding: 0 30px;
   }
 
+  .ind-header__block-scroll {
+    left: 30px;
+  }
+
   .ind-shop .containers {
     padding: 0 30px;
   }
 
   .ind-abouts .containers {
     padding: 0 30px;
+  }
+
+  .ind-header__block-btn {
+    top: 610px;
   }
 
   .ind-price .containers {
@@ -24471,6 +24669,17 @@ h6 {
 
   .ind-examples__block-catalog {
     height: 100%;
+  }
+
+  .ind-header__block-arrow {
+    right: auto;
+    left: 30px;
+  }
+
+  .ind-header__block-pagination {
+    top: 395px;
+    right: auto;
+    left: 170px;
   }
 
   .disk-examples .containers {
@@ -26038,12 +26247,16 @@ h6 {
     width: 100%;
   }
 
+  .ind-price__block-banner::after {
+    display: none;
+  }
+
   .ind-price__block-banner-btn {
     position: absolute;
     top: 157px;
     left: 20px;
     right: auto;
-    width: 94%;
+    width: 190px;
   }
 }
 
@@ -26741,6 +26954,10 @@ h6 {
     width: 100%;
   }
 
+  .ind-abouts__block-img img {
+    width: 100%;
+  }
+
   .disk-about__block-add-item-text {
     width: 80%;
   }
@@ -26856,9 +27073,8 @@ h6 {
   .ind-price__block-banner-btn {
     position: absolute;
     top: 157px;
-    left: 20px;
+    left: 0;
     right: auto;
-    width: 92%;
   }
 
   .modelIndexExamplesSlider__slider-item {
@@ -27290,7 +27506,7 @@ h6 {
   }
 
   .ind-about {
-    padding: 20px 0 53px 0;
+    padding: 90px 0 53px 0;
   }
 
   .ind-slider__block-slider .swiper-pagination-bullets {
