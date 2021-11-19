@@ -225,6 +225,9 @@
     .disk-examples .containers {
         padding: 0 30px;
     }
+    .disk-list .containers {
+        padding: 0 30px;
+    }
     .disk-abouts .containers {
         padding: 0 30px;
     }
@@ -250,6 +253,9 @@
         position: absolute;
         top: 610px;
         left: 30px;
+    }
+    .disk-examples__block-catalog {
+        height: 100%;
     }
     .disk-header__block-title {
         margin: 246px 0 0 30px;
@@ -519,6 +525,21 @@
         height: 100%;
         background: #1b1b2f;
         padding: 40px 0 30px 28px;
+    }
+    .disk-list__btns {
+        justify-content: flex-start;
+    }
+    .disk-list__btns-btn {
+        margin: 35px 0 0 0;
+    }
+    .disk-list__block-title {
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color: #fff;
     }
     .disk-about__block-btn {
         bottom: -110px;

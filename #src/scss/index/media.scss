@@ -334,6 +334,12 @@
     .ind-slider .containers {
         padding: 0 30px;
     }
+    .ind-header__block-title {
+        line-height: 40px;
+    }
+    .ind-examples__block-catalog {
+        height: 100%;
+    }
 }
 @media (max-width: 950px) {
     .ind-examples__block-tabs {

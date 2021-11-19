@@ -8688,7 +8688,6 @@ $('#constructorTypeDiskColor-17').on('click', function() {
 function constructorsChecked() {
     for (let j = 1; j < 18; j++) {
         for (let i = 1; i < 7; i++) {
-            console.log(i)
             if(constructors.disk == j && constructors.car == i) {
                 $('#constructorCar').attr('src', `./img/constructor/${i}-${j}.png`)
             }
