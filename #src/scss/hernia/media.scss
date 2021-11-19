@@ -19,6 +19,21 @@
         position: relative;
         padding: 40px 0 40px 58px;
     }
+    .hernia-list__about {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .hernia-list__about-banner-item {
+        margin: 35px 0 0 79px;
+    }
+    .hernia-list__about-banner-btn {
+        margin: 59px auto 0 0;
+    }
+    .hernia-list__about-text-add {
+        width: 100%;
+    }
     .hernia-work__block-wrapper::after {
         display: none;
     }
@@ -122,11 +137,24 @@
     .hernia-header .containers {
         padding: 0 30px;
     }
+    .hernia-list .containers {
+        padding: 0 30px;
+    }
+    .hernia-list__block-title {
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0 0 45px 0;
+    }
     .hernia-process .containers {
         padding: 0 30px;
     }
     .hernia-header {
-        background: url(../img/header-banner.png) no-repeat;
+        background: url(../img/hernia/banner.png) no-repeat;
         background-size: cover;
     }
     .hernia-header__block-banner {
@@ -163,6 +191,28 @@
     }
     .hernia-process__block-description {
         width: 100%;
+    }
+    .hernia-list__about-banner-item {
+        width: 100%;
+        margin: 35px 0 0 0;
+        &::after {
+            display: none;
+        }
+    }
+    .hernia-list__about-banner {
+        width: 100%;
+    }
+    .hernia-list__about-banner-items {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
     .hernia-work__about-banner {
         width: 100%;
@@ -214,6 +264,18 @@
         display: grid;
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .hernia-header__block-title {
+        margin: 246px 0 0 0;
+        width: 100%;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 1;
     }
 }
 @media (max-width: 450px) {

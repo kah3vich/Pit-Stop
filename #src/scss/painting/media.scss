@@ -254,6 +254,9 @@
     .paint-examples .containers {
         padding: 0 30px;
     }
+    .paint-examples__block-catalog {
+        height: 100%;
+    }
     .paint-work .containers {
         padding: 0 30px;
     }
@@ -315,6 +318,10 @@
     }
     .modelPaintingExample__slider-item {
         width: 380px;
+    }
+    .paint-header__block-title {
+        font-size: 25px;
+        line-height: 35px;
     }
 }
 @media (max-width: 650px) {

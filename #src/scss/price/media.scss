@@ -7,6 +7,16 @@
     .price-list__block-wrappers {
         width: 1260px;
     }
+    .price-list__block-description {
+        margin: 20px 0 0 0;
+        height: unset;
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 43px;
+        color: #fff;
+    }
 }
 @media (max-width: 1370px) {
     .price-price__block-adds {
@@ -40,6 +50,12 @@
             padding: 0 30px;
         }
     }
+    .price-list__block-title {
+        width: 100%;
+    }
+    .price-list__block-list-item {
+        width: 100%;
+    }
 }
 @media (max-width: 1050px) {
     .price-price__block-dye {
@@ -62,6 +78,14 @@
     .price-header__block-title {
         width: 100%;
     }
+    .price-list__block-wrappers-table {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .price-list__block-wrappers-table-list {
+        margin: 0 0 55px 0;
+    }
 }
 @media (max-width: 850px) {
     .price-price__block-catalog-select {
@@ -80,6 +104,18 @@
 @media (max-width: 700px) {
     .price-price__block-banner {
         width: 100%;
+    }
+    .price-list__block-title {
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .price-list__block-price {
+        margin: 35px 0 0 0;
     }
 }
 @media (max-width: 650px) {
