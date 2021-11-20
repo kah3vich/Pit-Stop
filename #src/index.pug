@@ -72,6 +72,10 @@
     section.ind-about 
         .containers 
             .ind-about__block 
+                .ind-about__block-media-add
+                            p Мы рады вам предложить услуги наших точек, находящихся в разных местах Москвы: Марьино, Ленинградское шоссе, Можайское шоссе, Рязанский проспект, Ярославское шоссе.
+                                button.ind-about__block-media-add-btn
+                                    a(href="#") Посмотреть на карте
                 .ind-about__block-img 
                     img(src="./img/about.png", alt="img")
                 .ind-about__block-content 
@@ -396,55 +400,50 @@
             .ind-shop__block 
                 .ind-shop__block-add 005
                 .ind-shop__block-title Магазин
-                ul.ind-shop__block-catalog 
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
-                    li.ind-shop__block-catalog-item
-                        .ind-shop__block-catalog-item-img 
-                            img(src="./img/shops.png", alt="img")
-                        .ind-shop__block-catalog-item-text 
-                            h3 Шины
-                            p 4690₽
+                .ind-shop__block-catalog 
+                    .swiper.indexShop
+                        .swiper-wrapper
+                            .swiper-slide 
+                                .ind-shop__block-catalog-item
+                                    .ind-shop__block-catalog-item-img 
+                                        img(src="./img/shops.png", alt="img")
+                                    .ind-shop__block-catalog-item-text 
+                                        h3 Шины
+                                        p 4690₽
+                            .swiper-slide 
+                                .ind-shop__block-catalog-item
+                                    .ind-shop__block-catalog-item-img 
+                                        img(src="./img/shops.png", alt="img")
+                                    .ind-shop__block-catalog-item-text 
+                                        h3 Шины
+                                        p 4690₽
+                            .swiper-slide 
+                                .ind-shop__block-catalog-item
+                                    .ind-shop__block-catalog-item-img 
+                                        img(src="./img/shops.png", alt="img")
+                                    .ind-shop__block-catalog-item-text 
+                                        h3 Шины
+                                        p 4690₽
+                            .swiper-slide 
+                                .ind-shop__block-catalog-item
+                                    .ind-shop__block-catalog-item-img 
+                                        img(src="./img/shops.png", alt="img")
+                                    .ind-shop__block-catalog-item-text 
+                                        h3 Шины
+                                        p 4690₽
+                            .swiper-slide 
+                                .ind-shop__block-catalog-item
+                                    .ind-shop__block-catalog-item-img 
+                                        img(src="./img/shops.png", alt="img")
+                                    .ind-shop__block-catalog-item-text 
+                                        h3 Шины
+                                        p 4690₽
+                    .swiper-controls 
+                        .swiper-button-next
+                            .swiper-button-next-arrow
+                        .swiper-button-prev
+                            .swiper-button-prev-arrow
+                        .swiper-pagination
 
     section.ind-examples
         .containers 

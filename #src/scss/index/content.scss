@@ -447,6 +447,116 @@
                 }
             }
         }
+        &-media {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            &-text {
+                margin: 0 0 0 53px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+                &-add {
+                    height: 86px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 86px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                    display: none;
+                }
+                &-title {
+                    height: 86px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 30px;
+                    line-height: 86px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+                &-item {
+                    margin: 5px 0 0 0;
+                    width: 557px;
+                    height: 174px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                }
+            }
+            &-add {
+                width: 692px;
+                height: 167px;
+                background: #800705;
+                margin: 8px 0 0 0;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 48px 0 0 53px;
+                display: none;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 35px;
+                    height: 167px;
+                    background: #414141;
+                }
+                & p {
+                    width: 560px;
+                    height: 116px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                    &:nth-child(2) {
+                        margin: 21px 0 0 0;
+                    }
+                }
+                &-btn {
+                    width: 232px;
+                    height: 68px;
+                    border: 3px solid #FFFFFF;
+                    z-index: 2;
+                    background: transparent;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    position: absolute;
+                    bottom: -53px;
+                    right: 128px;
+                    padding: 0 0 0 24px;
+                    &::after {
+                        content: url(../svg/index/header-arrow-next-add.svg);
+                        position: absolute;
+                        top: 19px;
+                        right: 20px;
+                    }
+                    & a {
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 32px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -847,9 +957,75 @@
         }
         &-catalog {
             margin: 55px 0 0 0;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 18px 12px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            & .indexShop {
+                width: 100%;
+            }
+            & .swiper-controls {
+                position: relative;
+            }
+            & .swiper-button-prev {
+                content: "";
+                width: 51px;
+                height: 51px;
+                border: 1px solid #EFEFEF;
+                background: transparent;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 1;
+                left: auto;
+                right: 70px;
+                &-arrow {
+                    content: url(../svg/index/header-arrow-prev.svg);
+                }
+                &::after {
+                    content: "";
+                }
+            }
+            & .swiper-button-next, .swiper-button-prev {
+                top: 64px;
+            }
+            & .swiper-pagination {
+                z-index: -1;
+                &-bullets {
+                    left: auto;
+                    bottom: -200px;
+                    right: 140px;
+                    width: 300px;
+                }
+                &-bullet {
+                    width: 4px;
+                    height: 4px;
+                    background: #FFFFFF;
+                    opacity: 1;
+                    border-radius: 50%;
+                    &-active {
+                        background: #FF0000;
+                    }
+                }
+            }
+            & .swiper-button-next {
+                content: "";
+                width: 51px;
+                height: 51px;
+                background: #EFEFEF;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 1;
+                &-arrow {
+                    content: url(../svg/index/header-arrow-next.svg);
+                }
+                &::after {
+                    content: "";
+                }
+            }
             &-item {
                 width: 306px;
                 height: 254px;
@@ -2049,4 +2225,7 @@
     position: relative;
     padding: 0 0 0 155px;
     cursor: pointer;
+}
+.ind-shop__block-catalog .swiper-button-next, .ind-shop__block-catalog .swiper-button-prev {
+    top: 185px;
 }

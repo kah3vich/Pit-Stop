@@ -1368,3 +1368,35 @@ $('.modelOrderCall__block-close').on('click', function() {
     $('body').css('overflow', 'visible')
     $('.modelOrderCall').addClass('display-n')
 });
+
+
+
+var indexShop = new Swiper(".indexShop", {
+    navigation: {
+        nextEl: ".ind-shop__block-catalog .swiper-controls .swiper-button-next",
+        prevEl: ".ind-shop__block-catalog .swiper-controls .swiper-button-prev",
+    },
+    pagination: {
+        el: ".ind-shop__block-catalog .swiper-controls .swiper-pagination",
+    },
+    keyboard: true,
+    slidesPerView: 4,
+    breakpoints: {
+        1430: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 0
+        },
+        930: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        630: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0
+        }
+    }
+});
