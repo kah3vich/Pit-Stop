@@ -19949,6 +19949,24 @@ h6 {
   pointer-events: none;
 }
 
+.rotate-0 {
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.rotate-45 {
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -20507,13 +20525,13 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin: 0 0 50px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 0 10px 0;
 }
 
 .menu__nav-logo {
@@ -20640,6 +20658,7 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   margin: auto 0 0 0;
+  padding: 25px 0 0 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20670,6 +20689,78 @@ h6 {
   font-size: 20px;
   line-height: 26px;
   color: #fff;
+}
+
+.menu__price {
+  cursor: pointer;
+  margin: 20px 0 0 45px;
+}
+
+.menu__price a {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 27px;
+  color: #fff;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.menu__price a:hover {
+  color: gray;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.menu__reviews {
+  cursor: pointer;
+  margin: 20px 0 0 45px;
+}
+
+.menu__reviews a {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 27px;
+  color: #fff;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.menu__reviews a:hover {
+  color: gray;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.menu__client {
+  cursor: pointer;
+  margin: 20px 0 0 45px;
+}
+
+.menu__client a {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 27px;
+  color: #fff;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.menu__client a:hover {
+  color: gray;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .modelDiskSliders {
