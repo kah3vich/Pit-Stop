@@ -20512,8 +20512,7 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: auto;
   outline: 0;
   background: #800705;
   z-index: 1000000;
