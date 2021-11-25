@@ -378,6 +378,10 @@
         right: auto;
         left: 170px;
     }
+    .ind-header__block-title {
+        line-height: 40px;
+        font-weight: 600;
+    }
 }
 @media (max-width: 950px) {
     .ind-examples__block-tabs {
@@ -445,7 +449,7 @@
 @media (max-width: 730px) {
     .ind-price__block-banner {
         width: 477px;
-        margin: 0 auto 140px 0;
+        margin: 75px auto 140px 0;
     }
     .ind-price__block-banner::after {
         content: "";

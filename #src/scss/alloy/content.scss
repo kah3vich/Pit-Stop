@@ -641,15 +641,15 @@
                 justify-content: flex-start;
                 flex-direction: column;
                 &-add {
-                    height: 86px;
+                    height: 60px;
                     font-family: TT Norms;
                     font-style: normal;
-                    font-weight: normal;
+                    font-weight: 400;
                     font-size: 20px;
-                    line-height: 86px;
+                    line-height: 60px;
                     text-transform: uppercase;
-                    color: #FFFFFF;
-                    opacity: 0.5;
+                    color: #fff;
+                    opacity: .5;
                 }
                 &-title {
                     height: 86px;
@@ -676,7 +676,7 @@
                 width: 692px;
                 height: 247px;
                 background: #800705;
-                margin: 10px 0 0 0;
+                margin: 35px 0 0 0;
                 position: relative;
                 display: flex;
                 flex-direction: column;

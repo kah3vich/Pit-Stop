@@ -2153,7 +2153,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 0 0 0 37px;
+  padding: 0 75px 0 37px;
   position: relative;
 }
 
@@ -2229,7 +2229,7 @@
 }
 
 .ind-price__block-catalog {
-  margin: 50px 0 135px 0;
+  margin: 50px 0 55px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3658,7 +3658,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
-  line-height: 29px;
+  line-height: 40px;
   color: #fff;
 }
 
@@ -9423,7 +9423,6 @@
 }
 
 .balance-about__block-img {
-  margin: 0 0 0 35px;
   position: relative;
   width: 568px;
   height: 359px;
@@ -12421,12 +12420,12 @@
 }
 
 .alloy-abouts__block-content-text-add {
-  height: 86px;
+  height: 60px;
   font-family: TT Norms;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
-  line-height: 86px;
+  line-height: 60px;
   text-transform: uppercase;
   color: #fff;
   opacity: .5;
@@ -12458,7 +12457,7 @@
   width: 692px;
   height: 247px;
   background: #800705;
-  margin: 10px 0 0 0;
+  margin: 35px 0 0 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19418,7 +19417,7 @@
   width: 657px;
   height: 128px;
   background: #800705;
-  margin: 0 0 0 auto;
+  margin: 55px 0 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19504,7 +19503,7 @@
 }
 
 .price-price__block-catalog {
-  margin: 50px 0 135px 0;
+  margin: 50px 0 55px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21863,7 +21862,7 @@ h6 {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .modelOrderCall__block-name::-webkit-input-placeholder {
@@ -21937,7 +21936,7 @@ h6 {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  line-height: 30px;
+  line-height: 25px;
   height: 25px;
   background: transparent;
 }
@@ -25085,6 +25084,11 @@ h6 {
     left: 170px;
   }
 
+  .ind-header__block-title {
+    line-height: 40px;
+    font-weight: 600;
+  }
+
   .disk-examples .containers {
     padding: 0 30px;
   }
@@ -25531,7 +25535,7 @@ h6 {
   }
 
   .refill-header {
-    background: url(../img/header-banner.png) no-repeat;
+    background: url(../img/refill/refill-1.png) no-repeat;
     background-size: cover;
   }
 
@@ -26417,6 +26421,10 @@ h6 {
     width: 80%;
   }
 
+  .polishing-about__block-banner-text-link {
+    margin: 35px 0 0 0;
+  }
+
   .tires-ways__wrapper-add {
     margin: 35px 0 0 0;
     width: 100%;
@@ -26577,7 +26585,7 @@ h6 {
 @media (max-width: 730px) {
   .ind-price__block-banner {
     width: 477px;
-    margin: 0 auto 140px 0;
+    margin: 75px auto 140px 0;
   }
 
   .ind-price__block-banner::after {
@@ -27363,6 +27371,11 @@ h6 {
 
   .disk-about__block-add-item-text {
     width: 80%;
+  }
+
+  .disk-list__block-description {
+    line-height: 35px;
+    color: #fff;
   }
 
   .polishing-discount__block-banner {
