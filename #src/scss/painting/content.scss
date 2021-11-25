@@ -206,6 +206,11 @@
             background: #800705;
             padding: 33px 0 0 44px;
             position: relative;
+            &:nth-child(6) {
+                & .paint-easy__block-item-icons {
+                    align-items: flex-end;
+                }
+            }
             &-icons {
                 position: absolute;
                 top: -19px;
@@ -214,6 +219,9 @@
                 height: 68px;
                 background: #FFE9E9;
                 border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
             &-title {
                 width: 275px;

@@ -3853,6 +3853,12 @@
   position: relative;
 }
 
+.disk-easy__block-item:nth-child(6) .disk-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .disk-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -3861,6 +3867,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .disk-easy__block-item-title {
@@ -6318,6 +6333,12 @@
   position: relative;
 }
 
+.polishing-easy__block-item:nth-child(6) .polishing-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .polishing-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -6326,6 +6347,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .polishing-easy__block-item-title {
@@ -7541,6 +7571,12 @@
   position: relative;
 }
 
+.paint-easy__block-item:nth-child(6) .paint-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .paint-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -7549,6 +7585,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .paint-easy__block-item-title {
@@ -8925,6 +8970,12 @@
   position: relative;
 }
 
+.tires-easy__block-item:nth-child(6) .tires-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .tires-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -8933,6 +8984,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tires-easy__block-item-title {
@@ -9972,6 +10032,12 @@
   position: relative;
 }
 
+.balance-easy__block-item:nth-child(6) .balance-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .balance-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -9980,6 +10046,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .balance-easy__block-item-title {
@@ -12299,6 +12374,12 @@
   position: relative;
 }
 
+.alloy-easy__block-item:nth-child(6) .alloy-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .alloy-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -12307,6 +12388,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .alloy-easy__block-item-title {
@@ -13285,6 +13375,12 @@
   position: relative;
 }
 
+.hernia-easy__block-item:nth-child(6) .hernia-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .hernia-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -13293,6 +13389,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hernia-easy__block-item-title {
@@ -15183,6 +15288,12 @@
   position: relative;
 }
 
+.delivery-easy__block-item:nth-child(6) .delivery-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .delivery-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -15191,6 +15302,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .delivery-easy__block-item-title {
@@ -16426,6 +16546,12 @@
   position: relative;
 }
 
+.season-easy__block-item:nth-child(6) .season-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .season-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -16434,6 +16560,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .season-easy__block-item-title {
@@ -17412,6 +17547,12 @@
   position: relative;
 }
 
+.conditioner-easy__block-item:nth-child(6) .conditioner-easy__block-item-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .conditioner-easy__block-item-icons {
   position: absolute;
   top: -19px;
@@ -17420,6 +17561,15 @@
   height: 68px;
   background: #ffe9e9;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .conditioner-easy__block-item-title {
