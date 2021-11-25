@@ -25683,6 +25683,8 @@ h6 {
   .balance-header__block-title {
     width: 100%;
     font-size: 32px;
+    line-height: 45px;
+    font-weight: 600;
   }
 
   .contact-header__block-banner-img {
@@ -25771,6 +25773,7 @@ h6 {
 
   .delivery-header__block-title {
     width: 100%;
+    font-weight: 600;
   }
 
   .conditioner-header {
@@ -25958,7 +25961,7 @@ h6 {
     width: 100%;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 35px;
     line-height: 40px;
     text-transform: uppercase;
@@ -26369,7 +26372,7 @@ h6 {
     width: 90%;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 28px;
     line-height: 35px;
     text-transform: uppercase;
@@ -26532,6 +26535,10 @@ h6 {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+
+  .contact-header__block-title {
+    font-weight: 600;
   }
 
   .alloy-easy__block-list {
@@ -26856,6 +26863,7 @@ h6 {
   .paint-header__block-title {
     font-size: 25px;
     line-height: 35px;
+    font-weight: 600;
   }
 
   .balance-ways__slider-item {
@@ -27012,7 +27020,7 @@ h6 {
     width: 330px;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 27px;
     line-height: 40px;
     text-transform: uppercase;
@@ -27243,8 +27251,8 @@ h6 {
     width: 100%;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 27px;
     line-height: 42px;
     text-transform: uppercase;
     color: #fff;
@@ -27464,6 +27472,11 @@ h6 {
     color: #fff;
   }
 
+  .price-header__block-title {
+    font-weight: 600;
+    font-size: 45px;
+  }
+
   .footer__add .containers {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -27607,8 +27620,8 @@ h6 {
     width: 100%;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 33px;
     line-height: 40px;
     text-transform: uppercase;
     color: #fff;
@@ -27720,6 +27733,7 @@ h6 {
   .tires-header__block-title {
     width: 100%;
     font-size: 30px;
+    font-weight: 600;
   }
 
   .tires-header__block-description {
@@ -27736,7 +27750,7 @@ h6 {
     width: 100%;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 40px;
     line-height: 47px;
     text-transform: uppercase;
@@ -27794,6 +27808,10 @@ h6 {
     font-size: 14px;
     line-height: 29px;
     color: #fff;
+  }
+
+  .reviews-header__block-title {
+    font-weight: 600;
   }
 
   .price-price__block-banner {
@@ -28234,7 +28252,7 @@ h6 {
     width: 100%;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 30px;
     line-height: 40px;
     text-transform: uppercase;
@@ -28255,6 +28273,7 @@ h6 {
 
   .conditioner-header__block-title {
     font-size: 25px;
+    font-weight: 600;
   }
 
   .refill-header__block-title {
@@ -28263,8 +28282,8 @@ h6 {
     height: 100%;
     font-family: TT Norms;
     font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
+    font-weight: 600;
+    font-size: 27px;
     line-height: 40px;
     text-transform: uppercase;
     color: #fff;

@@ -89,6 +89,9 @@
             object-fit: cover;
         }
     }
+    .contact-header__block-title {
+        font-weight: 600;
+    }
 }
 @media (max-width: 500px) {
     .contact-header__block-text-title {
