@@ -8589,7 +8589,10 @@ $(function() {
     $('#menuCloseButton-1').toggleClass('rotate-45')
 })
 
-
+$('#menuCloseButton-1').addClass('rotate-0')
+$('#menuCloseButton-2').addClass('rotate-0')
+$('#menuCloseButton-3').addClass('rotate-0')
+$('#menuCloseButton-4').addClass('rotate-0')
 
 $('#menuCloseButton-1').on('click', function() {
     $(this).toggleClass('rotate-45')
