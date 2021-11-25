@@ -15,20 +15,17 @@ $('#headerAddress').hover(function() {
 });
 
 
-$(function() {
-    $('#menuCloseButton-1').toggleClass('rotate-45')
-})
 
-$('#menuCloseButton-1').addClass('rotate-0')
-$('#menuCloseButton-2').addClass('rotate-0')
-$('#menuCloseButton-3').addClass('rotate-0')
-$('#menuCloseButton-4').addClass('rotate-0')
+$('#menuCloseButton-1').removeClass('rotate-45')
+$('#menuCloseButton-2').removeClass('rotate-45')
+$('#menuCloseButton-3').removeClass('rotate-45')
+$('#menuCloseButton-4').removeClass('rotate-45')
 
 $('#menuCloseButton-1').on('click', function() {
     $(this).toggleClass('rotate-45')
-    $('#menuCloseButton-2').addClass('rotate-0')
-    $('#menuCloseButton-3').addClass('rotate-0')
-    $('#menuCloseButton-4').addClass('rotate-0')
+    $('#menuCloseButton-2').removeClass('rotate-45')
+    $('#menuCloseButton-3').removeClass('rotate-45')
+    $('#menuCloseButton-4').removeClass('rotate-45')
     $('#menuItems-7').addClass('display-n')
     $('#menuItems-8').addClass('display-n')
     $('#menuItems-9').addClass('display-n')
@@ -50,9 +47,9 @@ $('#menuCloseButton-1').on('click', function() {
 })
 $('#menuCloseButton-2').on('click', function() {
     $(this).toggleClass('rotate-45')
-    $('#menuCloseButton-1').addClass('rotate-0')
-    $('#menuCloseButton-3').addClass('rotate-0')
-    $('#menuCloseButton-4').addClass('rotate-0')
+    $('#menuCloseButton-1').removeClass('rotate-45')
+    $('#menuCloseButton-3').removeClass('rotate-45')
+    $('#menuCloseButton-4').removeClass('rotate-45')
     $('#menuItems-7').toggleClass('display-n')
     $('#menuItems-8').toggleClass('display-n')
     $('#menuItems-9').toggleClass('display-n')
@@ -74,9 +71,9 @@ $('#menuCloseButton-2').on('click', function() {
 })
 $('#menuCloseButton-3').on('click', function() {
     $(this).toggleClass('rotate-45')
-    $('#menuCloseButton-1').addClass('rotate-0')
-    $('#menuCloseButton-2').addClass('rotate-0')
-    $('#menuCloseButton-4').addClass('rotate-0')
+    $('#menuCloseButton-1').removeClass('rotate-45')
+    $('#menuCloseButton-2').removeClass('rotate-45')
+    $('#menuCloseButton-4').removeClass('rotate-45')
     $('#menuItems-7').addClass('display-n')
     $('#menuItems-8').addClass('display-n')
     $('#menuItems-9').addClass('display-n')
@@ -98,9 +95,9 @@ $('#menuCloseButton-3').on('click', function() {
 })
 $('#menuCloseButton-4').on('click', function() {
     $(this).toggleClass('rotate-45')
-    $('#menuCloseButton-1').addClass('rotate-0')
-    $('#menuCloseButton-2').addClass('rotate-0')
-    $('#menuCloseButton-3').addClass('rotate-0')
+    $('#menuCloseButton-1').removeClass('rotate-45')
+    $('#menuCloseButton-3').removeClass('rotate-45')
+    $('#menuCloseButton-2').removeClass('rotate-45')
     $('#menuItems-7').addClass('display-n')
     $('#menuItems-8').addClass('display-n')
     $('#menuItems-9').addClass('display-n')
@@ -123,9 +120,9 @@ $('#menuCloseButton-4').on('click', function() {
 
 $('#menuCloseButtons-1').on('click', function() {
     $('#menuCloseButton-1').toggleClass('rotate-45')
-    $('#menuCloseButton-2').addClass('rotate-0')
-    $('#menuCloseButton-3').addClass('rotate-0')
-    $('#menuCloseButton-4').addClass('rotate-0')
+    $('#menuCloseButton-2').removeClass('rotate-45')
+    $('#menuCloseButton-3').removeClass('rotate-45')
+    $('#menuCloseButton-4').removeClass('rotate-45')
     $('#menuItems-7').addClass('display-n')
     $('#menuItems-8').addClass('display-n')
     $('#menuItems-9').addClass('display-n')
@@ -147,9 +144,9 @@ $('#menuCloseButtons-1').on('click', function() {
 })
 $('#menuCloseButtons-2').on('click', function() {
     $('#menuCloseButton-2').toggleClass('rotate-45')
-    $('#menuCloseButton-1').addClass('rotate-0')
-    $('#menuCloseButton-3').addClass('rotate-0')
-    $('#menuCloseButton-4').addClass('rotate-0')
+    $('#menuCloseButton-1').removeClass('rotate-45')
+    $('#menuCloseButton-3').removeClass('rotate-45')
+    $('#menuCloseButton-4').removeClass('rotate-45')
     $('#menuItems-7').toggleClass('display-n')
     $('#menuItems-8').toggleClass('display-n')
     $('#menuItems-9').toggleClass('display-n')
@@ -171,9 +168,9 @@ $('#menuCloseButtons-2').on('click', function() {
 })
 $('#menuCloseButtons-3').on('click', function() {
     $('#menuCloseButton-3').toggleClass('rotate-45')
-    $('#menuCloseButton-1').addClass('rotate-0')
-    $('#menuCloseButton-2').addClass('rotate-0')
-    $('#menuCloseButton-4').addClass('rotate-0')
+    $('#menuCloseButton-1').removeClass('rotate-45')
+    $('#menuCloseButton-2').removeClass('rotate-45')
+    $('#menuCloseButton-4').removeClass('rotate-45')
     $('#menuItems-7').addClass('display-n')
     $('#menuItems-8').addClass('display-n')
     $('#menuItems-9').addClass('display-n')
@@ -195,9 +192,9 @@ $('#menuCloseButtons-3').on('click', function() {
 })
 $('#menuCloseButtons-4').on('click', function() {
     $('#menuCloseButton-4').toggleClass('rotate-45')
-    $('#menuCloseButton-1').addClass('rotate-0')
-    $('#menuCloseButton-2').addClass('rotate-0')
-    $('#menuCloseButton-3').addClass('rotate-0')
+    $('#menuCloseButton-1').removeClass('rotate-45')
+    $('#menuCloseButton-3').removeClass('rotate-45')
+    $('#menuCloseButton-2').removeClass('rotate-45')
     $('#menuItems-7').addClass('display-n')
     $('#menuItems-8').addClass('display-n')
     $('#menuItems-9').addClass('display-n')

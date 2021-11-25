@@ -5429,7 +5429,7 @@
 }
 
 .disk-price__block-catalog {
-  margin: 50px 0 135px 0;
+  margin: 50px 0 60px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5461,6 +5461,7 @@
 }
 
 .disk-price__block-catalog-checkbox-item {
+  width: 200px;
   margin: 0 250px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5480,6 +5481,10 @@
 
 .disk-price__block-catalog-checkbox-item:last-child {
   margin: 0;
+}
+
+.disk-price__block-catalog-checkbox-item:nth-child(2) {
+  width: 250px;
 }
 
 .disk-price__block-catalog-checkbox-title {
@@ -19888,6 +19893,7 @@ input {
   margin: 0;
   border: 0;
   border: none;
+  outline: none;
 }
 
 button {
@@ -21850,7 +21856,7 @@ h6 {
 }
 
 .modelOrderCall__block-name {
-  height: 56px;
+  height: 25px;
   background: transparent;
   color: #000;
   font-family: TT Norms;
@@ -21932,7 +21938,7 @@ h6 {
   font-weight: normal;
   font-size: 17px;
   line-height: 30px;
-  height: 56px;
+  height: 25px;
   background: transparent;
 }
 
@@ -26035,7 +26041,7 @@ h6 {
 
   .disk-price__block-banner {
     width: 100%;
-    margin: 0 0 55px 0;
+    margin: 75px 0 55px 0;
   }
 
   .disk-price__block-banner::after {
