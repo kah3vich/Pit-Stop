@@ -1252,6 +1252,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   opacity: 1;
+  z-index: 2;
   left: auto;
   right: 70px;
 }
@@ -1295,6 +1296,7 @@
 .ind-slider__block-slider .swiper-button-next {
   content: "";
   width: 51px;
+  z-index: 2;
   height: 51px;
   background: #efefef;
   border-radius: 50%;
@@ -1712,6 +1714,7 @@
 .ind-shop__block-catalog .swiper-button-prev {
   content: "";
   width: 51px;
+  z-index: 2;
   height: 51px;
   border: 1px solid #efefef;
   background: transparent;
@@ -1775,6 +1778,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 2;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -4963,6 +4967,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 0 55px 0;
 }
 
 .disk-abouts__block-text {
@@ -20021,7 +20026,7 @@ h6 {
   background: #800705;
   position: absolute;
   top: 81px;
-  left: 613px;
+  left: 46%;
   padding: 14px 0 0 27px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20174,7 +20179,7 @@ h6 {
   background: #800705;
   position: absolute;
   top: 81px;
-  left: 345px;
+  left: 24%;
   padding: 24px 48px 0 37px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20494,7 +20499,7 @@ h6 {
 
 .menu {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20512,7 +20517,7 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  overflow: auto;
+  overflow-y: auto;
   outline: 0;
   background: #800705;
   z-index: 1000000;
@@ -21845,7 +21850,7 @@ h6 {
   font-weight: normal;
   font-size: 17px;
   line-height: 86px;
-  padding: 0 50px 0 118px;
+  padding: 19px 50px 15px 90px;
 }
 
 .modelOrderCall__block-name::-webkit-input-placeholder {

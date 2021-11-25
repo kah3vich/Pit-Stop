@@ -1364,6 +1364,11 @@ $('.conditioner-about__wrapper-banner-btn').on('click', function() {
 });
 
 
+$('.disk-list__btns-btn').on('click', function() {
+    $('body').css('overflow', 'hidden')
+    $('.modelOrderCall').removeClass('display-n')
+});
+
 $('.modelOrderCall__block-close').on('click', function() {
     $('body').css('overflow', 'visible')
     $('.modelOrderCall').addClass('display-n')
