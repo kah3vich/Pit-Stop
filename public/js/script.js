@@ -8568,6 +8568,11 @@ $('#reviewsCloseMessages').on('click', function() {
     $('#reviewsElementMessages-13').addClass('display-n')
     $('#reviewsOpenMessages').removeClass('display-n')
 });
+var wow = new WOW({mobile: false});
+wow.init();
+
+
+
 $('#headerServicesButton').hover(function() {
     $('#headerServices').toggleClass('display-n')
 });
