@@ -1248,3 +1248,95 @@ $('#polishingExampleItems-52').on('click', function() {
         initialSlide: modelPolishingExampleBlockCount,
     });
 });
+
+
+
+
+
+
+//! Quiz
+
+
+for (let i = 1; i < 10; i++) {
+    $(`#polishingQuizBlock-${i}`).on('click', function() {
+        $('.polishing-header__block-quiz-block').addClass('display-n')
+        $('.polishing-header__block-quiz-new').removeClass('display-n')
+        $('.polishing-header__block-quiz-add').html('Вопрос 2 из 5')
+        $('.polishing-header__block-quiz-description').html('Рассматриваете новый авто или с пробегом?')
+    })
+}
+for (let i = 1; i < 10; i++) {
+    $(`#polishingQuizNew-${i}`).on('click', function() {
+        $('.polishing-header__block-quiz-new').addClass('display-n')
+        $('.polishing-header__block-quiz-type').removeClass('display-n')
+        $('.polishing-header__block-quiz-add').html('Вопрос 3 из 5')
+        $('.polishing-header__block-quiz-description').html('В каком типе кузова рассматриваете авто?')
+    })
+}
+for (let i = 1; i < 10; i++) {
+    $(`#polishingQuizType-${i}`).on('click', function() {
+        $('.polishing-header__block-quiz-type').addClass('display-n')
+        $('.polishing-header__block-quiz-bay').removeClass('display-n')
+        $('.polishing-header__block-quiz-add').html('Вопрос 4 из 5')
+        $('.polishing-header__block-quiz-description').html('Как срочно планируете покупку авто?')
+    })
+}
+for (let i = 1; i < 10; i++) {
+    $(`#polishingQuizBay-${i}`).on('click', function() {
+        $('.polishing-header__block-quiz-bay').addClass('display-n')
+        $('.polishing-header__block-quiz-messages').removeClass('display-n')
+        $('.polishing-header__block-quiz-add').html('Вопрос 5 из 5')
+        $('.polishing-header__block-quiz-description').html('Куда прислать каталог?')
+    })
+}
+for (let i = 1; i < 10; i++) {
+    $(`#polishingQuizMessages-${i}`).on('click', function() {
+        $('.polishing-header__block-quiz-messages').addClass('display-n')
+        $('.polishing-header__block-quiz-phone').removeClass('display-n')
+        $('.polishing-header__block-quiz-add').html('Вопрос 5 из 5')
+        $('.polishing-header__block-quiz-description').html('Введите номер телефона')
+    })
+}
+
+$('.polishing-header__block-quiz-messages-checkbox__label').on('click', function() {
+    for(let i = 1; i < 10; i++) {
+        $(`#polishingQuizMessages-${i}`).toggleClass('blocking')
+    }
+})
+
+$('.polishing-header__block-quiz-phone-checkbox__label').on('click', function() {
+    for(let i = 1; i < 10; i++) {
+        $(`#polishingQuizPhone-${i}`).toggleClass('blocking')
+        $('.polishing-header__block-quiz-items-btn').toggleClass('blocking')
+    }
+})
+
+
+
+
+$(function() {
+    $('#phonep').css('display', 'none')
+    $('#phonep').after('<div class="quiz__phone-select-item"><div class="quiz__phone-select-placeholder">+ 7</div><div id="listConstructorElementPhonep" class="quiz__phone-select-wrapper display-n"></div></div>')
+    let count = $('#phonep').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#phonep').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("quiz__phone-select-element")
+        newElementBlock.id = `quiz__phone-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("listConstructorElementPhonep").appendChild(newElementBlock);
+        $(`#quiz__phone-select-element-${i}`).attr('value', `${arrows}`)
+        $(`#quiz__phone-select-element-${i}`).attr('type', `button`)
+    }
+    $('#quiz__phone-select-element-0').css('display', 'none')
+    $('.quiz__phone-select-item').on('click', function() {
+        $('.quiz__phone-select-wrapper').toggleClass('display-n')
+    })
+    $(".quiz__phone-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.quiz__phone-select-placeholder').html(valueElement)
+        $('#phonep option:nth-child(1)').val(valueElement)
+        $('#phonep option:nth-child(1)').html(valueElement)
+    })
+})

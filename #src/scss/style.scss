@@ -121,6 +121,10 @@ p {
     transition: all 0.5s ease;
     transform: rotate(45deg);
 }
+.blocking {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
 
 
 
