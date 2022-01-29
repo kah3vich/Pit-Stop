@@ -21141,11 +21141,6 @@ h6 {
           transform: rotate(45deg);
 }
 
-.blocking {
-  opacity: .5;
-  cursor: not-allowed;
-}
-
 .header {
   position: fixed;
   width: 100%;
