@@ -1,6 +1,10 @@
-# Index: [click me](https://kah3vich.github.io/Pit-Stop/public/index.html)
+# Project Pit-Stop
 
-<br>
+### by kah3vich x bpump
+
+<hr />
+
+# Index: [click me](https://kah3vich.github.io/Pit-Stop/public/index.html)
 
 ## Disks: [click me](https://kah3vich.github.io/Pit-Stop/public/disks.html)
 
