@@ -1,13 +1,16 @@
 {
-	"name": "pitstop",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"gulp": "gulp"
+	"name": "pit-stop",
+	"type": "module",
+	"author": {
+		"url": "https://github/kah3vich",
+		"name": "kah3vich",
+		"email": "kah3vich@proton.me"
 	},
-	"author": "kah3vich_",
-	"license": "ISC",
+	"license": "Apache-2.0",
+	"scripts": {
+		"dev": "gulp",
+		"build": "gulp build"
+	},
 	"devDependencies": {
 		"@babel/core": "^7.15.8",
 		"@babel/preset-env": "^7.15.8",
